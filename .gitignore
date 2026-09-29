@@ -29,3 +29,5 @@ id_rsa*
 .tmp/
 *.log
 .DS_Store
+# Office lock files
+~$*
