@@ -1,0 +1,268 @@
+{
+ "ni_coils": [
+  {
+   "work_id": "https://openalex.org/W1983016480",
+   "title": "Analyses of Transient Behaviors of No-Insulation REBCO Pancake Co",
+   "year_pub": 2015,
+   "incoming": 73,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2018,
+    "development": [
+     2018
+    ],
+    "established": 2018,
+    "series": {
+     "2015": 2,
+     "2018": 6,
+     "2019": 14,
+     "2016": 4,
+     "2017": 11,
+     "2020": 5,
+     "2021": 7,
+     "2022": 4,
+     "2024": 9,
+     "2025": 3,
+     "2023": 7,
+     "2026": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2302715549",
+   "title": "26 T 35 mm all-GdBa 2 Cu 3 O 7– x multi-width no-insulation super",
+   "year_pub": 2016,
+   "incoming": 73,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2018,
+    "development": [
+     2018
+    ],
+    "established": 2018,
+    "series": {
+     "2021": 7,
+     "2018": 9,
+     "2019": 9,
+     "2016": 2,
+     "2017": 13,
+     "2022": 7,
+     "2020": 8,
+     "2024": 6,
+     "2025": 4,
+     "2023": 6,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2318542191",
+   "title": "Self-protection mechanisms in no-insulation (RE)Ba 2 Cu 3 O x hig",
+   "year_pub": 2016,
+   "incoming": 72,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2022,
+    "development": [
+     2018,
+     2020,
+     2022
+    ],
+    "established": 2022,
+    "series": {
+     "2023": 12,
+     "2018": 2,
+     "2019": 8,
+     "2021": 9,
+     "2016": 2,
+     "2017": 11,
+     "2022": 9,
+     "2020": 4,
+     "2024": 7,
+     "2025": 4,
+     "2026": 4
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1974482929",
+   "title": "A Study on the No Insulation Winding Method of the HTS Coil",
+   "year_pub": 2011,
+   "incoming": 51,
+   "phases": {
+    "first_cite": 2012,
+    "peak_year": 2016,
+    "development": [
+     2014,
+     2016
+    ],
+    "established": 2016,
+    "series": {
+     "2015": 4,
+     "2013": 6,
+     "2014": 4,
+     "2017": 7,
+     "2016": 5,
+     "2021": 6,
+     "2019": 4,
+     "2020": 2,
+     "2022": 4,
+     "2025": 3,
+     "2024": 1,
+     "2023": 3,
+     "2012": 1,
+     "2018": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1984147396",
+   "title": "The effects of co-wound Kapton, stainless steel and copper, in co",
+   "year_pub": 2014,
+   "incoming": 50,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2016,
+    "development": [],
+    "established": 2016,
+    "series": {
+     "2015": 2,
+     "2019": 3,
+     "2016": 6,
+     "2017": 11,
+     "2020": 3,
+     "2021": 8,
+     "2025": 3,
+     "2022": 5,
+     "2024": 2,
+     "2018": 2,
+     "2026": 2,
+     "2023": 3
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2520406252",
+   "title": "Over-current quench test and self-protecting behavior of a 7 T/78",
+   "year_pub": 2015,
+   "incoming": 49,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2018,
+    "development": [],
+    "established": 2018,
+    "series": {
+     "2023": 4,
+     "2015": 2,
+     "2021": 3,
+     "2019": 8,
+     "2018": 5,
+     "2016": 5,
+     "2017": 9,
+     "2022": 6,
+     "2025": 3,
+     "2020": 3,
+     "2024": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3003774299",
+   "title": "World record 32.35 tesla direct-current magnetic field generated ",
+   "year_pub": 2020,
+   "incoming": 48,
+   "phases": {
+    "first_cite": 2020,
+    "peak_year": 2022,
+    "development": [
+     2022
+    ],
+    "established": 2022,
+    "series": {
+     "2021": 8,
+     "2022": 10,
+     "2024": 8,
+     "2025": 8,
+     "2023": 8,
+     "2020": 1,
+     "2026": 5
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1980265597",
+   "title": "An equivalent circuit grid model for no-insulation HTS pancake co",
+   "year_pub": 2015,
+   "incoming": 45,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2016,
+    "development": [],
+    "established": 2016,
+    "series": {
+     "2019": 5,
+     "2021": 3,
+     "2016": 6,
+     "2017": 7,
+     "2024": 7,
+     "2022": 4,
+     "2023": 8,
+     "2018": 2,
+     "2020": 2,
+     "2025": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2522897135",
+   "title": "Quench analysis of pancake wound REBCO coils with low resistance ",
+   "year_pub": 2015,
+   "incoming": 44,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2018,
+    "development": [
+     2018
+    ],
+    "established": 2018,
+    "series": {
+     "2021": 5,
+     "2018": 4,
+     "2019": 7,
+     "2016": 1,
+     "2017": 10,
+     "2020": 5,
+     "2022": 6,
+     "2023": 3,
+     "2024": 2,
+     "2025": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2041960861",
+   "title": "No-insulation multi-width winding technique for high temperature ",
+   "year_pub": 2013,
+   "incoming": 40,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2016,
+    "development": [],
+    "established": 2016,
+    "series": {
+     "2015": 4,
+     "2018": 2,
+     "2019": 6,
+     "2016": 4,
+     "2017": 7,
+     "2022": 5,
+     "2024": 3,
+     "2020": 4,
+     "2021": 1,
+     "2026": 1,
+     "2023": 3
+    }
+   }
+  }
+ ]
+}

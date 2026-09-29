@@ -1,0 +1,91 @@
+#!/bin/bash
+# run_night_rest.sh — доделка ночного плана 25→26: NJ-6 (resume) → NJ-7 → NJ-8 → NJ-9 → NJ-10
+# Запущен по команде автора 26.09. Правила: строго последовательно (один тяжёлый
+# процесс), ретраи только resume-идемпотентные (slice/mine/filter, §3 NIGHT_PLAN),
+# до 4 попыток на джоб; после каждого готового домена — E7 (retro_coverage).
+set -uo pipefail
+cd "$(dirname "$0")/.."
+export HF_HUB_OFFLINE=1
+MAXATT=6
+COOLDOWN=20
+SUMMARY=results/runtime/night_rest_summary_20260926.md
+echo "# Ночь 26→27.09 — доделка NJ-6..NJ-10 (старт $(date))" > "$SUMMARY"
+echo "" >> "$SUMMARY"
+echo "| NJ | статус | попытки |" >> "$SUMMARY"
+echo "|---|---|---|" >> "$SUMMARY"
+
+# --- преflight (фикс 26.09): не стартуем в госте без памяти/E: ---
+if ! ls /mnt/e/openalex_derived >/dev/null 2>&1; then
+  echo "| — | ⛔ СТОП: диск E: не подключён | 0 |" >> "$SUMMARY"
+  echo "=== SUPERVISOR ABORT: нет E: $(date) ===" >> "$SUMMARY"
+  exit 1
+fi
+AVAIL_KB=$(awk '/^MemAvailable:/{print $2}' /proc/meminfo)
+if [ "$AVAIL_KB" -lt 3145728 ]; then
+  echo "| — | ⛔ СТОП НА СТАРТЕ: MemAvailable=$((AVAIL_KB/1024))M < 3G | 0 |" >> "$SUMMARY"
+  echo "=== SUPERVISOR ABORT: low memory $(date) ===" >> "$SUMMARY"
+  exit 1
+fi
+echo "старт: MemAvailable=$((AVAIL_KB/1024))M, E: OK, $(date)" >> "$SUMMARY"
+
+run_job() {
+  local nj=$1 slug=$2 log=$3
+  local chain="scripts/run_$(echo "$nj" | tr 'A-Z' 'a-z' | tr -d '-')_chain.sh"
+  [ -f "$chain" ] || { echo "| $nj | NO-CHAIN ($chain) | — |" >> "$SUMMARY"; return 1; }
+  # чекпоинт: filter_report уже есть → джоб DONE, повтор не нужен (E7 — отдельно)
+  if [ -s "/mnt/e/openalex_derived/termtech_${slug}/filter_report.json" ]; then
+    echo "| $nj ($slug) | ✅ done (чекпоинт, повтор не нужен) | 0 |" >> "$SUMMARY"
+    return 0
+  fi
+  local att rc
+  for att in $(seq 1 $MAXATT); do
+    echo "=== ATTEMPT $att/$MAXATT $nj $(date) ===" >> "$log"
+    bash "$chain" >> "$log" 2>&1
+    rc=$?
+    echo "[$nj attempt $att rc=$rc $(date)]" >> "$log"
+    # фикс 26.09: rc=137 = cgroup-OOM-кап (lib_cap.sh) — ретрай бессмыслен
+    # (та же память), а в старой схеме OOM ронял WSL целиком (diary 20:55)
+    if [ $rc -eq 137 ]; then
+      echo "| $nj ($slug) | ⛔ OOM-кап rc=137 — СТОП, ретраи отменены, нужен разбор | $att |" >> "$SUMMARY"
+      return 137
+    fi
+    if [ $rc -eq 0 ] && [ -s "/mnt/e/openalex_derived/termtech_${slug}/filter_report.json" ]; then
+      mkdir -p "results/termtech_${slug}"
+      cp "/mnt/e/openalex_derived/termtech_${slug}/filter_report.json" \
+         "/mnt/e/openalex_derived/termtech_${slug}/top_terms_clean.md" \
+         "/mnt/e/openalex_derived/termtech_${slug}/candidates_clean.parquet" \
+         "results/termtech_${slug}/" 2>/dev/null
+      # E7: retro-покрытие терминами домена (D2, порог 15% по 2024 — разбор утром)
+      .venv/bin/python -u scripts/retro_coverage.py \
+        --domain "${slug}=/mnt/e/openalex_derived/termtech_${slug}" \
+        --years 2018,2020,2024,2026 >> "$log" 2>&1
+      echo "[$nj E7 rc=$? $(date)]" >> "$log"
+      echo "| $nj ($slug) | ✅ done | $att |" >> "$SUMMARY"
+      return 0
+    fi
+    sleep "$COOLDOWN"
+  done
+  echo "| $nj ($slug) | ❌ failed (rc=$rc, нет filter_report) | $MAXATT |" >> "$SUMMARY"
+  return 1
+}
+
+STOP_OOM=0
+# приоритеты автора 27.09: IT (NJ-12) и фарма (сырьё = NJ-6 biomed) первичны;
+# материалы (NJ-8) и космос (NJ-10) — не приоритетны, в хвосте.
+for spec in "NJ-6 biomed results/runtime/night_NJ-6_20260926b.log" \
+            "NJ-12 ai_security results/runtime/night_NJ-12_20260926.log" \
+            "NJ-7 energy results/runtime/night_NJ-7_20260926.log" \
+            "NJ-9 robotics results/runtime/night_NJ-9_20260926.log" \
+            "NJ-8 materials results/runtime/night_NJ-8_20260926.log" \
+            "NJ-10 space results/runtime/night_NJ-10_20260926.log"; do
+  set -- $spec
+  run_job "$1" "$2" "$3"
+  rc=$?
+  if [ $rc -eq 137 ]; then STOP_OOM=1; break; fi
+done
+
+echo "" >> "$SUMMARY"
+if [ "$STOP_OOM" -eq 1 ]; then
+  echo "⛔ ОСТАНОВЛЕНО ПО OOM (rc=137) $(date): следующие NJ НЕ запускались — нужен разбор (diary/NIGHT_LOG)." >> "$SUMMARY"
+fi
+echo "=== SUPERVISOR DONE $(date) ===" >> "$SUMMARY"

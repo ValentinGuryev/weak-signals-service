@@ -1,0 +1,489 @@
+{
+ "direction": "crispr_therapy",
+ "name": "CRISPR-терапии",
+ "promise_2018": "революция с 2016, обещание Casgevy",
+ "expected": "🔶",
+ "signal_terms": "\"CRISPR\" AND (therapeutic OR therapy OR \"gene editing\")",
+ "anchors": {
+  "Casgevy": {
+   "fda_year": 2023,
+   "counts": {
+    "2021": 1,
+    "2022": 4,
+    "2023": 20,
+    "2024": 80,
+    "2025": 104,
+    "2026": 119
+   }
+  },
+  "Lyfgenia": {
+   "fda_year": 2023,
+   "counts": {
+    "2023": 7,
+    "2024": 31,
+    "2025": 31,
+    "2026": 29
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2021": 1,
+  "2022": 4,
+  "2023": 27,
+  "2024": 111,
+  "2025": 135,
+  "2026": 148
+ },
+ "signal_counts_by_year": {
+  "2000": 4,
+  "2001": 2,
+  "2002": 3,
+  "2003": 3,
+  "2004": 6,
+  "2005": 8,
+  "2006": 1,
+  "2007": 6,
+  "2008": 5,
+  "2009": 6,
+  "2010": 4,
+  "2011": 7,
+  "2012": 14,
+  "2013": 54,
+  "2014": 216,
+  "2015": 622,
+  "2016": 1297,
+  "2017": 1890,
+  "2018": 2629,
+  "2019": 3377,
+  "2020": 3631,
+  "2021": 3946,
+  "2022": 4360,
+  "2023": 5519,
+  "2024": 6073,
+  "2025": 8782,
+  "2026": 6871
+ },
+ "corpus_size": 70,
+ "works": [
+  {
+   "id": "https://openalex.org/W4395068280",
+   "title": "Exagamglogene Autotemcel for Severe Sickle Cell Disease",
+   "year": 2024,
+   "cited_by": 450
+  },
+  {
+   "id": "https://openalex.org/W4395068362",
+   "title": "Exagamglogene Autotemcel for Transfusion-Dependent β-Thalassemia",
+   "year": 2024,
+   "cited_by": 221
+  },
+  {
+   "id": "https://openalex.org/W4396720445",
+   "title": "CRISPR-Based Gene Therapies: From Preclinical to Clinical Treatments",
+   "year": 2024,
+   "cited_by": 102
+  },
+  {
+   "id": "https://openalex.org/W4396891410",
+   "title": "Revolutionary breakthrough: FDA approves CASGEVY, the first CRISPR/Cas9 gene therapy for sickle cell disease",
+   "year": 2024,
+   "cited_by": 94
+  },
+  {
+   "id": "https://openalex.org/W4392241838",
+   "title": "Editorial: First Regulatory Approvals for CRISPR-Cas9 Therapeutic Gene Editing for Sickle Cell Disease and Transfusion-Dependent β-Thalassemia",
+   "year": 2024,
+   "cited_by": 94
+  },
+  {
+   "id": "https://openalex.org/W4391070496",
+   "title": "A new frontier: FDA approvals for gene therapy in sickle cell disease",
+   "year": 2024,
+   "cited_by": 77
+  },
+  {
+   "id": "https://openalex.org/W4390941016",
+   "title": "CASGEVY Makes History as FDA Approves First CRISPR/Cas9 Genome Edited Therapy",
+   "year": 2024,
+   "cited_by": 64
+  },
+  {
+   "id": "https://openalex.org/W4390929175",
+   "title": "Exagamglogene Autotemcel: First Approval",
+   "year": 2024,
+   "cited_by": 63
+  },
+  {
+   "id": "https://openalex.org/W4408994282",
+   "title": "Advancing CRISPR genome editing into gene therapy clinical trials: progress and future prospects",
+   "year": 2025,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W4400729394",
+   "title": "A roadmap for affordable genetic medicines",
+   "year": 2024,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W3192112684",
+   "title": "2021 update on clinical trials in β‐thalassemia",
+   "year": 2021,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W4389243117",
+   "title": "Exagamglogene Autotemcel for Severe Sickle Cell Disease",
+   "year": 2023,
+   "cited_by": 36
+  },
+  {
+   "id": "https://openalex.org/W4403338989",
+   "title": "Affordable Pricing of CRISPR Treatments is a Pressing Ethical Imperative",
+   "year": 2024,
+   "cited_by": 30
+  },
+  {
+   "id": "https://openalex.org/W4401418741",
+   "title": "Harnessing the evolving CRISPR/Cas9 for precision oncology",
+   "year": 2024,
+   "cited_by": 29
+  },
+  {
+   "id": "https://openalex.org/W4395068094",
+   "title": "Specificity of CRISPR-Cas9 Editing in Exagamglogene Autotemcel",
+   "year": 2024,
+   "cited_by": 26
+  },
+  {
+   "id": "https://openalex.org/W4396229739",
+   "title": "Hematopoietic Stem Cell Transplantation in Sickle Cell Disease: A Multidimentional Review",
+   "year": 2024,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4310107609",
+   "title": "Efficacy and Safety of a Single Dose of Exagamglogene Autotemcel for Severe Sickle Cell Disease",
+   "year": 2022,
+   "cited_by": 21
+  },
+  {
+   "id": "https://openalex.org/W4412397486",
+   "title": "CRISPR-based therapeutic genome editing for inherited blood disorders",
+   "year": 2025,
+   "cited_by": 20
+  },
+  {
+   "id": "https://openalex.org/W4403027818",
+   "title": "CRISPR/Cas9 in the treatment of sickle cell disease (SCD) and its comparison with traditional treatment approaches: a review",
+   "year": 2024,
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W4400957012",
+   "title": "FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell disease",
+   "year": 2024,
+   "cited_by": 18
+  },
+  {
+   "id": "https://openalex.org/W4403640618",
+   "title": "Five Years of Progress in CRISPR Clinical Trials (2019–2024)",
+   "year": 2024,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W4412823398",
+   "title": "Third-generation novel technologies for gene editing",
+   "year": 2025,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4402933233",
+   "title": "Recent advancements in gene therapy for sickle cell disease and β-thalassemia",
+   "year": 2024,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W7130726908",
+   "title": "TRIDENT Case Card: Sickle Cell Disease HbS polymerisation as a boundary-driven coherence failure in erythrocyte function",
+   "year": 2026,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4412503164",
+   "title": "CRISPR Technology in Disease Management: An Updated Review of Clinical Translation and Therapeutic Potential",
+   "year": 2025,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4401352464",
+   "title": "Regulatory Assessment of Casgevy for the Treatment of Transfusion-Dependent β-Thalassemia and Sickle Cell Disease with Recurrent Vaso-Occlusive Crises",
+   "year": 2024,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4400428031",
+   "title": "Gene therapy and gene editing strategies in inherited blood disorders",
+   "year": 2024,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4389850562",
+   "title": "First in vivo base-editing trial shows promise",
+   "year": 2023,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4399608254",
+   "title": "The realization of CRISPR gene therapy",
+   "year": 2024,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4389791808",
+   "title": "The promise of genetic therapies in sickle cell disease",
+   "year": 2023,
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W4310106554",
+   "title": "Efficacy and Safety of a Single Dose of Exagamglogene Autotemcel for Transfusion-Dependent β-Thalassemia",
+   "year": 2022,
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W4410332338",
+   "title": "Advances in Gene Therapy for Sickle Cell Disease: From Preclinical Innovations to Clinical Implementation and Access Challenges",
+   "year": 2025,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4389246864",
+   "title": "Exagamglogene Autotemcel for Transfusion-Dependent β-Thalassemia",
+   "year": 2023,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4413051042",
+   "title": "AAV for gene therapy drives a nephrotoxic response via NFκB in kidney organoids",
+   "year": 2025,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4410362901",
+   "title": "Validation of Clinical-Grade Electroporation Systems for CRISPR-Cas9-Mediated Gene Therapy in Primary Hepatocytes for the Correction of Inherited Metabolic Liver Disease",
+   "year": 2025,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4400408369",
+   "title": "Casgevy: Innovative Medicinal Products Require Innovative Approaches to Regulatory Assessment",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4402430836",
+   "title": "Casgevy (exagamglogene autotemcel) and Lyfgenia (lovotibeglogene autotemcel) for individuals 12 years and older with sickle cell disease (SCD) and recurrent vaso-occlusive crises (VOC): A therapeutics bulletin of the American College of Medical Genetics and Genomics (ACMG)",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4390782710",
+   "title": "Casgevy and Lyfgenia: Two Gene Therapies for Sickle Cell Disease",
+   "year": 2024,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4413680874",
+   "title": "Improvements in health-related quality of life in patients with severe sickle cell disease after exagamglogene autotemcel",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4413325973",
+   "title": "Curative Therapies for Hemophilias and Hemoglobinopathies in Adults: Immune, Gene, and Stem Cell Approaches in a Global Context",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4396212871",
+   "title": "Cost-Effectiveness of Lovotibeglogene Autotemcel (Lovo-Cel) Gene Therapy for Patients with Sickle Cell Disease and Recurrent Vaso-Occlusive Events in the United States",
+   "year": 2024,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W4389231641",
+   "title": "Efficacy, Safety, and Health-Related Quality of Life (HRQOL) in Patients with Sickle Cell Disease (SCD) Who Have Received Lovotibeglogene Autotemcel (Lovo-cel) Gene Therapy: Up to 60 Months of Follow-up",
+   "year": 2023,
+   "cited_by": 15
+  },
+  {
+   "id": "https://openalex.org/W4405044464",
+   "title": "An Update on Lovotibeglogene Autotemcel (Lovo-cel) Clinical Trials for Sickle Cell Disease (SCD) and Analysis of Early Predictors of Response to Lovo-Cel",
+   "year": 2024,
+   "cited_by": 12
+  },
+  {
+   "id": "https://openalex.org/W4410823133",
+   "title": "Mean Corpuscular Hemoglobin Modulates HbF /F‐Cell and Clinical Response to Gene Therapy and Hydroxyurea in Sickle Cell Disease",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4408186111",
+   "title": "A critique review of fetal hemoglobin modulators through targeting epigenetic regulators for the treatment of sickle cell disease",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4402494311",
+   "title": "Newer Modalities and Updates in the Management of Sickle Cell Disease: A Systematic Review",
+   "year": 2024,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4391108326",
+   "title": "The bold promise of gene therapy for sickle cell disease",
+   "year": 2024,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4407843174",
+   "title": "Innovative Payment Models for Sickle-Cell Disease Gene Therapies in Medicaid: Leveraging Real-World Data and Insights from CMMI’s Gene Therapy Access Model",
+   "year": 2025,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4406754455",
+   "title": "Sickle cell disease gene therapy drug expenses and reimbursement: a litmus test for commercial pricing strategy and patient access for curative therapies",
+   "year": 2025,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4392292534",
+   "title": "Hematology: the specialty with a record number of new approvals",
+   "year": 2024,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4416733184",
+   "title": "CRISPR-Cas editing technologies for viral-mediated gene therapies of human diseases: Mechanisms, progress, and challenges",
+   "year": 2025,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4412957784",
+   "title": "Advances in Sickle Cell Disease Treatment: A Comparative Review of Hematopoietic Stem Cell Transplantation and Gene Therapy (Casgevy and Lyfgenia)",
+   "year": 2025,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4407191097",
+   "title": "Recipient Cells Are the Source of Hematologic Malignancies After Graft Failure and Mixed Chimerism in Adults With SCD",
+   "year": 2025,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4401648128",
+   "title": "Gene Therapies for Sickle Cell Disease",
+   "year": 2024,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4399423147",
+   "title": "Lovotibeglogene Autotemcel Gene Therapy for Sickle Cell Disease: 60 Months Follow-up",
+   "year": 2024,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4389991776",
+   "title": "The dawn of the CRISPR/Cas9 gene therapy era",
+   "year": 2023,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4415196824",
+   "title": "Gene Therapies for Hemoglobinopathies: Efficacy, Cell Collection & Transfusion Support",
+   "year": 2025,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4408921957",
+   "title": "Impact of Different Definitions of Vaso-Occlusion on Efficacy Assessments in Sickle Cell Disease Clinical Trials",
+   "year": 2025,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4405046351",
+   "title": "Participants with a History of Stroke in Lovotibeglogene Autotemcel (Lovo-cel) Clinical Trials",
+   "year": 2024,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4401220168",
+   "title": "Current advances in 2024: A critical review of selected topics by the Association for the Advancement of Blood and Biotherapies ( AABB ) Clinical Transfusion Medicine Committee",
+   "year": 2024,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4392662153",
+   "title": "Systemic medications for sickle cell disease and potential applications for sickle cell retinopathy",
+   "year": 2024,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4391607734",
+   "title": "Efficacy and Safety in Patients (Pts) with Sickle Cell Disease (SCD) Who Have Received Lovotibeglogene Autotemcel (Lovo-cel) Gene Therapy: Up to 60 Months of Follow-up",
+   "year": 2024,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4390948964",
+   "title": "Harnessing lentiviral vectors for in vivo gene therapy of liver metastases",
+   "year": 2024,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4396243208",
+   "title": "Challenges with Newly Approved CRISPR Gene Technologies",
+   "year": 2023,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W7131663008",
+   "title": "Cost-effectiveness of gene therapy for sickle cell disease in Uganda: tailoring high-income evidence to Uganda’s context",
+   "year": 2026,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W4417010401",
+   "title": "Accelerating access to gene therapy: Lessons from commercial implementation in sickle cell disease and transfusion-dependent thalassemia",
+   "year": 2025,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W4415356690",
+   "title": "Sickle Cell Disease and Gene Therapy Among African Americans: A Dilemma and Challenge",
+   "year": 2025,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W4412487183",
+   "title": "Current advances 2024: A critical review of selected topics by the Association for the Advancement of Blood and Biotherapies ( AABB ) Clinical Transfusion Medicine Committee",
+   "year": 2025,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W4407976833",
+   "title": "Clinical Outcomes of Lenti/G-βAS3-FB Lentiviral Vector Gene Therapy for Sickle Cell Disease",
+   "year": 2025,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W4396962343",
+   "title": "Improving healthspan among people with sickle cell disease: Leveraging precision health in an era of treatments with curative intent",
+   "year": 2024,
+   "cited_by": 1
+  }
+ ]
+}

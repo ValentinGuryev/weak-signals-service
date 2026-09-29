@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Сервис выявления зарождающихся технологических трендов</title>
+<style>
+  :root { --fg:#1a1d23; --muted:#6b7280; --accent:#2563eb; --bg:#f8fafc; --card:#fff; --border:#e5e7eb; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 -apple-system,"Segoe UI",Roboto,sans-serif; color:var(--fg); background:var(--bg); }
+  header { background:var(--card); border-bottom:1px solid var(--border); padding:14px 20px; }
+  h1 { font-size:17px; margin:0 0 10px; }
+  .row { display:flex; gap:8px; max-width:1280px; }
+  input[type=text] { flex:1; padding:9px 12px; border:1px solid var(--border); border-radius:8px; font-size:15px; }
+  button { padding:9px 18px; background:var(--accent); color:#fff; border:0; border-radius:8px; font-size:15px; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:wait; }
+  main { max-width:1280px; margin:18px auto; padding:0 16px; }
+  .meta { color:var(--muted); font-size:13px; margin-bottom:14px; }
+  .layout { display:flex; gap:16px; align-items:flex-start; }
+  .list { flex:1; min-width:0; }
+  .detail { width:420px; flex:none; position:sticky; top:14px; }
+  @media (max-width: 980px) { .layout { flex-direction:column; } .detail { width:100%; position:static; } }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px 16px; margin-bottom:16px; }
+  .card h2 { font-size:15px; margin:0 0 4px; }
+  .hint { color:var(--muted); font-size:12.5px; margin:0 0 10px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th { text-align:left; color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; padding:6px 8px; border-bottom:1px solid var(--border); cursor:help; }
+  td { padding:7px 8px; border-bottom:1px solid #f1f3f5; vertical-align:top; }
+  tr:last-child td { border-bottom:0; }
+  tbody tr.trow { cursor:pointer; }
+  tbody tr.trow:hover { background:#f0f6ff; }
+  tbody tr.trow.active { background:#e6f0ff; }
+  .num { text-align:right; font-variant-numeric: tabular-nums; }
+  .tid { color:var(--muted); font-size:12px; }
+  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; }
+  .works { color:var(--muted); font-size:12px; margin-top:3px; }
+  .err { color:#b91c1c; }
+  /* карточка темы */
+  .detail h3 { margin:0 0 2px; font-size:15px; }
+  .badge { background:#fff7e6; border:1px solid #f5c26b; color:#8a5a00; border-radius:8px;
+           padding:8px 10px; font-size:13px; margin:10px 0; }
+  .badge b { color:#7a4e00; }
+  .kv { width:100%; border-collapse:collapse; font-size:13.5px; margin:8px 0; }
+  .kv td { padding:5px 6px; border-bottom:1px solid #f1f3f5; }
+  .kv td:first-child { color:var(--muted); width:52%; cursor:help; }
+  .kv td:last-child { font-variant-numeric:tabular-nums; }
+  .sec { font-size:12px; text-transform:uppercase; color:var(--muted); font-weight:600; margin:12px 0 6px; }
+  .problem { font-size:13.5px; line-height:1.45; background:#f6f8fa; border-left:3px solid var(--muted);
+             padding:7px 10px; margin:0 0 6px; border-radius:0 4px 4px 0; }
+  .problem.empty { color:var(--muted); font-style:italic; }
+  .sbars { display:flex; align-items:flex-end; gap:3px; height:56px; }
+  .sbar { flex:1; background:var(--accent); border-radius:2px 2px 0 0; min-height:2px; cursor:help; }
+  .syears { display:flex; justify-content:space-between; color:var(--muted); font-size:11px; margin-top:2px; }
+  .work { font-size:13px; margin:4px 0; }
+  .work .cite { color:var(--muted); font-size:12px; }
+  .chip { display:inline-block; background:#eef2ff; border:1px solid #dbe3ff; color:#374151;
+          border-radius:999px; padding:2px 9px; font-size:12.5px; margin:2px 3px 0 0; }
+  .ph { color:var(--muted); font-size:13.5px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Сервис выявления зарождающихся технологических трендов</h1>
+  <div class="row">
+    <input type="text" id="q" placeholder="Например: защита искусственного интеллекта" autofocus>
+    <button id="go">Найти</button>
+  </div>
+</header>
+<main>
+  <div class="layout">
+    <div class="list" id="out"></div>
+    <aside class="detail" id="detailWrap" style="display:none"><div class="card" id="detail"></div></aside>
+  </div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let TOPICS = [];
+let TECHS = [];
+
+async function run() {
+  const q = $('q').value.trim(); if (!q) return;
+  $('go').disabled = true; $('out').innerHTML = '';
+  try {
+    const r = await fetch(`/api/query?q=${encodeURIComponent(q)}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    TOPICS = d.topics; TECHS = d.techs || [];
+    renderTable();
+    $('detailWrap').style.display = '';
+    $('detail').innerHTML = `<p class="ph">Кликните на технологию или тему — подробная карточка откроется здесь.</p>`;
+  } catch (e) {
+    $('out').innerHTML = `<span class="err">${e.message}</span>`;
+    $('detailWrap').style.display = 'none';   // нет выдачи → нет панели
+  }
+  finally { $('go').disabled = false; }
+}
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function renderTable() {
+  const mxT = Math.max(...TECHS.map(x => x.score), 1e-9);
+  let h = '';
+  // ——— форма 1: зарождающиеся технологии (мелкие темы) ———
+  if (TECHS.length) {
+    h += `<div class="card"><h2>Зарождающиеся технологии</h2>
+      <p class="hint">Оценка = новизна × рост × воздействие. Клик — подробная карточка справа.</p>
+      <table><thead><tr>
+        <th>#</th>
+        <th title="Название технологии; в скобках — оригинал (EN)">Технология</th>
+        <th class="num" title="Сводный балл: новизна × рост × воздействие, от 0 до 1">Оценка</th>
+        <th class="num" title="Похожесть запроса и технологии (e5-косинус, 0–1); показываются только совпадения ≥0.78 и при совпадении слов запроса">Релевантность запросу</th>
+        <th class="num" title="Год начала текущего непрерывного роста публикаций технологии (правило «затишье сбрасывает»)">Рождение</th>
+      </tr></thead><tbody>`;
+    TECHS.forEach((t, i) => {
+      h += `<tr class="trow tech" data-i="${i}" onclick="openTech(${i})">
+        <td class="num">${i + 1}</td>
+        <td><b>${esc(t.term)}</b> <span class="tid">(${esc(t.term_ru || t.term)})</span></td>
+        <td class="num"><span class="bar" style="width:${Math.max(2, 70 * t.score / mxT)}px"></span> ${t.score.toFixed(2)}</td>
+        <td class="num">${Math.round(t.rel * 100)}%</td>
+        <td class="num">${t.birth}</td></tr>`;
+    });
+    h += `</tbody></table></div>`;
+  }
+  // ——— форма 2: крупные темы (таксономия OpenAlex) ———
+  // Оценка NGИ для тем НЕ выводится (решение команды: для тем она ≈0,
+  // новизна у тем не считается — см. tech_ngi для технологий)
+  h += `<div class="card"><h2>Крупные темы (таксономия OpenAlex)</h2>
+    <p class="hint">Клик по строке — подробная карточка справа: статистика публикаций за 10 лет,
+    топ-работы, подтемы, отметки «слабый сигнал 2026».</p>
+    <table><thead><tr>
+      <th>#</th>
+      <th title="Название темы OpenAlex; в скобках — оригинал (EN)">Тема</th>
+      <th class="num" title="Насколько слова запроса совпадают с профилем темы (её имя + топ-работы), в %">Релевантность запросу</th>
+    </tr></thead><tbody>`;
+  TOPICS.forEach((t, i) => {
+    h += `<tr class="trow topic" data-i="${i}" onclick="openDetail(${i})">
+      <td class="num">${i + 1}</td>
+      <td><b>${esc(t.name_ru || t.name)}</b> <span class="tid">(${esc(t.name)})</span></td>
+      <td class="num">${Math.round(t.rel * 100)}%</td></tr>`;
+  });
+  h += `</tbody></table></div>`;
+  $('out').innerHTML = h;
+}
+
+function barsHTML(series) {
+  const ys = Object.keys(series || {}).sort();
+  if (!ys.length) return '';
+  const vals = ys.map(y => series[y]);
+  const mx = Math.max(...vals, 1);
+  const peak = ys[vals.indexOf(mx)];
+  let h = `<div class="sec">Публикации по годам. Пик: ${peak} год, публикаций = ${mx}</div><div class="sbars">`;
+  ys.forEach(y => { h += `<div class="sbar" style="height:${Math.max(4, 52 * series[y] / mx)}px" title="${y}: ${series[y]}"></div>`; });
+  return h + `</div><div class="syears"><span>${ys[0]}</span><span>${ys[ys.length - 1]}</span></div>`;
+}
+
+function openTech(i) {
+  document.querySelectorAll('tr.trow').forEach(tr => tr.classList.remove('active'));
+  const row = document.querySelector(`tr.tech[data-i="${i}"]`);
+  if (row) row.classList.add('active');
+  const t = TECHS[i];
+  let h = `<h3>${esc(t.term)}</h3>
+    <div class="tid" title="Русское название (перевод)">${esc(t.term_ru || t.term)}</div>`;
+  // ⭐ Раздел «Решаемая проблема» (план fix_two_problems_plan_20260929, поправка 3):
+  // мотивация по ТЗ — какую проблему решает технология (problem_ru из /api/query)
+  const pr = (t.problem_ru || '').trim();
+  h += pr
+    ? `<div class="sec">Решаемая проблема</div><div class="problem">${esc(pr)}</div>`
+    : `<div class="sec">Решаемая проблема</div><div class="problem empty">Формулировка проблемы для этой технологии ещё не сформирована LLM-конвейером.</div>`;
+  h += `<table class="kv">
+    <tr><td title="Сводный балл: новизна × рост × воздействие (0–1)">Оценка</td>
+        <td><b>${t.score.toFixed(2)}</b> = ${t.novelty.toFixed(2)} × ${t.growth.toFixed(2)} × ${t.impact.toFixed(2)}</td></tr>
+    <tr><td title="Новизна: 1 − σ((возраст−15)/5), возраст = 2025 − год рождения технологии">— новизна</td><td>${t.novelty.toFixed(2)}</td></tr>
+    <tr><td title="Рост: упоминания 2023–25 ÷ 2021–22, нормировано в g/(g+1); 1.0 — родилась в окне">— рост</td><td>${t.growth.toFixed(2)}</td></tr>
+    <tr><td title="Воздействие: наследуется от крупных тем, в которые входит технология (1 − exp(−impact/40), impact = макс. цитат работы темы)">— воздействие</td><td>${t.impact.toFixed(2)}</td></tr>
+    <tr><td title="Похожесть запроса и технологии (e5-косинус, 0–1)">Релевантность запросу</td><td>${Math.round(t.rel * 100)}%</td></tr>
+    <tr><td title="Год начала текущего непрерывного роста публикаций технологии">Рождение</td><td>${t.birth}</td></tr>
+    <tr><td title="Сколько упоминаний за последние годы">Упоминаний</td><td>${t.n_recent}</td></tr>
+  </table>`;
+  h += barsHTML(t.series);
+  if (t.topics && t.topics.length) {
+    h += `<div class="sec">Входит в крупные темы</div>`;
+    t.topics.forEach(tp => { h += `<div class="work"><b>${esc(tp.name_ru || tp.name)}</b> <span class="cite">(${esc(tp.name)})</span></div>`; });
+  }
+  $('detail').innerHTML = h;
+}
+
+function openDetail(i) {
+  document.querySelectorAll('tr.trow').forEach(tr => tr.classList.remove('active'));
+  const row = document.querySelector(`tr.topic[data-i="${i}"]`);
+  if (row) row.classList.add('active');
+  const t = TOPICS[i];
+  let h = `<h3>${esc(t.name_ru || t.name)}</h3>
+    <div class="tid" title="Идентификатор темы OpenAlex и оригинальное название">${t.tid ? 'T' + t.tid : ''} · ${esc(t.name)}</div>`;
+
+  if (t.signal2026 && t.signal2026.length) {
+    for (const s of t.signal2026) {
+      const nm = s.item_ru ? `${esc(s.item_ru)} (${esc(s.item)})` : esc(s.item);
+      h += `<div class="badge"><b>Слабый сигнал 2026</b> · ${esc(s.source)}<br>${nm}</div>`;
+    }
+  }
+
+  const ys = Object.keys(t.series || {}).sort();
+  if (ys.length) {
+    const vals = ys.map(y => t.series[y]);
+    const mx = Math.max(...vals, 1);
+    const peak = ys[vals.indexOf(mx)];
+    h += `<div class="sec">Публикации по годам. Пик: ${peak} год, публикаций = ${mx}</div><div class="sbars">`;
+    ys.forEach(y => { h += `<div class="sbar" style="height:${Math.max(4, 52 * t.series[y] / mx)}px" title="${y}: ${t.series[y]} работ"></div>`; });
+    h += `</div><div class="syears"><span>${ys[0]}</span><span>${ys[ys.length - 1]}</span></div>`;
+  }
+
+  if (t.top_works && t.top_works.length) {
+    h += `<div class="sec">Топ-работы по цитатам</div>`;
+    t.top_works.forEach(w => {
+      h += `<div class="work">«${esc(w.title)}» <span class="cite">(${w.year}, цит. ${w.cites})</span></div>`;
+    });
+  }
+
+  if (t.children && t.children.length) {
+    h += `<div class="sec">Подтемы</div>`;
+    t.children.forEach(c => { h += `<span class="chip">${esc(c.term)} <span class="tid">(${c.n_terms} терм.)</span></span>`; });
+  }
+
+  $('detail').innerHTML = h;
+}
+
+$('go').onclick = run;
+$('q').addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
+</script>
+</body>
+</html>

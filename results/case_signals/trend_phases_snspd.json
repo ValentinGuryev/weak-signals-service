@@ -1,0 +1,309 @@
+{
+ "snspd": [
+  {
+   "work_id": "https://openalex.org/W2010451492",
+   "title": "Detecting single infrared photons with 93% system efficiency",
+   "year_pub": 2013,
+   "incoming": 444,
+   "phases": {
+    "first_cite": 2012,
+    "peak_year": 2018,
+    "development": [
+     2014,
+     2018
+    ],
+    "established": 2018,
+    "series": {
+     "2020": 42,
+     "2017": 49,
+     "2013": 21,
+     "2015": 44,
+     "2014": 47,
+     "2018": 36,
+     "2016": 37,
+     "2022": 17,
+     "2019": 62,
+     "2024": 18,
+     "2021": 23,
+     "2023": 24,
+     "2025": 14,
+     "2012": 1,
+     "2026": 9
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2075728804",
+   "title": "Superconducting nanowire single-photon detectors: physics and app",
+   "year_pub": 2012,
+   "incoming": 300,
+   "phases": {
+    "first_cite": 2012,
+    "peak_year": 2020,
+    "development": [
+     2014,
+     2018,
+     2019,
+     2020
+    ],
+    "established": 2020,
+    "series": {
+     "2020": 24,
+     "2013": 29,
+     "2015": 22,
+     "2017": 21,
+     "2014": 21,
+     "2018": 14,
+     "2021": 22,
+     "2022": 19,
+     "2012": 6,
+     "2016": 30,
+     "2019": 31,
+     "2024": 17,
+     "2023": 19,
+     "2025": 15,
+     "2026": 10
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3010109933",
+   "title": "Demonstration of sub-3 ps temporal resolution with a superconduct",
+   "year_pub": 2020,
+   "incoming": 223,
+   "phases": {
+    "first_cite": 2019,
+    "peak_year": 2024,
+    "development": [
+     2021,
+     2023
+    ],
+    "established": 2024,
+    "series": {
+     "2020": 19,
+     "2021": 27,
+     "2022": 38,
+     "2024": 43,
+     "2025": 40,
+     "2023": 32,
+     "2026": 23,
+     "2019": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1964788836",
+   "title": "Kinetic-inductance-limited reset time of superconducting nanowire",
+   "year_pub": 2006,
+   "incoming": 204,
+   "phases": {
+    "first_cite": 2006,
+    "peak_year": 2014,
+    "development": [
+     2008,
+     2012,
+     2013
+    ],
+    "established": 2014,
+    "series": {
+     "2012": 9,
+     "2007": 5,
+     "2013": 15,
+     "2009": 15,
+     "2015": 15,
+     "2017": 12,
+     "2014": 22,
+     "2010": 12,
+     "2022": 6,
+     "2024": 11,
+     "2016": 12,
+     "2018": 11,
+     "2020": 13,
+     "2019": 13,
+     "2008": 3,
+     "2025": 7,
+     "2023": 7,
+     "2006": 1,
+     "2026": 7,
+     "2021": 5,
+     "2011": 3
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3097697691",
+   "title": "Superconducting nanowire single-photon detectors with 98% system ",
+   "year_pub": 2020,
+   "incoming": 183,
+   "phases": {
+    "first_cite": 2021,
+    "peak_year": 2022,
+    "development": [],
+    "established": 2022,
+    "series": {
+     "2021": 28,
+     "2022": 36,
+     "2024": 27,
+     "2025": 35,
+     "2023": 36,
+     "2026": 21
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3103440230",
+   "title": "Kinetic-inductance-limited reset time of superconducting nanowire",
+   "year_pub": 2005,
+   "incoming": 154,
+   "phases": {
+    "first_cite": 2006,
+    "peak_year": 2015,
+    "development": [
+     2008,
+     2012,
+     2013
+    ],
+    "established": 2015,
+    "series": {
+     "2007": 5,
+     "2013": 11,
+     "2008": 6,
+     "2015": 15,
+     "2017": 9,
+     "2014": 20,
+     "2009": 13,
+     "2010": 10,
+     "2012": 8,
+     "2016": 13,
+     "2018": 9,
+     "2020": 12,
+     "2006": 4,
+     "2019": 10,
+     "2011": 5,
+     "2021": 4
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2113914108",
+   "title": "High-speed and high-efficiency travelling wave single-photon dete",
+   "year_pub": 2012,
+   "incoming": 149,
+   "phases": {
+    "first_cite": 2013,
+    "peak_year": 2016,
+    "development": [
+     2016
+    ],
+    "established": 2016,
+    "series": {
+     "2020": 16,
+     "2017": 17,
+     "2013": 14,
+     "2018": 5,
+     "2022": 8,
+     "2014": 12,
+     "2016": 15,
+     "2019": 13,
+     "2015": 18,
+     "2024": 7,
+     "2021": 9,
+     "2025": 9,
+     "2023": 5,
+     "2026": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2160581303",
+   "title": "Modeling the Electrical and Thermal Response of Superconducting N",
+   "year_pub": 2007,
+   "incoming": 131,
+   "phases": {
+    "first_cite": 2008,
+    "peak_year": 2019,
+    "development": [
+     2010,
+     2012,
+     2013,
+     2017,
+     2018
+    ],
+    "established": 2019,
+    "series": {
+     "2012": 5,
+     "2020": 10,
+     "2013": 9,
+     "2009": 9,
+     "2015": 7,
+     "2014": 11,
+     "2011": 4,
+     "2010": 4,
+     "2022": 8,
+     "2019": 13,
+     "2017": 6,
+     "2018": 8,
+     "2024": 8,
+     "2016": 4,
+     "2021": 2,
+     "2025": 8,
+     "2023": 12,
+     "2008": 2,
+     "2026": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3105205584",
+   "title": "Detecting telecom single photons with 99.5−2.07+0.5% system detec",
+   "year_pub": 2021,
+   "incoming": 126,
+   "phases": {
+    "first_cite": 2021,
+    "peak_year": 2024,
+    "development": [
+     2023
+    ],
+    "established": 2024,
+    "series": {
+     "2022": 23,
+     "2024": 29,
+     "2025": 28,
+     "2023": 28,
+     "2021": 2,
+     "2026": 16
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2064871677",
+   "title": "High-speed and high-efficiency superconducting nanowire single ph",
+   "year_pub": 2013,
+   "incoming": 123,
+   "phases": {
+    "first_cite": 2013,
+    "peak_year": 2015,
+    "development": [
+     2015
+    ],
+    "established": 2015,
+    "series": {
+     "2017": 15,
+     "2013": 9,
+     "2014": 19,
+     "2015": 14,
+     "2022": 4,
+     "2016": 16,
+     "2019": 13,
+     "2021": 7,
+     "2018": 4,
+     "2020": 9,
+     "2024": 4,
+     "2023": 4,
+     "2026": 3,
+     "2025": 2
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,591 @@
+{
+ "direction": "microbiome_lbp",
+ "name": "Микробиом-терапии (LBP)",
+ "promise_2018": "следующий рубеж ~2015",
+ "expected": "❌",
+ "signal_terms": "\"microbiome\" AND (\"live biotherapeutic\" OR FMT OR therapeutic)",
+ "anchors": {
+  "Rebyota": {
+   "fda_year": 2022,
+   "counts": {
+    "2000": 3,
+    "2001": 8,
+    "2002": 1,
+    "2003": 7,
+    "2004": 21,
+    "2005": 31,
+    "2006": 33,
+    "2007": 30,
+    "2008": 56,
+    "2009": 45,
+    "2010": 75,
+    "2011": 92,
+    "2012": 166,
+    "2013": 293,
+    "2014": 386,
+    "2015": 494,
+    "2016": 668,
+    "2017": 810,
+    "2018": 1008,
+    "2019": 1251,
+    "2020": 1532,
+    "2021": 1561,
+    "2022": 1683,
+    "2023": 1981,
+    "2024": 2339,
+    "2025": 3418,
+    "2026": 2973
+   }
+  },
+  "Vowst": {
+   "fda_year": 2023,
+   "counts": {
+    "2023": 22,
+    "2024": 25,
+    "2025": 31,
+    "2026": 34
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2000": 3,
+  "2001": 8,
+  "2002": 1,
+  "2003": 7,
+  "2004": 21,
+  "2005": 31,
+  "2006": 33,
+  "2007": 30,
+  "2008": 56,
+  "2009": 45,
+  "2010": 75,
+  "2011": 92,
+  "2012": 166,
+  "2013": 293,
+  "2014": 386,
+  "2015": 494,
+  "2016": 668,
+  "2017": 810,
+  "2018": 1008,
+  "2019": 1251,
+  "2020": 1532,
+  "2021": 1561,
+  "2022": 1683,
+  "2023": 2003,
+  "2024": 2364,
+  "2025": 3449,
+  "2026": 3007
+ },
+ "signal_counts_by_year": {
+  "2000": 3,
+  "2001": 1,
+  "2002": 8,
+  "2003": 1,
+  "2004": 4,
+  "2005": 4,
+  "2006": 6,
+  "2007": 1,
+  "2008": 14,
+  "2009": 18,
+  "2010": 22,
+  "2011": 53,
+  "2012": 78,
+  "2013": 150,
+  "2014": 238,
+  "2015": 318,
+  "2016": 440,
+  "2017": 552,
+  "2018": 765,
+  "2019": 1056,
+  "2020": 1403,
+  "2021": 1544,
+  "2022": 1835,
+  "2023": 2337,
+  "2024": 3143,
+  "2025": 5574,
+  "2026": 5203
+ },
+ "corpus_size": 80,
+ "works": [
+  {
+   "id": "https://openalex.org/W2162088497",
+   "title": "Human gut microbiome viewed across age and geography",
+   "year": 2012,
+   "cited_by": 8014
+  },
+  {
+   "id": "https://openalex.org/W2087292184",
+   "title": "Impact of diet in shaping gut microbiota revealed by a comparative study in children from Europe and rural Africa",
+   "year": 2010,
+   "cited_by": 5695
+  },
+  {
+   "id": "https://openalex.org/W2144568881",
+   "title": "Evolution of Mammals and Their Gut Microbes",
+   "year": 2008,
+   "cited_by": 3845
+  },
+  {
+   "id": "https://openalex.org/W1993399595",
+   "title": "Gut Microbiota from Twins Discordant for Obesity Modulate Metabolism in Mice",
+   "year": 2013,
+   "cited_by": 3836
+  },
+  {
+   "id": "https://openalex.org/W2136500114",
+   "title": "Microbiota and SCFA in Lean and Overweight Healthy Subjects",
+   "year": 2009,
+   "cited_by": 2479
+  },
+  {
+   "id": "https://openalex.org/W1977804070",
+   "title": "Altered fecal microbiota composition in patients with major depressive disorder",
+   "year": 2015,
+   "cited_by": 2331
+  },
+  {
+   "id": "https://openalex.org/W2137195441",
+   "title": "The Long-Term Stability of the Human Gut Microbiota",
+   "year": 2013,
+   "cited_by": 2145
+  },
+  {
+   "id": "https://openalex.org/W2140679462",
+   "title": "Fusobacterium nucleatum infection is prevalent in human colorectal carcinoma",
+   "year": 2011,
+   "cited_by": 2099
+  },
+  {
+   "id": "https://openalex.org/W2337492846",
+   "title": "Gut microbiome remodeling induces depressive-like behaviors through a pathway mediated by the host’s metabolism",
+   "year": 2016,
+   "cited_by": 2087
+  },
+  {
+   "id": "https://openalex.org/W2167927725",
+   "title": "NLRP6 Inflammasome Regulates Colonic Microbial Ecology and Risk for Colitis",
+   "year": 2011,
+   "cited_by": 2020
+  },
+  {
+   "id": "https://openalex.org/W2166691283",
+   "title": "A decrease of the butyrate-producing species Roseburia hominis and Faecalibacterium prausnitzii defines dysbiosis in patients with ulcerative colitis",
+   "year": 2013,
+   "cited_by": 1944
+  },
+  {
+   "id": "https://openalex.org/W2142536690",
+   "title": "The Firmicutes/Bacteroidetes ratio of the human microbiota changes with age",
+   "year": 2009,
+   "cited_by": 1774
+  },
+  {
+   "id": "https://openalex.org/W2585920057",
+   "title": "Gut microbiota dysbiosis contributes to the development of hypertension",
+   "year": 2017,
+   "cited_by": 1769
+  },
+  {
+   "id": "https://openalex.org/W1987184081",
+   "title": "Composition, variability, and temporal stability of the intestinal microbiota of the elderly",
+   "year": 2010,
+   "cited_by": 1764
+  },
+  {
+   "id": "https://openalex.org/W3126208996",
+   "title": "Fecal microbiota transplant overcomes resistance to anti–PD-1 therapy in melanoma patients",
+   "year": 2021,
+   "cited_by": 1712
+  },
+  {
+   "id": "https://openalex.org/W2292048640",
+   "title": "Transferring the blues: Depression-associated gut microbiota induces neurobehavioural changes in the rat",
+   "year": 2016,
+   "cited_by": 1706
+  },
+  {
+   "id": "https://openalex.org/W3111836013",
+   "title": "Fecal microbiota transplant promotes response in immunotherapy-refractory melanoma patients",
+   "year": 2020,
+   "cited_by": 1702
+  },
+  {
+   "id": "https://openalex.org/W2967450000",
+   "title": "Tumor Microbiome Diversity and Composition Influence Pancreatic Cancer Outcomes",
+   "year": 2019,
+   "cited_by": 1622
+  },
+  {
+   "id": "https://openalex.org/W3024312732",
+   "title": "Alterations in Gut Microbiota of Patients With COVID-19 During Time of Hospitalization",
+   "year": 2020,
+   "cited_by": 1606
+  },
+  {
+   "id": "https://openalex.org/W2078754045",
+   "title": "Fecal Microbiota Transplantation Induces Remission in Patients With Active Ulcerative Colitis in a Randomized Controlled Trial",
+   "year": 2015,
+   "cited_by": 1516
+  },
+  {
+   "id": "https://openalex.org/W4205454439",
+   "title": "Combination strategies with PD-1/PD-L1 blockade: current advances and future directions",
+   "year": 2022,
+   "cited_by": 1499
+  },
+  {
+   "id": "https://openalex.org/W2130725058",
+   "title": "Potential of fecal microbiota for early‐stage detection of colorectal cancer",
+   "year": 2014,
+   "cited_by": 1490
+  },
+  {
+   "id": "https://openalex.org/W2135959117",
+   "title": "Clostridium difficile Infection",
+   "year": 2015,
+   "cited_by": 1488
+  },
+  {
+   "id": "https://openalex.org/W2581406049",
+   "title": "Microbiota Transfer Therapy alters gut ecosystem and improves gastrointestinal and autism symptoms: an open-label study",
+   "year": 2017,
+   "cited_by": 1404
+  },
+  {
+   "id": "https://openalex.org/W2778416039",
+   "title": "Gut microbiota in the pathogenesis of inflammatory bowel disease",
+   "year": 2017,
+   "cited_by": 1393
+  },
+  {
+   "id": "https://openalex.org/W2601055810",
+   "title": "Baseline gut microbiota predicts clinical response and colitis in metastatic melanoma patients treated with ipilimumab",
+   "year": 2017,
+   "cited_by": 1312
+  },
+  {
+   "id": "https://openalex.org/W2028520715",
+   "title": "Low counts of Faecalibacterium prausnitzii in colitis microbiota",
+   "year": 2009,
+   "cited_by": 1267
+  },
+  {
+   "id": "https://openalex.org/W2982566732",
+   "title": "Drug-Resistant E. coli Bacteremia Transmitted by Fecal Microbiota Transplant",
+   "year": 2019,
+   "cited_by": 1233
+  },
+  {
+   "id": "https://openalex.org/W2164984702",
+   "title": "Cohabiting family members share microbiota with one another and with their dogs",
+   "year": 2013,
+   "cited_by": 1144
+  },
+  {
+   "id": "https://openalex.org/W2905301720",
+   "title": "Diet-Independent Correlations between Bacteria and Dysfunction of Gut, Adipose Tissue, and Liver: A Comprehensive Microbiota Analysis in Feces and Mucosa of the Ileum and Colon in Obese Mice with NAFLD",
+   "year": 2018,
+   "cited_by": 1101
+  },
+  {
+   "id": "https://openalex.org/W4392783067",
+   "title": "Microbiota–gut–brain axis and its therapeutic applications in neurodegenerative diseases",
+   "year": 2024,
+   "cited_by": 1089
+  },
+  {
+   "id": "https://openalex.org/W2011914193",
+   "title": "Early Life Stress Alters Behavior, Immunity, and Microbiota in Rats: Implications for Irritable Bowel Syndrome and Psychiatric Illnesses",
+   "year": 2008,
+   "cited_by": 1073
+  },
+  {
+   "id": "https://openalex.org/W2031441917",
+   "title": "Correlation between the human fecal microbiota and depression",
+   "year": 2014,
+   "cited_by": 1069
+  },
+  {
+   "id": "https://openalex.org/W1945327512",
+   "title": "Early differences in fecal microbiota composition in children may predict overweight",
+   "year": 2008,
+   "cited_by": 1062
+  },
+  {
+   "id": "https://openalex.org/W2051567523",
+   "title": "Characterization of fecal microbial communities in patients with liver cirrhosis",
+   "year": 2011,
+   "cited_by": 1053
+  },
+  {
+   "id": "https://openalex.org/W2762290518",
+   "title": "Improvement of Insulin Sensitivity after Lean Donor Feces in Metabolic Syndrome Is Driven by Baseline Intestinal Microbiota Composition",
+   "year": 2017,
+   "cited_by": 1041
+  },
+  {
+   "id": "https://openalex.org/W2139284253",
+   "title": "Intestinal Domination and the Risk of Bacteremia in Patients Undergoing Allogeneic Hematopoietic Stem Cell Transplantation",
+   "year": 2012,
+   "cited_by": 1041
+  },
+  {
+   "id": "https://openalex.org/W2123812491",
+   "title": "Global and Deep Molecular Analysis of Microbiota Signatures in Fecal Samples From Patients With Irritable Bowel Syndrome",
+   "year": 2011,
+   "cited_by": 1038
+  },
+  {
+   "id": "https://openalex.org/W2139607253",
+   "title": "Decreased Diversity of the Fecal Microbiome in RecurrentClostridium difficile–Associated Diarrhea",
+   "year": 2008,
+   "cited_by": 1033
+  },
+  {
+   "id": "https://openalex.org/W2032356948",
+   "title": "Treating Clostridium difficile Infection With Fecal Microbiota Transplantation",
+   "year": 2011,
+   "cited_by": 1024
+  },
+  {
+   "id": "https://openalex.org/W4391992243",
+   "title": "AGA Clinical Practice Guideline on Fecal Microbiota–Based Therapies for Select Gastrointestinal Diseases",
+   "year": 2024,
+   "cited_by": 237
+  },
+  {
+   "id": "https://openalex.org/W4383872739",
+   "title": "Advancing therapeutics for recurrent clostridioides difficile infections: an overview of vowst’s FDA approval and implications",
+   "year": 2023,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4380730168",
+   "title": "Gut microbiota changes associated with Clostridioides difficile infection and its various treatment strategies",
+   "year": 2023,
+   "cited_by": 64
+  },
+  {
+   "id": "https://openalex.org/W4401621026",
+   "title": "Navigating regulatory and analytical challenges in live biotherapeutic product development and manufacturing",
+   "year": 2024,
+   "cited_by": 46
+  },
+  {
+   "id": "https://openalex.org/W4389327220",
+   "title": "Review Article: Safety of Live Biotherapeutic Products Used for the Prevention of Clostridioides difficile Infection Recurrence",
+   "year": 2023,
+   "cited_by": 32
+  },
+  {
+   "id": "https://openalex.org/W4389705122",
+   "title": "Update on microbiota-derived therapies for recurrent Clostridioides difficile infections",
+   "year": 2023,
+   "cited_by": 30
+  },
+  {
+   "id": "https://openalex.org/W4396903940",
+   "title": "A Comparison of Currently Available and Investigational Fecal Microbiota Transplant Products for Recurrent Clostridioides difficile Infection",
+   "year": 2024,
+   "cited_by": 28
+  },
+  {
+   "id": "https://openalex.org/W4398771425",
+   "title": "Microbiota restoration therapies for recurrent Clostridioides difficile infection reach an important new milestone",
+   "year": 2024,
+   "cited_by": 27
+  },
+  {
+   "id": "https://openalex.org/W4392463455",
+   "title": "SER-109 (VOWST™): A Review in the Prevention of Recurrent Clostridioides difficile Infection",
+   "year": 2024,
+   "cited_by": 26
+  },
+  {
+   "id": "https://openalex.org/W4408805604",
+   "title": "Fecal microbiota transplantation: present and future",
+   "year": 2025,
+   "cited_by": 25
+  },
+  {
+   "id": "https://openalex.org/W4385562360",
+   "title": "Prevalence of Comorbid Factors in Patients With Recurrent Clostridioides difficile Infection in ECOSPOR III, a Randomized Trial of an Oral Microbiota–Based Therapeutic",
+   "year": 2023,
+   "cited_by": 24
+  },
+  {
+   "id": "https://openalex.org/W4411876774",
+   "title": "Fecal microbiota transplantation: Current evidence and future directions",
+   "year": 2025,
+   "cited_by": 20
+  },
+  {
+   "id": "https://openalex.org/W4387564179",
+   "title": "Impact of a Purified Microbiome Therapeutic on Abundance of Antimicrobial Resistance Genes in Patients With RecurrentClostridioides difficileInfection",
+   "year": 2023,
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W4416915436",
+   "title": "Advances in capsule-based fecal microbiota transplantation: clinical applications and innovations",
+   "year": 2025,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W4402596656",
+   "title": "End-to-end donor screening and manufacturing controls: complementary quality-based strategies to minimize patient risk for donor-derived microbiome therapeutics",
+   "year": 2024,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4389330739",
+   "title": "Advancements in Novel Live Biotherapeutic Products for Clostridioides difficile Infection Prevention",
+   "year": 2023,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4386726630",
+   "title": "Clostridioides difficile Infection: Landscape and Microbiome Therapeutics.",
+   "year": 2023,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4414179341",
+   "title": "Microbiome-Targeted Therapies in Gastrointestinal Diseases: Clinical Evidence and Emerging Innovations",
+   "year": 2025,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4396796803",
+   "title": "Fighting against Clostridioides difficile infection: Current medications",
+   "year": 2024,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4393277705",
+   "title": "Live Biotherapeutic Products for the Prevention of Recurrent Clostridioides difficile Infection",
+   "year": 2024,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4391425661",
+   "title": "Microbiota-Based Therapeutics as New Standard-of-Care Treatment for Recurrent Clostridioides difficile Infection",
+   "year": 2024,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W7123837306",
+   "title": "Fecal Microbiota Transplantation in 2025: Two Steps Forward, One Step Back",
+   "year": 2026,
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W7118175118",
+   "title": "The impact of an oral purified microbiome therapeutic on the gastrointestinal microbiome",
+   "year": 2026,
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W4400124157",
+   "title": "Integrated Safety and Efficacy Analyses of Phase 3 Trials of a Microbiome Therapeutic for Recurrent CDI",
+   "year": 2024,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4408887548",
+   "title": "Faecal microbiota transplantation for recurrent Clostridiodes difficile infection & its global regulatory landscape",
+   "year": 2025,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4403493213",
+   "title": "Comparative effectiveness of treatments for recurrent Clostridioides difficile infection: a network meta-analysis of randomized controlled trials",
+   "year": 2024,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4385564639",
+   "title": "Manufacturing Processes of a Purified Microbiome Therapeutic Reduce Risk of Transmission of Potential Bacterial Pathogens in Donor Stool",
+   "year": 2023,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4413373977",
+   "title": "What’s New and What’s Next in Fecal Microbiota Transplantation?",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4403258185",
+   "title": "Systematic review of the orally administered microbiome therapeutic, fecal microbiota spores, live-brpk, to prevent recurrence of Clostridioides difficile infection in adults",
+   "year": 2024,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W7128440313",
+   "title": "Live biotherapeutics in the clinic: Regulatory pathways, market dynamics, and future trends",
+   "year": 2026,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4412850287",
+   "title": "Comparability of Gastrointestinal Microbiome and Bile Acid Profiles in Patients With First or Multiply Recurrent Clostridioides difficile Infection",
+   "year": 2025,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4412153523",
+   "title": "Budget Impact Analysis of Fecal Microbiota Spores, Live-brpk (Formerly SER-109) for Recurrent Clostridioides difficile Infection in the United States",
+   "year": 2025,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4390348042",
+   "title": "Efficacy and Practical Implementation of Fecal Microbiota Spores, Live-BRPK: A Novel Approach for Preventing Recurrent Clostridioides difficile Infection",
+   "year": 2023,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4385754357",
+   "title": "Practical Use of Fecal Microbiota Spores, Live BRPK for the Prevention of Recurrent Clostridioides difficile Infection",
+   "year": 2023,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4406456518",
+   "title": "Management of Recurrent Clostridioides difficile Infection (rCDI): A Systematic Literature Review to Assess the Feasibility of Indirect Treatment Comparison (ITC)",
+   "year": 2025,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4406475076",
+   "title": "The evolving landscape of live biotherapeutics in the treatment of Clostridioides difficile infection",
+   "year": 2025,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4411712596",
+   "title": "Clinician Management Preferences for Clostridioides difficile Infection in Adults: A 2024 Emerging Infections Network Survey",
+   "year": 2025,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4406594927",
+   "title": "Clostridioides difficile Infection: A Review of Emerging Practices for Infection Treatment and Prevention of Recurrence",
+   "year": 2024,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4402832376",
+   "title": "Fecal microbiota spores, live-brpk (VOWST™/VOS) for prevention of recurrent Clostridioides difficile infection",
+   "year": 2024,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4389740290",
+   "title": "S77 Safety and Efficacy of Fecal Microbiota Spores, Live-brpk (Formerly SER-109) in Older Patients With Recurrent Clostridioides difficile Infection: Findings From an Integrated Analysis of Phase 3 Trials",
+   "year": 2023,
+   "cited_by": 2
+  }
+ ]
+}

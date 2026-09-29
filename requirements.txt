@@ -1,0 +1,37 @@
+# requirements.txt
+# Зависимости Python для пайплайна хакатона.
+# ВАЖНО: менять только с одобрения человека (внутренний контракт, раздел 8).
+# Окружение: Python 3.12, RAM 7.4 ГБ, CPU 12 ядер, GPU нет.
+
+# --- Ядро данных ---
+numpy>=1.26
+pandas>=2.1
+
+# --- Этап 1: данные ---
+requests>=2.31
+feedparser>=6.0        # парсинг arXiv API (Atom)
+pyarrow>=15.0          # parquet
+
+# --- Этап 2: тренды (BERTopic лёгкий + fallback LDA) ---
+bertopic>=0.16
+sentence-transformers>=2.7
+scikit-learn>=1.4
+hdbscan>=0.8.34        # опционально для BERTopic (если влезет в RAM)
+umap-learn>=0.5        # опционально для BERTopic
+
+# --- Этап 3: Score ---
+scipy>=1.11
+statsmodels>=0.14      # сглаживание, вторая производная
+
+# --- Этап 5: дашборд ---
+streamlit>=1.32
+plotly>=5.20
+networkx>=3.2
+pyvis>=0.3.2
+
+# --- Этап 4 (отложен): LLM-заглушка, библиотеки появятся при подключении ---
+
+# --- Утилиты ---
+python-dotenv>=1.0
+PyYAML>=6.0
+matplotlib>=3.11

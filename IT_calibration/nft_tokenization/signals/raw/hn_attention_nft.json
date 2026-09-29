@@ -1,0 +1,50 @@
+{
+  "nft_exact_word": {
+    "query": "\"nft\"",
+    "method": "search_by_date, tag=story, restrictSearchableAttributes=title, advancedSyntax, typoTolerance=false",
+    "per_year": {
+      "2017": 0,
+      "2018": 5,
+      "2019": 1,
+      "2020": 5,
+      "2021": 717,
+      "2022": 713,
+      "2023": 113,
+      "2024": 41,
+      "2025": 18,
+      "2026": 11
+    }
+  },
+  "nft_phrase": {
+    "query": "\"non-fungible token\"",
+    "method": "search_by_date, tag=story, restrictSearchableAttributes=title, advancedSyntax, typoTolerance=false",
+    "per_year": {
+      "2017": 0,
+      "2018": 1,
+      "2019": 0,
+      "2020": 1,
+      "2021": 11,
+      "2022": 2,
+      "2023": 2,
+      "2024": 0,
+      "2025": 1,
+      "2026": 0
+    }
+  },
+  "metaverse_validation": {
+    "query": "\"metaverse\"",
+    "method": "search_by_date, tag=story, restrictSearchableAttributes=title, advancedSyntax, typoTolerance=false",
+    "per_year": {
+      "2017": 1,
+      "2018": 5,
+      "2019": 11,
+      "2020": 45,
+      "2021": 466,
+      "2022": 768,
+      "2023": 226,
+      "2024": 48,
+      "2025": 45,
+      "2026": 43
+    }
+  }
+}

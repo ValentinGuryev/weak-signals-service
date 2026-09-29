@@ -1,0 +1,62 @@
+{
+ "hypothesis": "s3_external_diversity: состоявшийся тренд при рождении опирается на глубокий разнообразный фундамент",
+ "pair": "flux pump (состоялся 2021-24) vs joint (не состоялся) — конкуренты одной проблемы (токовводы)",
+ "method": "внешние ссылки работ окна рождения; OpenAlex topics/годы",
+ "windows": {
+  "flux_pump": [
+   2010,
+   2011
+  ],
+  "joint": [
+   2017,
+   2018
+  ]
+ },
+ "n_external": {
+  "flux_pump": 68,
+  "joint": 290
+ },
+ "n_works_window": {
+  "flux_pump": 11,
+  "joint": 22
+ },
+ "results": {
+  "median_year_ext_refs": {
+   "flux_pump": 2002,
+   "joint": 2011
+  },
+  "median_diff_bootstrap": {
+   "diff_years": -9,
+   "ci95": [
+    -12,
+    -7
+   ],
+   "significant": true
+  },
+  "share_refs_older_than_birth_minus20": {
+   "flux_pump": 0.21,
+   "joint": 0.11
+  },
+  "cross_citation_competitors": {
+   "joint_cites_fp_2017_18": 0.003,
+   "fp_cites_joint_2010_11": 0.0,
+   "joint_cites_fp_2020plus": 0.0026,
+   "interpretation": "конкуренты изолированы"
+  },
+  "topic_concentration": {
+   "fp_top2_share": 0.75,
+   "jt_top2_share": 0.81,
+   "note": "различие слабое"
+  },
+  "rarefied_topics_60": {
+   "flux_pump": 10.6,
+   "joint": 10.6,
+   "note": "одинаково — не число тем различает"
+  }
+ },
+ "interpretation": "flux pump синтезировал старые разрозненные области (магниты/плёнки/NMR/MgB2 1960-2000) = «из ниоткуда»; joint варится в свежих работах (61% на 2010-е) = инкрементально. Изоляция конкурентов (0.3%) — доп. сигнал.",
+ "data_files": [
+  "data/raw/openalex/s3_external_meta.json"
+ ],
+ "script": "src/openalex_s3_external.py"
+}

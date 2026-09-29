@@ -1,0 +1,56 @@
+[
+ {
+  "file": "(2010) [ART] Advances in Whole-Body MRI Magnets.pdf",
+  "size": 3276317,
+  "n_prices": 3,
+  "years": [],
+  "has_company": true,
+  "contexts": [
+   "MRI production. It is the lowest cost superconducting material, priced at about $1/kAmp-m at 4 T, 4.2 K. Disadvantages of NbTi conductor include low critical tempera",
+   "nfortunately, HTS conductor is still rather expensive. An HTS conductor cost of $10/kAmp-m at 77 K, self field marks the threshold point where HTS conductor may be co",
+   " by processing rather than by the material cost. Today, the MgB2 price is about $5/kAmp-m at 4 tesla, 4.2 K, i.e. it is significantly higher than that of NbTi. The c"
+  ]
+ },
+ {
+  "file": "(2011) [ICMC] A CENTURY OF SUPERCONDUCTING TECHNOLOGY.pdf",
+  "size": 2651414,
+  "n_prices": 4,
+  "years": [],
+  "has_company": true,
+  "contexts": [
+   "ormance, Nb3Sn wire for use in a high field 12T magnet at 4.2K can be had for ~ $5 per kA metre. Everyday copper cable for house wiring is much more expensive at ~$20 pe",
+   "per kA metre. Everyday copper cable for house wiring is much more expensive at ~$20 per kA metre, but HTS is dearer still. B2212 wire costs ~ $100 per kA metre at 12T, bu",
+   "ore expensive at ~$20 per kA metre, but HTS is dearer still. B2212 wire costs ~ $100 per kA metre at 12T, but only when it is cooled to 4K. For high temperature operation,",
+   "hen it is cooled to 4K. For high temperature operation, coated YBCO tape costs ~$400 per kA metre at 77K in self field [37]. Given that superconductor is already the large"
+  ]
+ },
+ {
+  "file": "(2014) [ART] This manuscript was_2.pdf",
+  "size": 2047558,
+  "n_prices": 9,
+  "years": [],
+  "has_company": true,
+  "contexts": [
+   "nnection. The YBCO tape price was estimated to decline from present 350 down to 25 €/kAm within next 10 years [3], since just 10 km of such HTS cable would require 5 M",
+   "has the same IC and same LTC at the HTS tape price-performance ratio of 103 and 241 €/kAm respectively. At the tape price of 25 €/kAm the savings on IC and LTC are 227 ",
+   "price-performance ratio of 103 and 241 €/kAm respectively. At the tape price of 25 €/kAm the savings on IC and LTC are 227 and 625 M€ respectively. As compared to 4, o",
+   "o 4, option 3 has the same IC and the same LTC at the HTS tape price of 283 and 356 €/kAm respectively. At the tape price of 25 €/kAm the savings on IC and LTC are 746 ",
+   "C at the HTS tape price of 283 and 356 €/kAm respectively. At the tape price of 25 €/kAm the savings on IC and LTC are 746 and 957 M€ respectively. Option 2 as compare",
+   "ion 2 as compared to 1 has same IC and same LTC at the HTS tape price of 36 and 135 €/kAm respectively. At the tape price of 25 €/kAm savings on IC and LTC are 63 and 6"
+  ]
+ },
+ {
+  "file": "(2014) [ASC] Plenary Presentation 3PLA-02 given at ASC 2014, Charlotte, August 10 – 15, 2014.pdf",
+  "size": 8919423,
+  "n_prices": 3,
+  "years": [
+   20
+  ],
+  "has_company": true,
+  "contexts": [
+   "the above Table). For applications at <1 T, e.g. in cables, the costs will be < 1 $/kAm (10 $/kAm today), while for MRI magnets (~ 3 T), the expected costs are as low",
+   " Table). For applications at <1 T, e.g. in cables, the costs will be < 1 $/kAm (10 $/kAm today), while for MRI magnets (~ 3 T), the expected costs are as low as 2.5 $/",
+   "0 $/kAm today), while for MRI magnets (~ 3 T), the expected costs are as low as 2.5 $/kAm.  18  \fIEEE/CSC SUPERCONDUCTIVITY NEWS FORUM (global edition) October 2014 Ple"
+  ]
+ }
+]

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IT-калибровка: ретро-выборка 2023 → 2026 (обучающие кейсы)</title>
+<style>
+  :root{
+    --green:#2e8b57; --red:#c0392b; --blue:#1f6feb; --purple:#8e44ad; --amber:#d35400;
+    --bg:#f6f7f9; --card:#ffffff; --text:#1c1e21; --muted:#6b7280; --line:#e5e7eb;
+    --mono:#0b3d6b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .container{max-width:1100px;margin:0 auto;padding:24px 18px}
+
+  /* ===== header ===== */
+  header.hero{background:linear-gradient(135deg,#0b1f3a 0%,#16407a 55%,#2079b8 100%);
+              color:#fff;border-radius:14px;padding:26px 28px;margin-bottom:18px}
+  header.hero h1{margin:0 0 8px;font-size:23px;letter-spacing:.2px}
+  header.hero .sub{font-size:14.5px;opacity:.92}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);
+        color:#fff;border-radius:999px;padding:3px 12px;font-size:12.5px}
+  .chip b{font-weight:600}
+
+  /* ===== toc ===== */
+  nav.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;
+          padding:12px 16px;margin-bottom:18px}
+  nav.toc .t{font-size:12.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+  nav.toc a{color:var(--blue);text-decoration:none;margin:0 4px}
+  nav.toc a:hover{text-decoration:underline}
+
+  /* ===== meta box ===== */
+  .meta{background:#fbf3e8;border:1px solid #e8d9b8;border-left:5px solid #d9a441;
+        border-radius:8px;padding:14px 18px;font-size:13.5px;line-height:1.6}
+  .meta b{font-weight:600}
+  .meta .warn{color:#b35600}
+  code{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;
+       background:#eef1f4;border-radius:4px;padding:0 5px;font-size:12.5px}
+
+  /* ===== sections ===== */
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;
+          margin:0 0 22px;padding:20px 22px;overflow:hidden}
+  section h2{margin:0 0 12px;font-size:19px;display:flex;align-items:center;gap:10px}
+  section h2 .badge{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+                    border-radius:999px;padding:2px 10px}
+  section p{margin:.55em 0}
+  section ul,section ol{margin:.5em 0 1em;padding-left:24px}
+
+  /* colored part accents */
+  .part-a{border-top:5px solid var(--green)}
+  .part-b{border-top:5px solid var(--red)}
+  .part-c{border-top:5px solid var(--blue)}
+  .part-d{border-top:5px solid var(--purple)}
+  .part-z{border-top:5px solid var(--amber)}
+  .part-a h2{color:#1e63a0}
+  .part-b h2{color:#a93226}
+  .part-c h2{color:#1f6feb}
+  .part-d h2{color:#7d3c98}
+  .part-z h2{color:#b35600}
+  .legend{font-size:12.5px;color:var(--muted);background:#f1f3f6;border-radius:6px;padding:8px 12px;margin:0 0 12px}
+
+  /* ===== tables ===== */
+  .twrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  caption{caption-side:bottom;color:var(--muted);font-size:12px;padding:6px}
+  th{background:#eef2f7;color:#333;font-weight:600;text-align:left;padding:8px 10px;
+     border-bottom:2px solid #c9d4e0;position:sticky;top:0}
+  td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  tbody tr:nth-child(even){background:#f7f9fc}
+  tbody tr:hover{background:#eef3fa}
+  .hl td{background:#fffbe6} /* highlighted row (prompt marketplaces) */
+  tr.opt td{color:#555}
+
+  /* pills for status */
+  .pill{display:inline-block;border-radius:999px;padding:1px 9px;font-size:11.5px;font-weight:600;
+        white-space:nowrap}
+  .pill.ok{background:#e2f4e4;color:#1e7d32}
+  .pill.mid{background:#fdf0d6;color:#8a6d1a}
+  .pill.low{background:#fde8e8;color:#b3261e}
+  .pill.gray{background:#eceef1;color:#5b6472}
+
+  /* ===== notes / misc ===== */
+  blockquote{background:#f6f8fb;border-left:4px solid #b9c6d8;border-radius:6px;
+             padding:10px 14px;margin:10px 0;color:#3a4657}
+  .foot{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:10px;
+        margin-top:20px}
+  .appendix table th, .appendix table td{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+  .arrow{color:var(--muted)}
+  @media print{body{background:#fff} header.hero{-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header class="hero">
+    <h1>IT-калибровка: ретро-выборка 2023 → 2026 (обучающие кейсы)</h1>
+    <div class="sub">Черновик для калибровки модели на IT-домене · аналог <code>pharma_calibration/</code> для СП-кейсов</div>
+    <div class="chips">
+      <span class="chip">Окно: слабый сигнал <b>~2023</b> → исход <b>2026</b></span>
+      <span class="chip">Критерии: экспертная методология (A1–A5)</span>
+      <span class="chip">Дата: 15.09.2026</span>
+      <span class="chip">Статус: черновик ⚠️</span>
+    </div>
+  </header>
+
+  <nav class="toc">
+    <span class="t">Содержание</span> ·
+    <a href="#part-a">Часть A — состоявшиеся (2023→2026)</a> ·
+    <a href="#part-b">Часть B — провалившиеся (2022–23→2026)</a> ·
+    <a href="#part-c">Часть C — маркеры провалов</a> ·
+    <a href="#part-d">Часть D — статус и следующий шаг</a> ·
+    <a href="#appendix">Приложение — числа</a>
+  </nav>
+
+  <div class="meta">
+    <b>Критерии окна</b> (по методологии A1–A5, экспертная методология):
+    слабый сигнал = <b>намерения</b> (анонсы, seed-раунды, препринты, whitepaper);
+    значимый = <b>продажи / внедрения</b>; исход «состоялся» = выход технологии в слой инженерии / рынка
+    (объекты <b>A1</b>, игроки <b>A2</b>, концентрация <b>A3/A4</b>, география первенства <b>A5</b>);
+    финансирование — подтверждающий слой, <b>не доказательство</b>.<br>
+    <b>Источники чисел:</b> датасет <code>ИИ-защита.xlsx</code> (источники у каждой строки);
+    точечные счётчики OpenAlex (полнотекстовый поиск) и HN Algolia (слой внимания) от 15.09.2026;
+    EXP-16 коллег (данные 03.09.2026).<br>
+    <span class="warn">⚠️ Все оценки исхода «провалился» в Части B требуют дособора рыночных источников — см. Часть D.</span>
+  </div>
+
+  <!-- ==================== PART A ==================== -->
+  <section class="part-a" id="part-a">
+    <h2>📗 Часть A — зарождавшиеся в 2023 → состоялись к 2026 <span class="badge">из ИИ-защита.xlsx</span></h2>
+    <div class="legend">
+      <b>Уверенность:</b>
+      <span class="pill ok">высокая</span> — есть и сигнал-2023, и рыночный/продуктовый исход-2026 в тексте датасета;
+      <span class="pill mid">средняя</span> — один из концов подтверждён частично.
+    </div>
+    <div class="twrap">
+      <table>
+        <thead><tr>
+          <th>№ xlsx</th><th>Тренд (зарождался в 2023)</th><th>Сигнал-2023 (слой намерений)</th>
+          <th>Исход-2026 (слой «значимости»)</th><th>Тип</th><th>Увер.</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td>#20</td>
+            <td><b>LLM-файрволы / AI runtime gateway</b></td>
+            <td>первый продукт Lakera Guard (2023), концепция «WAF for LLM» (2023)</td>
+            <td>продуктовые линейки Akamai Firewall for AI, Radware LLM Firewall, Check Point/Lakera, Securiti; консолидация категории</td>
+            <td>продукт → категория</td><td><span class="pill ok">высокая</span></td>
+          </tr>
+          <tr>
+            <td>#3</td>
+            <td><b>Continuous red-teaming как услуга</b></td>
+            <td>практика публичного red-team по следам GPT-4 (2023), open-source инструменты (Garak/PyRIT), единичные игроки</td>
+            <td>рынок услуг: Mindgard $30M Series A, Promptfoo $18.4M, Yrikka; платящие клиенты — AI-лаборатории и банки</td>
+            <td>практика → рынок услуг</td><td><span class="pill ok">высокая</span></td>
+          </tr>
+          <tr>
+            <td>#22</td>
+            <td><b>AI-GRC / compliance под EU AI Act</b></td>
+            <td>декабрь 2023 — provisional agreement по AI Act; гипотеза регуляторного спроса</td>
+            <td>продукты Naaia (Series A €6M), Modulos (CHF 8.7M), Delve, Auxilius; обязательства AI Act вступили в силу</td>
+            <td>регуляторика → рынок</td><td><span class="pill ok">высокая</span></td>
+          </tr>
+          <tr>
+            <td>#25</td>
+            <td><b>Цифровые водяные знаки текста LLM</b></td>
+            <td>исследования watermarking для LLM (2023), требование прозрачности в проекте AI Act</td>
+            <td>SynthID Text как reference, Anthropic маркирует текст в проде (авг. 2026)</td>
+            <td>исследование + регуляторика → прод</td><td><span class="pill mid">средняя-высокая</span></td>
+          </tr>
+          <tr>
+            <td>#23</td>
+            <td><b>DP-синтетические данные как защита обучения</b></td>
+            <td>исследования privacy-enhancing synthetic data, нормативное давление (GDPR-логика)</td>
+            <td>стартапы (CUBIG Series A 2025–26), контракты DHS S&amp;T (2024)</td>
+            <td>исследование → ниша/госзаказ</td><td><span class="pill mid">средняя</span></td>
+          </tr>
+          <tr>
+            <td>#77</td>
+            <td><b>Сканеры бэкдоров open-weight LLM</b></td>
+            <td>угроза бэкдоров в HF-моделях, первые инструменты (ModelScan 2023)</td>
+            <td>промышленный сканер Microsoft (фев. 2026), экосистема ModelScan-класса</td>
+            <td>угроза → инструменты</td><td><span class="pill mid">средняя</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:14px">🔶 Частично («в развитии» к 2026)</h3>
+    <div class="twrap">
+      <table>
+        <thead><tr><th>№</th><th>Тренд</th><th>Сигнал-2023</th><th>Исход-2026</th><th>Комментарий</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>#48</td>
+            <td><b>Machine unlearning</b></td>
+            <td>исследования (SISA 2021, certified unlearning 2022–23), GDPR «right to be forgotten»</td>
+            <td>категория сформирована (1 чистый стартап Hirundo, $8M seed, победа RAISE-2025 из 1100), продакшн-внедрений мало</td>
+            <td><span class="pill mid">коммерция не подтверждена → «в развитии», не «состоялся»</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <blockquote>
+      <b>Исключены из выборки</b> (у них сигнал-2023 отсутствовал как слой — рождение позже):
+      #2 agent IAM (рынок 2025+; в 2023 — только исследовательская тревога о правах tool-use),
+      #4 MCP-безопасность (протокол MCP — ноябрь 2024),
+      #21 self-healing PII (2024+),
+      #24 TEE-инференс (attested API 2025–26),
+      #49 interpretability как контроль (2026),
+      #50 signed agents (2025),
+      #51 AI-SBOM (2025–26),
+      #52 CoT-мониторинг (2024+),
+      #76 memory poisoning (препринты 2026).
+      Для калибровки 2023→2026 они слишком свежие — их место в выборке «сигнал 2025–26».
+    </blockquote>
+  </section>
+
+  <!-- ==================== PART B ==================== -->
+  <section class="part-b" id="part-b">
+    <h2>📕 Часть B — выглядели зарождающимися в 2022–2023 → провалились к 2026</h2>
+    <div class="legend">
+      Типы провала — по нашей типологии ложных трендов (METHODOLOGY) + по внешнему критерию
+      («внимание ≫ содержание» = намерения без значимости). Строка ⭐ — отдельный разговор.
+    </div>
+    <div class="twrap">
+      <table>
+        <thead><tr>
+          <th>Тренд</th><th>Сигнал-2022/23 (что росло)</th><th>Исход-2026</th>
+          <th>Тип провала</th><th>Данные (15.09.2026)</th><th>Статус данных</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Метавселенная</b> (потребительские виртуальные миры)</td>
+            <td>наука: 692 (2021) → <b>6269 (2022)</b> = ×9 за год; внимание: HN 49 → <b>873 (2022)</b>; раунды-единороги (The Sandbox, Animoca)</td>
+            <td>Meta сворачивает Horizon Worlds (2025); Sandbox/Decentraland в упадке; <b>внимание HN: 266 (2023) → 64 (2024) → 53 (2025)</b>; наука продолжает расти (14232 → 21626) — эхо</td>
+            <td><b>хайп:</b> внимание ≫ инженерия, V-образный пик внимания</td>
+            <td>OpenAlex fulltext, HN Algolia</td>
+            <td><span class="pill ok">✅ измерено</span><br><span class="pill gray">рынок — дособор</span></td>
+          </tr>
+          <tr>
+            <td><b>NFT / токенизация</b></td>
+            <td>наука: 44 (2019) → 2197 (2022); раунды-единороги (OpenSea $13.3B)</td>
+            <td>обороты −95% к 2023–24, оценки схлопнулись; научный пик 2023, затем плато</td>
+            <td><b>хайп/спекуляция:</b> рынок без conversion</td>
+            <td>OpenAlex fulltext</td>
+            <td><span class="pill mid">🟡 наука измерена; обороты — дособор</span></td>
+          </tr>
+          <tr>
+            <td><b>Web3 / DAO-инфраструктура</b></td>
+            <td>наука: 259 (2019) → 1047 (2022) → 2347 (2023); хайп и раунды 2021–22</td>
+            <td>криптозима 2023, DAO-платформы свернулись; темп научного роста падает (×2.4 → ×1.05)</td>
+            <td><b>хайп + регуляторный удар</b></td>
+            <td>OpenAlex fulltext</td>
+            <td><span class="pill mid">🟡</span></td>
+          </tr>
+          <tr class="hl">
+            <td>⭐ <b>Промпт-маркетплейсы</b> / «промпт-инжиниринг как профессия и рынок»</td>
+            <td>наука: «prompt engineering» <b>102 (2021) → 4352 (2023) ≈ ×43</b>; хайп 2022–23 «prompt engineer — новая профессия», маркетплейсы промптов (PromptBase и др.)</td>
+            <td>рынок маркетплейсов промптов не состоялся (продажи и аудитория упали, LLM-вендоры встроили промпты в продукт); «промпт-инженер» не стал отдельной профессией; ⭐ <b>термин живёт в мейнстриме</b> — это НЕ научный провал, а рыночный</td>
+            <td><b>терминологическая инфляция:</b> термин состоялся, рынок умер → метка исхода обязана идти по слою рынка, не по науке</td>
+            <td>OpenAlex: «prompt marketplace» = <b>0 работ</b> (рыночный термин без научного следа)</td>
+            <td><span class="pill mid">🟡 нужна судьба маркетплейсов по слоям</span></td>
+          </tr>
+          <tr>
+            <td><b>BERT-эпоха</b>: pre-trained language models / masked LM / self-supervised (3 термина)</td>
+            <td>на отсечке 2022 выглядят растущими (рост доли, ускорение, абсолюта) — взяты методом коллег в ТОП-выдачу</td>
+            <td>доля класса «языковые модели»: PLM-эпоха <b>87.8% (2022) → 12.9% (2025)</b>; абсолют тоже падает (1515 → 1024)</td>
+            <td><b>вытеснение поколения сменой парадигмы</b> (LLM поглотили задачу; сигнал был настоящим, но исход — провал)</td>
+            <td>EXP-16 коллег (данные OpenAlex, реплицированы)</td>
+            <td><span class="pill ok">✅ измерено (коллеги)</span></td>
+          </tr>
+          <tr class="opt">
+            <td>(опция) <b>Виртуальные инфлюенсеры / AI-аватары</b></td>
+            <td>наука росла 2019→2023 (792 → 2837), хайп CarynAI / Forever Voices (2023)</td>
+            <td>2024–26 стагнация/спад (2706 → 2297 в неполном 2026), ниша без значимого рынка</td>
+            <td>хайп → ниша/стагнация</td>
+            <td>OpenAlex fulltext</td>
+            <td><span class="pill low">🔶 кандидат: без рыночных источников не брать</span></td>
+          </tr>
+          <tr class="opt">
+            <td>(опция) <b>Автономные «агенты в свободном полёте»</b> (AutoGPT / BabyAGI)</td>
+            <td>весна–лето 2023: огромное внимание к «fully autonomous agents»</td>
+            <td>как самостоятельная продуктовая категория провалились (токен-стоимость, ненадёжность); устоялась форма agent-frameworks / tool-use — тренд «переоткрылся» в другом виде</td>
+            <td>обещание → инфраструктура (не полный провал)</td>
+            <td>—</td>
+            <td><span class="pill low">🔶 требует отдельного прогона (HN/GitHub)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==================== PART C ==================== -->
+  <section class="part-c" id="part-c">
+    <h2>🔷 Часть C — методологические маркеры провалов <span class="badge">для ML-фич и метки</span></h2>
+    <ol>
+      <li><b>Внимание ≫ инженерия (метавселенная, NFT).</b> Слой внимания даёт V-образный пик
+          (HN: 873 → 64), если содержания нет; маркер хайпа — пик внимания при отсутствии роста слоя
+          игроков/инженерии. Фича: <code>attention/content ratio</code> + V-форма пика.</li>
+      <li><b>Наука-эхо.</b> Научный ряд продолжает расти после рыночного провала (метавселенная:
+          6269 → 21626). ⚠️ Научная метка в одиночку провал НЕ ловит (совпадает с выводом EXP-16
+          коллег: по форме кривой вытесняемое неотличимо от зарождающегося).</li>
+      <li><b>Терминологическая инфляция (промпт-инжиниринг).</b> Рост термина ×43 и его закрепление
+          в мейнстриме ≠ наличие рынка; для метки исхода нужен слой «продажи/внедрения»
+          (внешний критерий A1–A5).</li>
+      <li><b>Вытеснение поколения (BERT → LLM).</b> До перелома кривые одинаковы; разделяет их
+          «доля в классе-проблеме» (у нас уже есть: S5 / кейс-эталон 012 — независимо переоткрыто
+          коллегами в EXP-16).</li>
+      <li><b>Концентрация 100% = хрупкость (unlearning).</b> Один чистый игрок → «в развитии»,
+          не «состоялся» (по A4-логике методологии A1–A5 экосистема не сложилась).</li>
+    </ol>
+  </section>
+
+  <!-- ==================== PART D ==================== -->
+  <section class="part-d" id="part-d">
+    <h2>🟣 Часть D — статус верификации и следующий шаг</h2>
+    <div class="twrap">
+      <table>
+        <thead><tr><th>Кусок</th><th>Статус</th><th>Что делать</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>A: 6 дефинитных + 1 «в развитии»</td>
+            <td>источники — в <code>ИИ-защита.xlsx</code></td>
+            <td>экспорт в features_table_IT (A1–A5 + наш EScore/adoption/conversion)</td>
+          </tr>
+          <tr>
+            <td>B: метавселенная, NFT, Web3, промпт-маркетплейсы, BERT-эпоха</td>
+            <td>частично измерено (наука, внимание); рыночные исходы — по новостям</td>
+            <td>дособрать исхода по слоям: HN (внимание), GitHub (инженерия), судьба маркетплейсов (рынок)</td>
+          </tr>
+          <tr>
+            <td>B: virtual influencer, AutoGPT-агенты</td>
+            <td>кандидаты без данных</td>
+            <td>прогон HN / GitHub / OpenAlex, потом решение о включении</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 style="margin-top:12px">Следующий шаг</h3>
+    <ol>
+      <li>верифицировать судьбу промпт-маркетплейсов и метавселенной по слоям;</li>
+      <li>для каждого A-кейса реконструировать «что было видно в 2023» (препринты / продукты / регуляторика);</li>
+      <li>собрать единую features_table_IT: парная выборка <b>A (6) + B (5) + «в развитии» (1)</b> —
+          стартовый обучающий пул IT-калибровки;</li>
+      <li>прогнать нашу модель (impact × adoption × conversion) и сверить с критериями A1–A5.</li>
+    </ol>
+  </section>
+
+  <!-- ==================== APPENDIX ==================== -->
+  <section class="part-z" id="appendix">
+    <h2>🧾 Приложение — исходные числа <span class="badge">разведка 15.09.2026</span></h2>
+    <p><b>OpenAlex, полнотекстовый поиск</b> (работы/год):</p>
+    <div class="twrap">
+      <table>
+        <thead><tr><th>Термин</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th><th>2026</th></tr></thead>
+        <tbody>
+          <tr><td>metaverse</td><td>168</td><td>204</td><td>692</td><td>6269</td><td>14232</td><td>16823</td><td>21626</td><td>—</td></tr>
+          <tr><td>NFT (non-fungible token)</td><td>44</td><td>75</td><td>511</td><td>2197</td><td>3517</td><td>2926</td><td>3046</td><td>—</td></tr>
+          <tr><td>web3</td><td>259</td><td>308</td><td>433</td><td>1047</td><td>2347</td><td>2462</td><td>3087</td><td>—</td></tr>
+          <tr><td>prompt engineering</td><td>13</td><td>30</td><td>102</td><td>508</td><td>4352</td><td>11538</td><td>18450</td><td>—</td></tr>
+          <tr><td colspan="9">prompt marketplace — <b>0 работ во всех годах</b> (рыночный термин без научного следа)</td></tr>
+          <tr><td>prompt engineer</td><td>103</td><td>—</td><td>—</td><td>155</td><td>245</td><td>—</td><td>349</td><td>—</td></tr>
+          <tr><td>virtual influencer</td><td>792</td><td>1171</td><td>1671</td><td>2032</td><td>2837</td><td>2706</td><td>3285</td><td>2297*</td></tr>
+        </tbody>
+      </table>
+      <caption>*2026 — неполный год</caption>
+    </div>
+    <p><b>HN Algolia, сюжеты (слой внимания), метавселенная:</b>
+      2020:49 · 2021:517 · 2022:873 · 2023:266 · 2024:64 · 2025:53</p>
+  </section>
+
+  <div class="foot">
+    Документ подготовлен 15.09.2026 · Источники чисел: <code>ИИ-защита.xlsx</code>;
+    OpenAlex (fulltext group_by); HN Algolia; EXP-16 (коллеги).<br>
+    Исходный markdown: <code>IT_calibration/calibration_cases_2023_2026.md</code>
+    · при пересборке исправлены опечатки исходника («ретро-выходка» → «ретро-выборка»,
+    «коснутых» → «исходных», «нашим-у-коллег» → «методом коллег»).
+  </div>
+
+</div>
+</body>
+</html>

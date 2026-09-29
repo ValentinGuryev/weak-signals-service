@@ -1,0 +1,845 @@
+{
+ "direction": "car_t",
+ "name": "CAR-T терапии",
+ "promise_2018": "Kymriah/Yescarta одобрены 2017 — прорыв",
+ "expected": "✅",
+ "signal_terms": "\"chimeric antigen receptor\" AND (T-cell OR T cell) AND therapy",
+ "anchors": {
+  "Kymriah": {
+   "fda_year": 2017,
+   "counts": {
+    "2008": 1,
+    "2011": 1,
+    "2012": 1,
+    "2014": 3,
+    "2015": 1,
+    "2016": 1,
+    "2017": 56,
+    "2018": 151,
+    "2019": 284,
+    "2020": 269,
+    "2021": 303,
+    "2022": 347,
+    "2023": 310,
+    "2024": 337,
+    "2025": 346,
+    "2026": 181
+   }
+  },
+  "Yescarta": {
+   "fda_year": 2017,
+   "counts": {
+    "2011": 2,
+    "2014": 1,
+    "2016": 1,
+    "2017": 29,
+    "2018": 102,
+    "2019": 255,
+    "2020": 267,
+    "2021": 311,
+    "2022": 332,
+    "2023": 419,
+    "2024": 400,
+    "2025": 471,
+    "2026": 264
+   }
+  },
+  "Breyanzi": {
+   "fda_year": 2021,
+   "counts": {
+    "2014": 2,
+    "2018": 6,
+    "2019": 33,
+    "2020": 24,
+    "2021": 69,
+    "2022": 112,
+    "2023": 136,
+    "2024": 155,
+    "2025": 233,
+    "2026": 158
+   }
+  },
+  "Carvykti": {
+   "fda_year": 2022,
+   "counts": {
+    "2020": 4,
+    "2021": 44,
+    "2022": 89,
+    "2023": 130,
+    "2024": 188,
+    "2025": 264,
+    "2026": 236
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2008": 1,
+  "2011": 3,
+  "2012": 1,
+  "2014": 6,
+  "2015": 1,
+  "2016": 2,
+  "2017": 85,
+  "2018": 259,
+  "2019": 572,
+  "2020": 564,
+  "2021": 727,
+  "2022": 880,
+  "2023": 995,
+  "2024": 1080,
+  "2025": 1314,
+  "2026": 839
+ },
+ "signal_counts_by_year": {
+  "2000": 2,
+  "2001": 5,
+  "2002": 1,
+  "2003": 1,
+  "2004": 7,
+  "2005": 8,
+  "2006": 10,
+  "2007": 16,
+  "2008": 17,
+  "2009": 16,
+  "2010": 58,
+  "2011": 61,
+  "2012": 95,
+  "2013": 196,
+  "2014": 259,
+  "2015": 382,
+  "2016": 612,
+  "2017": 719,
+  "2018": 1066,
+  "2019": 1639,
+  "2020": 2041,
+  "2021": 2453,
+  "2022": 2837,
+  "2023": 3985,
+  "2024": 4202,
+  "2025": 5353,
+  "2026": 3822
+ },
+ "corpus_size": 120,
+ "works": [
+  {
+   "id": "https://openalex.org/W2787301955",
+   "title": "Tisagenlecleucel in Children and Young Adults with B-Cell Lymphoblastic Leukemia",
+   "year": 2018,
+   "cited_by": 5791
+  },
+  {
+   "id": "https://openalex.org/W2903062212",
+   "title": "Tisagenlecleucel in Adult Relapsed or Refractory Diffuse Large B-Cell Lymphoma",
+   "year": 2018,
+   "cited_by": 4140
+  },
+  {
+   "id": "https://openalex.org/W2901262057",
+   "title": "Recent advances in CAR T-cell toxicity: Mechanisms, manifestations and management",
+   "year": 2018,
+   "cited_by": 923
+  },
+  {
+   "id": "https://openalex.org/W3111331330",
+   "title": "Current Clinical Applications of In Vivo Gene Therapy with AAVs",
+   "year": 2020,
+   "cited_by": 760
+  },
+  {
+   "id": "https://openalex.org/W3012325124",
+   "title": "Tuning the Antigen Density Requirement for CAR T-cell Activity",
+   "year": 2020,
+   "cited_by": 608
+  },
+  {
+   "id": "https://openalex.org/W3201013983",
+   "title": "Long-term clinical outcomes of tisagenlecleucel in patients with relapsed or refractory aggressive B-cell lymphomas (JULIET): a multicentre, open-label, single-arm, phase 2 study",
+   "year": 2021,
+   "cited_by": 584
+  },
+  {
+   "id": "https://openalex.org/W4200626931",
+   "title": "Tisagenlecleucel in adult relapsed or refractory follicular lymphoma: the phase 2 ELARA trial",
+   "year": 2021,
+   "cited_by": 551
+  },
+  {
+   "id": "https://openalex.org/W4200014243",
+   "title": "Second-Line Tisagenlecleucel or Standard Care in Aggressive B-Cell Lymphoma",
+   "year": 2021,
+   "cited_by": 536
+  },
+  {
+   "id": "https://openalex.org/W2976192812",
+   "title": "Current Progress in CAR-T Cell Therapy for Solid Tumors",
+   "year": 2019,
+   "cited_by": 499
+  },
+  {
+   "id": "https://openalex.org/W3176832074",
+   "title": "CAR-HEMATOTOX: a model for CAR T-cell–related hematologic toxicity in relapsed/refractory large B-cell lymphoma",
+   "year": 2021,
+   "cited_by": 474
+  },
+  {
+   "id": "https://openalex.org/W4376615273",
+   "title": "From bench to bedside: the history and progress of CAR T cell therapy",
+   "year": 2023,
+   "cited_by": 457
+  },
+  {
+   "id": "https://openalex.org/W3095855647",
+   "title": "Real-world evidence of tisagenlecleucel for pediatric acute lymphoblastic leukemia and non-Hodgkin lymphoma",
+   "year": 2020,
+   "cited_by": 450
+  },
+  {
+   "id": "https://openalex.org/W3105850195",
+   "title": "Predictive factors of early progression after CAR T-cell therapy in relapsed/refractory diffuse large B-cell lymphoma",
+   "year": 2020,
+   "cited_by": 422
+  },
+  {
+   "id": "https://openalex.org/W2793787928",
+   "title": "Grading of cytokine release syndrome associated with the CAR T cell therapy tisagenlecleucel",
+   "year": 2018,
+   "cited_by": 412
+  },
+  {
+   "id": "https://openalex.org/W4296685812",
+   "title": "A real-world comparison of tisagenlecleucel and axicabtagene ciloleucel CAR T cells in relapsed or refractory diffuse large B cell lymphoma",
+   "year": 2022,
+   "cited_by": 401
+  },
+  {
+   "id": "https://openalex.org/W2790491347",
+   "title": "A guide to manufacturing CAR T cell therapies",
+   "year": 2018,
+   "cited_by": 390
+  },
+  {
+   "id": "https://openalex.org/W4309411030",
+   "title": "Three-Year Update of Tisagenlecleucel in Pediatric and Young Adult Patients With Relapsed/Refractory Acute Lymphoblastic Leukemia in the ELIANA Trial",
+   "year": 2022,
+   "cited_by": 377
+  },
+  {
+   "id": "https://openalex.org/W2990377810",
+   "title": "Management of adults and children undergoing chimeric antigen receptor T-cell therapy: best practice recommendations of the European Society for Blood and Marrow Transplantation (EBMT) and the Joint Accreditation Committee of ISCT and EBMT (JACIE)",
+   "year": 2019,
+   "cited_by": 364
+  },
+  {
+   "id": "https://openalex.org/W2995487842",
+   "title": "Cardiovascular Events Among Adults Treated With Chimeric Antigen Receptor T-Cells (CAR-T)",
+   "year": 2019,
+   "cited_by": 356
+  },
+  {
+   "id": "https://openalex.org/W2949232578",
+   "title": "Managing the toxicities of CAR T‐cell therapy",
+   "year": 2019,
+   "cited_by": 335
+  },
+  {
+   "id": "https://openalex.org/W2897977935",
+   "title": "FDA Approval Summary: Tisagenlecleucel for Treatment of Patients with Relapsed or Refractory B-cell Precursor Acute Lymphoblastic Leukemia",
+   "year": 2018,
+   "cited_by": 299
+  },
+  {
+   "id": "https://openalex.org/W2940033607",
+   "title": "Real‐World Data for Regulatory Decision Making: Challenges and Possible Solutions for Europe",
+   "year": 2019,
+   "cited_by": 293
+  },
+  {
+   "id": "https://openalex.org/W3113077294",
+   "title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune effector cell-related adverse events",
+   "year": 2020,
+   "cited_by": 277
+  },
+  {
+   "id": "https://openalex.org/W2992389962",
+   "title": "Optimizing Chimeric Antigen Receptor T-Cell Therapy for Adults With Acute Lymphoblastic Leukemia",
+   "year": 2019,
+   "cited_by": 274
+  },
+  {
+   "id": "https://openalex.org/W3048777956",
+   "title": "Hematopoietic recovery in patients receiving chimeric antigen receptor T-cell therapy for hematologic malignancies",
+   "year": 2020,
+   "cited_by": 269
+  },
+  {
+   "id": "https://openalex.org/W4295454080",
+   "title": "Distinct cellular dynamics associated with response to CAR-T therapy for refractory B cell lymphoma",
+   "year": 2022,
+   "cited_by": 268
+  },
+  {
+   "id": "https://openalex.org/W2959588651",
+   "title": "Tisagenlecleucel CAR T-cell therapy in secondary CNS lymphoma",
+   "year": 2019,
+   "cited_by": 238
+  },
+  {
+   "id": "https://openalex.org/W2948047060",
+   "title": "Cost Effectiveness of Chimeric Antigen Receptor T-Cell Therapy in Multiply Relapsed or Refractory Adult Large B-Cell Lymphoma",
+   "year": 2019,
+   "cited_by": 238
+  },
+  {
+   "id": "https://openalex.org/W3106794880",
+   "title": "Taming the beast: CRS and ICANS after CAR T-cell therapy for ALL",
+   "year": 2020,
+   "cited_by": 230
+  },
+  {
+   "id": "https://openalex.org/W2761202053",
+   "title": "Tisagenlecleucel — the first approved CAR-T-cell therapy: implications for payers and policy makers",
+   "year": 2017,
+   "cited_by": 229
+  },
+  {
+   "id": "https://openalex.org/W2891902322",
+   "title": "Clinical Pharmacology of Tisagenlecleucel in B-cell Acute Lymphoblastic Leukemia",
+   "year": 2018,
+   "cited_by": 225
+  },
+  {
+   "id": "https://openalex.org/W3139410613",
+   "title": "Current status and perspective of CAR-T and CAR-NK cell therapy trials in Germany",
+   "year": 2021,
+   "cited_by": 224
+  },
+  {
+   "id": "https://openalex.org/W2937806960",
+   "title": "CAR T-cell therapy for B-cell lymphomas: clinical trial results of available products",
+   "year": 2019,
+   "cited_by": 224
+  },
+  {
+   "id": "https://openalex.org/W4303645565",
+   "title": "The journey of CAR-T therapy in hematological malignancies",
+   "year": 2022,
+   "cited_by": 218
+  },
+  {
+   "id": "https://openalex.org/W4200086437",
+   "title": "Disease Burden Affects Outcomes in Pediatric and Young Adult B-Cell Lymphoblastic Leukemia After Commercial Tisagenlecleucel: A Pediatric Real-World Chimeric Antigen Receptor Consortium Report",
+   "year": 2021,
+   "cited_by": 216
+  },
+  {
+   "id": "https://openalex.org/W4221125141",
+   "title": "GLA/DRST real-world outcome analysis of CAR-T cell therapies for large B-cell lymphoma in Germany",
+   "year": 2022,
+   "cited_by": 215
+  },
+  {
+   "id": "https://openalex.org/W3211722911",
+   "title": "Blinatumomab Nonresponse and High-Disease Burden Are Associated With Inferior Outcomes After CD19-CAR for B-ALL",
+   "year": 2021,
+   "cited_by": 213
+  },
+  {
+   "id": "https://openalex.org/W3194859364",
+   "title": "Modified EASIX predicts severe cytokine release syndrome and neurotoxicity after chimeric antigen receptor T cells",
+   "year": 2021,
+   "cited_by": 212
+  },
+  {
+   "id": "https://openalex.org/W2985081230",
+   "title": "CAR T-cell therapy is effective for CD19-dim B-lymphoblastic leukemia but is impacted by prior blinatumomab therapy",
+   "year": 2019,
+   "cited_by": 206
+  },
+  {
+   "id": "https://openalex.org/W3185183014",
+   "title": "Efficacy and safety of CD19 ‐directed CAR‐T cell therapies in patients with relapsed/refractory aggressive B‐cell lymphomas: Observations from the JULIET , ZUMA ‐1, and TRANSCEND trials",
+   "year": 2021,
+   "cited_by": 205
+  },
+  {
+   "id": "https://openalex.org/W2773804840",
+   "title": "Axicabtagene Ciloleucel CAR T-Cell Therapy in Refractory Large B-Cell Lymphoma",
+   "year": 2017,
+   "cited_by": 6071
+  },
+  {
+   "id": "https://openalex.org/W2903225254",
+   "title": "Long-term safety and activity of axicabtagene ciloleucel in refractory large B-cell lymphoma (ZUMA-1): a single-arm, multicentre, phase 1–2 trial",
+   "year": 2018,
+   "cited_by": 2302
+  },
+  {
+   "id": "https://openalex.org/W4200201081",
+   "title": "Axicabtagene Ciloleucel as Second-Line Therapy for Large B-Cell Lymphoma",
+   "year": 2021,
+   "cited_by": 1599
+  },
+  {
+   "id": "https://openalex.org/W3024978145",
+   "title": "Standard-of-Care Axicabtagene Ciloleucel for Relapsed or Refractory Large B-Cell Lymphoma: Results From the US Lymphoma CAR T Consortium",
+   "year": 2020,
+   "cited_by": 808
+  },
+  {
+   "id": "https://openalex.org/W4200248834",
+   "title": "Axicabtagene ciloleucel in relapsed or refractory indolent non-Hodgkin lymphoma (ZUMA-5): a single-arm, multicentre, phase 2 trial",
+   "year": 2021,
+   "cited_by": 645
+  },
+  {
+   "id": "https://openalex.org/W3089967262",
+   "title": "Characteristics of anti-CD19 CAR T cell infusion products associated with efficacy and toxicity in patients with large B cell lymphomas",
+   "year": 2020,
+   "cited_by": 609
+  },
+  {
+   "id": "https://openalex.org/W3092023747",
+   "title": "Tumor burden, inflammation, and product attributes determine outcomes of axicabtagene ciloleucel in large B-cell lymphoma",
+   "year": 2020,
+   "cited_by": 480
+  },
+  {
+   "id": "https://openalex.org/W4379375856",
+   "title": "Survival with Axicabtagene Ciloleucel in Large B-Cell Lymphoma",
+   "year": 2023,
+   "cited_by": 449
+  },
+  {
+   "id": "https://openalex.org/W3043369050",
+   "title": "Axicabtagene Ciloleucel in the Non-Trial Setting: Outcomes and Correlates of Response, Resistance, and Toxicity",
+   "year": 2020,
+   "cited_by": 349
+  },
+  {
+   "id": "https://openalex.org/W2998859344",
+   "title": "Safety and feasibility of anti-CD19 CAR T cells with fully human binding domains in patients with B-cell lymphoma",
+   "year": 2020,
+   "cited_by": 323
+  },
+  {
+   "id": "https://openalex.org/W3092522602",
+   "title": "Long-Term Follow-Up of Anti-CD19 Chimeric Antigen Receptor T-Cell Therapy",
+   "year": 2020,
+   "cited_by": 316
+  },
+  {
+   "id": "https://openalex.org/W3123125599",
+   "title": "Tumor interferon signaling and suppressive myeloid cells are associated with CAR T-cell failure in large B-cell lymphoma",
+   "year": 2021,
+   "cited_by": 305
+  },
+  {
+   "id": "https://openalex.org/W4221044986",
+   "title": "Axicabtagene ciloleucel as first-line therapy in high-risk large B-cell lymphoma: the phase 2 ZUMA-12 trial",
+   "year": 2022,
+   "cited_by": 289
+  },
+  {
+   "id": "https://openalex.org/W4400423444",
+   "title": "A systematic review and meta-analysis of nonrelapse mortality after CAR T cell therapy",
+   "year": 2024,
+   "cited_by": 277
+  },
+  {
+   "id": "https://openalex.org/W3017589029",
+   "title": "Immune reconstitution and associated infections following axicabtagene ciloleucel in relapsed or refractory large B-cell lymphoma",
+   "year": 2020,
+   "cited_by": 275
+  },
+  {
+   "id": "https://openalex.org/W3044532926",
+   "title": "High metabolic tumor volume is associated with decreased efficacy of axicabtagene ciloleucel in large B-cell lymphoma",
+   "year": 2020,
+   "cited_by": 250
+  },
+  {
+   "id": "https://openalex.org/W4321607142",
+   "title": "5-Year Follow-Up Supports Curative Potential of Axicabtagene Ciloleucel in Refractory Large B-Cell Lymphoma (ZUMA-1)",
+   "year": 2023,
+   "cited_by": 241
+  },
+  {
+   "id": "https://openalex.org/W3037322433",
+   "title": "Bridging therapy prior to axicabtagene ciloleucel for relapsed/refractory large B-cell lymphoma",
+   "year": 2020,
+   "cited_by": 231
+  },
+  {
+   "id": "https://openalex.org/W2899694188",
+   "title": "FDA Approval Summary: Axicabtagene Ciloleucel for Relapsed or Refractory Large B-cell Lymphoma",
+   "year": 2018,
+   "cited_by": 226
+  },
+  {
+   "id": "https://openalex.org/W3186991133",
+   "title": "Prophylactic corticosteroid use in patients receiving axicabtagene ciloleucel for large B‐cell lymphoma",
+   "year": 2021,
+   "cited_by": 218
+  },
+  {
+   "id": "https://openalex.org/W3082855561",
+   "title": "Lisocabtagene maraleucel for patients with relapsed or refractory large B-cell lymphomas (TRANSCEND NHL 001): a multicentre seamless design study",
+   "year": 2020,
+   "cited_by": 2412
+  },
+  {
+   "id": "https://openalex.org/W4283023614",
+   "title": "Lisocabtagene maraleucel versus standard of care with salvage chemotherapy followed by autologous stem cell transplantation as second-line treatment in patients with relapsed or refractory large B-cell lymphoma (TRANSFORM): results from an interim analysis of an open-label, randomised, phase 3 trial",
+   "year": 2022,
+   "cited_by": 792
+  },
+  {
+   "id": "https://openalex.org/W4312094698",
+   "title": "Lisocabtagene maraleucel as second-line therapy for large B-cell lymphoma: primary analysis of the phase 3 TRANSFORM study",
+   "year": 2022,
+   "cited_by": 392
+  },
+  {
+   "id": "https://openalex.org/W4285098878",
+   "title": "Lisocabtagene maraleucel as second-line therapy in adults with relapsed or refractory large B-cell lymphoma who were not intended for haematopoietic stem cell transplantation (PILOT): an open-label, phase 2 study",
+   "year": 2022,
+   "cited_by": 240
+  },
+  {
+   "id": "https://openalex.org/W4328049399",
+   "title": "Diagnosis and Treatment of Chronic Lymphocytic Leukemia",
+   "year": 2023,
+   "cited_by": 236
+  },
+  {
+   "id": "https://openalex.org/W4379513699",
+   "title": "Lisocabtagene maraleucel in chronic lymphocytic leukaemia and small lymphocytic lymphoma (TRANSCEND CLL 004): a multicentre, open-label, single-arm, phase 1–2 study",
+   "year": 2023,
+   "cited_by": 208
+  },
+  {
+   "id": "https://openalex.org/W4223521732",
+   "title": "Impact of Manufacturing Procedures on CAR T Cell Functionality",
+   "year": 2022,
+   "cited_by": 199
+  },
+  {
+   "id": "https://openalex.org/W4387996251",
+   "title": "Two-year follow-up of lisocabtagene maraleucel in relapsed or refractory large B-cell lymphoma in TRANSCEND NHL 001",
+   "year": 2023,
+   "cited_by": 187
+  },
+  {
+   "id": "https://openalex.org/W2892326722",
+   "title": "Updated safety and long term clinical outcomes in TRANSCEND NHL 001, pivotal trial of lisocabtagene maraleucel (JCAR017) in R/R aggressive NHL.",
+   "year": 2018,
+   "cited_by": 168
+  },
+  {
+   "id": "https://openalex.org/W3216371911",
+   "title": "Impact of TP53 Genomic Alterations in Large B-Cell Lymphoma Treated With CD19-Chimeric Antigen Receptor T-Cell Therapy",
+   "year": 2021,
+   "cited_by": 152
+  },
+  {
+   "id": "https://openalex.org/W4399285742",
+   "title": "Lisocabtagene maraleucel in follicular lymphoma: the phase 2 TRANSCEND FL study",
+   "year": 2024,
+   "cited_by": 143
+  },
+  {
+   "id": "https://openalex.org/W2970351372",
+   "title": "Anti-CD19 CAR T-Cell Therapy for B-Cell Non-Hodgkin Lymphoma",
+   "year": 2019,
+   "cited_by": 143
+  },
+  {
+   "id": "https://openalex.org/W2809013389",
+   "title": "Translating anti-CD19 CAR T-cell therapy into clinical practice for relapsed/refractory diffuse large B-cell lymphoma",
+   "year": 2018,
+   "cited_by": 134
+  },
+  {
+   "id": "https://openalex.org/W3210008249",
+   "title": "Phase 1 TRANSCEND CLL 004 study of lisocabtagene maraleucel in patients with relapsed/refractory CLL or SLL",
+   "year": 2021,
+   "cited_by": 125
+  },
+  {
+   "id": "https://openalex.org/W4281393714",
+   "title": "Immunogenicity of CAR-T Cell Therapeutics: Evidence, Mechanism and Mitigation",
+   "year": 2022,
+   "cited_by": 118
+  },
+  {
+   "id": "https://openalex.org/W2987075075",
+   "title": "Pivotal Safety and Efficacy Results from Transcend NHL 001, a Multicenter Phase 1 Study of Lisocabtagene Maraleucel (liso-cel) in Relapsed/Refractory (R/R) Large B Cell Lymphomas",
+   "year": 2019,
+   "cited_by": 116
+  },
+  {
+   "id": "https://openalex.org/W4200149492",
+   "title": "CAR T-cell therapy for B-cell lymphoma",
+   "year": 2021,
+   "cited_by": 112
+  },
+  {
+   "id": "https://openalex.org/W4389527245",
+   "title": "Lisocabtagene Maraleucel in Relapsed/Refractory Mantle Cell Lymphoma: Primary Analysis of the Mantle Cell Lymphoma Cohort From TRANSCEND NHL 001, a Phase I Multicenter Seamless Design Study",
+   "year": 2023,
+   "cited_by": 111
+  },
+  {
+   "id": "https://openalex.org/W3031546681",
+   "title": "CAR T-Cell Therapy for B-Cell non-Hodgkin Lymphoma and Chronic Lymphocytic Leukemia: Clinical Trials and Real-World Experiences",
+   "year": 2020,
+   "cited_by": 101
+  },
+  {
+   "id": "https://openalex.org/W3154997741",
+   "title": "Perspectives on outpatient administration of CAR-T cell therapy in aggressive B-cell lymphoma and acute lymphoblastic leukemia",
+   "year": 2021,
+   "cited_by": 98
+  },
+  {
+   "id": "https://openalex.org/W3212349863",
+   "title": "Lisocabtagene Maraleucel (liso-cel), a CD19-Directed Chimeric Antigen Receptor (CAR) T Cell Therapy, Versus Standard of Care (SOC) with Salvage Chemotherapy (CT) Followed By Autologous Stem Cell Transplantation (ASCT) As Second-Line (2L) Treatment in Patients (Pts) with Relapsed or Refractory (R/R) Large B-Cell Lymphoma (LBCL): Results from the Randomized Phase 3 Transform Study",
+   "year": 2021,
+   "cited_by": 91
+  },
+  {
+   "id": "https://openalex.org/W2997214466",
+   "title": "Antitumor Potency of an Anti-CD19 Chimeric Antigen Receptor T-Cell Therapy, Lisocabtagene Maraleucel in Combination With Ibrutinib or Acalabrutinib",
+   "year": 2020,
+   "cited_by": 79
+  },
+  {
+   "id": "https://openalex.org/W4362696055",
+   "title": "Overcoming Barriers to Referral for Chimeric Antigen Receptor T Cell Therapy in Patients with Relapsed/Refractory Diffuse Large B Cell Lymphoma",
+   "year": 2023,
+   "cited_by": 78
+  },
+  {
+   "id": "https://openalex.org/W4323031412",
+   "title": "CD19 CAR antigen engagement mechanisms and affinity tuning",
+   "year": 2023,
+   "cited_by": 78
+  },
+  {
+   "id": "https://openalex.org/W2953936851",
+   "title": "Understanding and Managing Large B Cell Lymphoma Relapses after Chimeric Antigen Receptor T Cell Therapy",
+   "year": 2019,
+   "cited_by": 77
+  },
+  {
+   "id": "https://openalex.org/W3095832065",
+   "title": "Safety and Preliminary Efficacy in Patients with Relapsed/Refractory Mantle Cell Lymphoma Receiving Lisocabtagene Maraleucel in Transcend NHL 001",
+   "year": 2020,
+   "cited_by": 66
+  },
+  {
+   "id": "https://openalex.org/W4406178427",
+   "title": "T cell malignancies after CAR T cell therapy in the DESCAR-T registry",
+   "year": 2025,
+   "cited_by": 58
+  },
+  {
+   "id": "https://openalex.org/W3215188061",
+   "title": "Two-Year Follow-up of Transcend NHL 001, a Multicenter Phase 1 Study of Lisocabtagene Maraleucel (liso-cel) in Relapsed or Refractory (R/R) Large B-Cell Lymphomas (LBCL)",
+   "year": 2021,
+   "cited_by": 58
+  },
+  {
+   "id": "https://openalex.org/W3197223132",
+   "title": "Matching-adjusted indirect treatment comparison of liso-cel versus axi-cel in relapsed or refractory large B cell lymphoma",
+   "year": 2021,
+   "cited_by": 58
+  },
+  {
+   "id": "https://openalex.org/W3166894073",
+   "title": "Population Cellular Kinetics of Lisocabtagene Maraleucel, an Autologous CD19-Directed Chimeric Antigen Receptor T-Cell Product, in Patients with Relapsed/Refractory Large B-Cell Lymphoma",
+   "year": 2021,
+   "cited_by": 54
+  },
+  {
+   "id": "https://openalex.org/W3095298252",
+   "title": "Transcend CLL 004: Phase 1 Cohort of Lisocabtagene Maraleucel (liso-cel) in Combination with Ibrutinib for Patients with Relapsed/Refractory (R/R) Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)",
+   "year": 2020,
+   "cited_by": 54
+  },
+  {
+   "id": "https://openalex.org/W4223425583",
+   "title": "Safety and feasibility of outpatient chimeric antigen receptor (CAR) T-cell therapy: experience from a tertiary care center",
+   "year": 2022,
+   "cited_by": 51
+  },
+  {
+   "id": "https://openalex.org/W4280496528",
+   "title": "New Directions for Mantle Cell Lymphoma in 2022",
+   "year": 2022,
+   "cited_by": 50
+  },
+  {
+   "id": "https://openalex.org/W4282003070",
+   "title": "A phase 1 study of ADI-001: Anti-CD20 CAR-engineered allogeneic gamma delta (γδ) T cells in adults with B-cell malignancies.",
+   "year": 2022,
+   "cited_by": 48
+  },
+  {
+   "id": "https://openalex.org/W3184235241",
+   "title": "Efficacy and Safety of CAR-T Cell Products Axicabtagene Ciloleucel, Tisagenlecleucel, and Lisocabtagene Maraleucel for the Treatment of Hematologic Malignancies: A Systematic Review and Meta-Analysis",
+   "year": 2021,
+   "cited_by": 48
+  },
+  {
+   "id": "https://openalex.org/W4393304844",
+   "title": "Anti-CD19 Chimeric Antigen Receptor T-Cell Therapy for Richter Transformation: An International, Multicenter, Retrospective Study",
+   "year": 2024,
+   "cited_by": 46
+  },
+  {
+   "id": "https://openalex.org/W4407678513",
+   "title": "Outcome correlates of approved CD19-targeted CAR T cells for large B cell lymphoma",
+   "year": 2025,
+   "cited_by": 41
+  },
+  {
+   "id": "https://openalex.org/W4412080560",
+   "title": "Lisocabtagene Maraleucel Versus Standard of Care for Second-Line Relapsed/Refractory Large B-Cell Lymphoma: 3-Year Follow-Up From the Randomized, Phase III TRANSFORM Study",
+   "year": 2025,
+   "cited_by": 39
+  },
+  {
+   "id": "https://openalex.org/W3176532045",
+   "title": "Ciltacabtagene autoleucel, a B-cell maturation antigen-directed chimeric antigen receptor T-cell therapy in patients with relapsed or refractory multiple myeloma (CARTITUDE-1): a phase 1b/2 open-label study",
+   "year": 2021,
+   "cited_by": 1737
+  },
+  {
+   "id": "https://openalex.org/W4379375986",
+   "title": "Cilta-cel or Standard Care in Lenalidomide-Refractory Multiple Myeloma",
+   "year": 2023,
+   "cited_by": 804
+  },
+  {
+   "id": "https://openalex.org/W4281714381",
+   "title": "Ciltacabtagene Autoleucel, an Anti–B-cell Maturation Antigen Chimeric Antigen Receptor T-Cell Therapy, for Relapsed/Refractory Multiple Myeloma: CARTITUDE-1 2-Year Follow-Up",
+   "year": 2022,
+   "cited_by": 660
+  },
+  {
+   "id": "https://openalex.org/W4213437837",
+   "title": "Incidence and management of CAR-T neurotoxicity in patients with multiple myeloma treated with ciltacabtagene autoleucel in CARTITUDE studies",
+   "year": 2022,
+   "cited_by": 299
+  },
+  {
+   "id": "https://openalex.org/W4200287748",
+   "title": "Neurocognitive and hypokinetic movement disorder with features of parkinsonism after BCMA-targeting CAR-T cell therapy",
+   "year": 2021,
+   "cited_by": 276
+  },
+  {
+   "id": "https://openalex.org/W4403114117",
+   "title": "Safety and efficacy of standard-of-care ciltacabtagene autoleucel for relapsed/refractory multiple myeloma",
+   "year": 2024,
+   "cited_by": 142
+  },
+  {
+   "id": "https://openalex.org/W4385417009",
+   "title": "The CAR-HEMATOTOX score as a prognostic model of toxicity and response in patients receiving BCMA-directed CAR-T for relapsed/refractory multiple myeloma",
+   "year": 2023,
+   "cited_by": 132
+  },
+  {
+   "id": "https://openalex.org/W4410997767",
+   "title": "Long-Term (≥5-Year) Remission and Survival After Treatment With Ciltacabtagene Autoleucel in CARTITUDE-1 Patients With Relapsed/Refractory Multiple Myeloma",
+   "year": 2025,
+   "cited_by": 117
+  },
+  {
+   "id": "https://openalex.org/W4379282037",
+   "title": "CARTITUDE-1 final results: Phase 1b/2 study of ciltacabtagene autoleucel in heavily pretreated patients with relapsed/refractory multiple myeloma.",
+   "year": 2023,
+   "cited_by": 117
+  },
+  {
+   "id": "https://openalex.org/W4294219068",
+   "title": "Ciltacabtagene autoleucel: The second anti-BCMA CAR T-cell therapeutic armamentarium of relapsed or refractory multiple myeloma",
+   "year": 2022,
+   "cited_by": 102
+  },
+  {
+   "id": "https://openalex.org/W4389230006",
+   "title": "CAR+ T-Cell Lymphoma Post Ciltacabtagene Autoleucel Therapy for Relapsed Refractory Multiple Myeloma",
+   "year": 2023,
+   "cited_by": 99
+  },
+  {
+   "id": "https://openalex.org/W4399558071",
+   "title": "Indolent CD4+ CAR T-Cell Lymphoma after Cilta-cel CAR T-Cell Therapy",
+   "year": 2024,
+   "cited_by": 95
+  },
+  {
+   "id": "https://openalex.org/W3097912792",
+   "title": "CARTITUDE-1: Phase 1b/2 Study of Ciltacabtagene Autoleucel, a B-Cell Maturation Antigen-Directed Chimeric Antigen Receptor T Cell Therapy, in Relapsed/Refractory Multiple Myeloma",
+   "year": 2020,
+   "cited_by": 94
+  },
+  {
+   "id": "https://openalex.org/W4384925575",
+   "title": "Chimeric Antigen Receptor T-Cell and Bispecific Antibody Therapy in Multiple Myeloma: Moving Into the Future",
+   "year": 2023,
+   "cited_by": 83
+  },
+  {
+   "id": "https://openalex.org/W4395073712",
+   "title": "Long-term remission and survival in patients with relapsed or refractory multiple myeloma after treatment with LCAR-B38M CAR T cells: 5-year follow-up of the LEGEND-2 trial",
+   "year": 2024,
+   "cited_by": 82
+  },
+  {
+   "id": "https://openalex.org/W4307027657",
+   "title": "Phase II, Open-Label Study of Ciltacabtagene Autoleucel, an Anti–B-Cell Maturation Antigen Chimeric Antigen Receptor–T-Cell Therapy, in Chinese Patients With Relapsed/Refractory Multiple Myeloma (CARTIFAN-1)",
+   "year": 2022,
+   "cited_by": 77
+  },
+  {
+   "id": "https://openalex.org/W4399068186",
+   "title": "Consensus guidelines and recommendations for the management and response assessment of chimeric antigen receptor T-cell therapy in clinical practice for relapsed and refractory multiple myeloma: a report from the International Myeloma Working Group Immunotherapy Committee",
+   "year": 2024,
+   "cited_by": 73
+  },
+  {
+   "id": "https://openalex.org/W4384818659",
+   "title": "Chemotherapy-induced reversal of ciltacabtagene autoleucel–associated movement and neurocognitive toxicity",
+   "year": 2023,
+   "cited_by": 68
+  },
+  {
+   "id": "https://openalex.org/W3210549609",
+   "title": "Updated Results from CARTITUDE-1: Phase 1b/2Study of Ciltacabtagene Autoleucel, a B-Cell Maturation Antigen-Directed Chimeric Antigen Receptor T Cell Therapy, in Patients With Relapsed/Refractory Multiple Myeloma",
+   "year": 2021,
+   "cited_by": 66
+  },
+  {
+   "id": "https://openalex.org/W4403472361",
+   "title": "Immune effector cell-associated enterocolitis following chimeric antigen receptor T-cell therapy in multiple myeloma",
+   "year": 2024,
+   "cited_by": 65
+  },
+  {
+   "id": "https://openalex.org/W4401791524",
+   "title": "Single domain antibody: Development and application in biotechnology and biopharma",
+   "year": 2024,
+   "cited_by": 55
+  },
+  {
+   "id": "https://openalex.org/W4396789596",
+   "title": "Antigen escape as a shared mechanism of resistance to BCMA-directed therapies in multiple myeloma",
+   "year": 2024,
+   "cited_by": 54
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+[
+ {
+  "work_id": "https://openalex.org/W1994994475",
+  "title": "Deposition of in-plane textured MgO on amorphous Si3N4 subst",
+  "year_pub": 1997,
+  "incoming": 40,
+  "phases": {
+   "first_cite": 1999,
+   "peak_year": 2003,
+   "development": [
+    2002
+   ],
+   "established": 2003,
+   "series": {
+    "1999": 1,
+    "2000": 1,
+    "2001": 3,
+    "2002": 3,
+    "2003": 4,
+    "2004": 4,
+    "2005": 1,
+    "2006": 2,
+    "2007": 3,
+    "2008": 2,
+    "2009": 5,
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2013": 2,
+    "2014": 2,
+    "2016": 2,
+    "2022": 1,
+    "2023": 1
+   }
+  },
+  "counts_peak": "2016"
+ },
+ {
+  "work_id": "https://openalex.org/W2016446504",
+  "title": "Biaxially Textured IBAD-MgO Templates for YBCO-Coated Conduc",
+  "year_pub": 2004,
+  "incoming": 25,
+  "phases": {
+   "first_cite": 2006,
+   "peak_year": 2008,
+   "development": [
+    2008
+   ],
+   "established": 2008,
+   "series": {
+    "2006": 2,
+    "2007": 3,
+    "2008": 3,
+    "2009": 3,
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2013": 1,
+    "2014": 2,
+    "2015": 1,
+    "2016": 2,
+    "2017": 1,
+    "2020": 1,
+    "2023": 2,
+    "2025": 1
+   }
+  },
+  "counts_peak": "2016"
+ },
+ {
+  "work_id": "https://openalex.org/W2153565123",
+  "title": "High-T/sub c/ coated conductors-performance of meter-long YB",
+  "year_pub": 1999,
+  "incoming": 17,
+  "phases": {
+   "first_cite": 1999,
+   "peak_year": 2001,
+   "development": [],
+   "established": 2001,
+   "series": {
+    "1999": 1,
+    "2000": 3,
+    "2001": 7,
+    "2003": 2,
+    "2004": 1,
+    "2006": 1,
+    "2023": 1,
+    "2026": 1
+   }
+  },
+  "counts_peak": "2013"
+ },
+ {
+  "work_id": "https://openalex.org/W2113945631",
+  "title": "Inclined-substrate deposition of biaxially textured magnesiu",
+  "year_pub": 2002,
+  "incoming": 17,
+  "phases": {
+   "first_cite": 2002,
+   "peak_year": 2002,
+   "development": [],
+   "established": 2002,
+   "series": {
+    "2002": 3,
+    "2003": 3,
+    "2004": 3,
+    "2005": 3,
+    "2006": 3,
+    "2020": 2
+   }
+  },
+  "counts_peak": "2024"
+ },
+ {
+  "work_id": "https://openalex.org/W2047920046",
+  "title": "Pulsed laser deposition of YBCO films on ISD MgO buffered me",
+  "year_pub": 2003,
+  "incoming": 15,
+  "phases": {
+   "first_cite": 2003,
+   "peak_year": 2003,
+   "development": [],
+   "established": 2003,
+   "series": {
+    "2003": 2,
+    "2004": 5,
+    "2005": 1,
+    "2006": 4,
+    "2007": 1,
+    "2020": 1,
+    "2023": 1
+   }
+  },
+  "counts_peak": "2020"
+ },
+ {
+  "work_id": "https://openalex.org/W1976284368",
+  "title": "Irradiation-free, columnar defects comprised of self-assembl",
+  "year_pub": 2005,
+  "incoming": 15,
+  "phases": {
+   "first_cite": 2006,
+   "peak_year": 2006,
+   "development": [],
+   "established": 2006,
+   "series": {
+    "2006": 4,
+    "2007": 1,
+    "2008": 1,
+    "2009": 1,
+    "2010": 3,
+    "2011": 1,
+    "2012": 1,
+    "2014": 1,
+    "2017": 1,
+    "2021": 1
+   }
+  },
+  "counts_peak": "2014"
+ },
+ {
+  "work_id": "https://openalex.org/W2063898708",
+  "title": "High critical current YBCO coated conductors based on IBAD M",
+  "year_pub": 2004,
+  "incoming": 13,
+  "phases": {
+   "first_cite": 2005,
+   "peak_year": 2006,
+   "development": [],
+   "established": 2006,
+   "series": {
+    "2005": 1,
+    "2006": 1,
+    "2007": 4,
+    "2008": 1,
+    "2010": 1,
+    "2012": 2,
+    "2016": 1,
+    "2023": 2
+   }
+  },
+  "counts_peak": "2014"
+ },
+ {
+  "work_id": "https://openalex.org/W4244798011",
+  "title": "Inclined Substrate Deposition by Evaporation of Magnesium Ox",
+  "year_pub": 1999,
+  "incoming": 12,
+  "phases": {
+   "first_cite": 2005,
+   "peak_year": 2005,
+   "development": [],
+   "established": 2005,
+   "series": {
+    "2005": 2,
+    "2006": 2,
+    "2011": 1,
+    "2012": 3,
+    "2016": 1,
+    "2020": 1,
+    "2023": 2
+   }
+  },
+  "counts_peak": "2019"
+ },
+ {
+  "work_id": "https://openalex.org/W2075271732",
+  "title": "Reel-to-reel preparation of ion-beam assisted deposition (IB",
+  "year_pub": 2004,
+  "incoming": 12,
+  "phases": {
+   "first_cite": 2005,
+   "peak_year": 2005,
+   "development": [],
+   "established": 2005,
+   "series": {
+    "2005": 3,
+    "2008": 1,
+    "2009": 2,
+    "2013": 1,
+    "2015": 1,
+    "2016": 2,
+    "2017": 1,
+    "2022": 1
+   }
+  },
+  "counts_peak": "2025"
+ },
+ {
+  "work_id": "https://openalex.org/W1972684426",
+  "title": "High critical current density of YBCO coated conductors fabr",
+  "year_pub": 2004,
+  "incoming": 11,
+  "phases": {
+   "first_cite": 2004,
+   "peak_year": 2004,
+   "development": [],
+   "established": 2004,
+   "series": {
+    "2004": 1,
+    "2005": 3,
+    "2006": 2,
+    "2007": 1,
+    "2009": 1,
+    "2010": 1,
+    "2016": 1,
+    "2020": 1
+   }
+  },
+  "counts_peak": "2020"
+ },
+ {
+  "aggregated": {
+   "series": {
+    "1999": 2,
+    "2000": 4,
+    "2001": 10,
+    "2002": 6,
+    "2003": 11,
+    "2004": 14,
+    "2005": 14,
+    "2006": 21,
+    "2007": 13,
+    "2008": 8,
+    "2009": 12,
+    "2010": 7,
+    "2011": 4,
+    "2012": 8,
+    "2013": 4,
+    "2014": 5,
+    "2015": 2,
+    "2016": 9,
+    "2017": 3,
+    "2020": 6,
+    "2021": 1,
+    "2022": 2,
+    "2023": 9,
+    "2025": 1,
+    "2026": 1
+   },
+   "phases": {
+    "first_cite": 1999,
+    "peak_year": 2005,
+    "development": [
+     2002,
+     2004,
+     2005
+    ],
+    "established": 2005,
+    "series": {
+     "1999": 2,
+     "2000": 4,
+     "2001": 10,
+     "2002": 6,
+     "2003": 11,
+     "2004": 14,
+     "2005": 14,
+     "2006": 21,
+     "2007": 13,
+     "2008": 8,
+     "2009": 12,
+     "2010": 7,
+     "2011": 4,
+     "2012": 8,
+     "2013": 4,
+     "2014": 5,
+     "2015": 2,
+     "2016": 9,
+     "2017": 3,
+     "2020": 6,
+     "2021": 1,
+     "2022": 2,
+     "2023": 9,
+     "2025": 1,
+     "2026": 1
+    }
+   }
+  }
+ }
+]

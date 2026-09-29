@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- Данные и артефакты (вес; лежат вне репозитория) ---
+*.pdf
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.onnx
+*.xlsx
+!data/official_docs/*.xlsx
+data/raw/
+webapp/data/
+experiment/runs/
+
+# --- Секреты и служебное ---
+.env
+*.token
+*token*.txt
+*.pem
+id_rsa*
+
+# --- Служебное ---
+.tmp/
+*.log
+.DS_Store

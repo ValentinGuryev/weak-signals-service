@@ -1,0 +1,332 @@
+{
+ "jtwpa": [
+  {
+   "work_id": "https://openalex.org/W1803064406",
+   "title": "A near–quantum-limited Josephson traveling-wave parametric amplifier",
+   "year_pub": 2015,
+   "incoming": 117,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2024,
+    "development": [
+     2020,
+     2021,
+     2022
+    ],
+    "established": 2024,
+    "series": {
+     "2016": 6,
+     "2020": 4,
+     "2023": 18,
+     "2019": 6,
+     "2022": 18,
+     "2024": 16,
+     "2025": 21,
+     "2021": 10,
+     "2017": 7,
+     "2018": 2,
+     "2015": 1,
+     "2026": 8
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2333807864",
+   "title": "Resonant Phase Matching of Josephson Junction Traveling Wave Parametri",
+   "year_pub": 2014,
+   "incoming": 84,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2014,
+    "peak_year": 2023,
+    "development": [
+     2016,
+     2020,
+     2021
+    ],
+    "established": 2023,
+    "series": {
+     "2015": 5,
+     "2016": 5,
+     "2020": 4,
+     "2023": 14,
+     "2019": 3,
+     "2022": 13,
+     "2024": 9,
+     "2025": 12,
+     "2021": 5,
+     "2017": 7,
+     "2026": 3,
+     "2018": 1,
+     "2014": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1779879375",
+   "title": "Traveling wave parametric amplifier with Josephson junctions using min",
+   "year_pub": 2015,
+   "incoming": 63,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2023,
+    "development": [
+     2018,
+     2020,
+     2022
+    ],
+    "established": 2023,
+    "series": {
+     "2016": 3,
+     "2020": 4,
+     "2019": 4,
+     "2022": 9,
+     "2023": 10,
+     "2024": 7,
+     "2025": 7,
+     "2021": 6,
+     "2017": 6,
+     "2026": 4,
+     "2015": 2,
+     "2018": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2186752526",
+   "title": "Low-noise kinetic inductance traveling-wave amplifier using three-wave",
+   "year_pub": 2016,
+   "incoming": 54,
+   "cls": "B",
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2023,
+    "development": [
+     2018,
+     2020,
+     2021
+    ],
+    "established": 2023,
+    "series": {
+     "2016": 2,
+     "2020": 5,
+     "2022": 10,
+     "2023": 9,
+     "2024": 7,
+     "2019": 3,
+     "2021": 4,
+     "2025": 7,
+     "2017": 4,
+     "2018": 2,
+     "2026": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2519440683",
+   "title": "Josephson Traveling-Wave Parametric Amplifier with Three-Wave Mixing",
+   "year_pub": 2016,
+   "incoming": 53,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2017,
+    "peak_year": 2023,
+    "development": [
+     2020,
+     2021,
+     2022
+    ],
+    "established": 2023,
+    "series": {
+     "2020": 3,
+     "2023": 12,
+     "2019": 3,
+     "2022": 9,
+     "2024": 8,
+     "2021": 5,
+     "2025": 7,
+     "2017": 3,
+     "2026": 2,
+     "2018": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3038320937",
+   "title": "Three-Wave Mixing Kinetic Inductance Traveling-Wave Amplifier with Nea",
+   "year_pub": 2021,
+   "incoming": 50,
+   "cls": "B",
+   "phases": {
+    "first_cite": 2020,
+    "peak_year": 2024,
+    "development": [
+     2022
+    ],
+    "established": 2024,
+    "series": {
+     "2023": 10,
+     "2022": 10,
+     "2024": 9,
+     "2025": 13,
+     "2021": 2,
+     "2026": 5,
+     "2020": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2963980980",
+   "title": "Photonic-Crystal Josephson Traveling-Wave Parametric Amplifier",
+   "year_pub": 2020,
+   "incoming": 43,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2021,
+    "peak_year": 2024,
+    "development": [
+     2023,
+     2024
+    ],
+    "established": 2024,
+    "series": {
+     "2023": 8,
+     "2022": 6,
+     "2024": 8,
+     "2025": 12,
+     "2021": 5,
+     "2026": 4
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2269546064",
+   "title": "Traveling-Wave Parametric Amplifier Based on a Chain of Coupled Asymme",
+   "year_pub": 2015,
+   "incoming": 34,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2023,
+    "development": [
+     2018,
+     2020,
+     2021,
+     2022
+    ],
+    "established": 2023,
+    "series": {
+     "2016": 2,
+     "2020": 1,
+     "2019": 3,
+     "2022": 5,
+     "2023": 5,
+     "2024": 6,
+     "2021": 2,
+     "2025": 5,
+     "2017": 3,
+     "2026": 1,
+     "2018": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2996204582",
+   "title": "Capturing Complex Behavior in Josephson Traveling-Wave Parametric Ampl",
+   "year_pub": 2020,
+   "incoming": 32,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2021,
+    "peak_year": 2023,
+    "development": [
+     2023
+    ],
+    "established": 2023,
+    "series": {
+     "2022": 9,
+     "2023": 5,
+     "2024": 8,
+     "2021": 1,
+     "2025": 6,
+     "2026": 3
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2974494358",
+   "title": "Flux-Driven Josephson Traveling-Wave Parametric Amplifier",
+   "year_pub": 2019,
+   "incoming": 28,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2020,
+    "peak_year": 2023,
+    "development": [
+     2022
+    ],
+    "established": 2023,
+    "series": {
+     "2020": 1,
+     "2023": 10,
+     "2022": 5,
+     "2024": 5,
+     "2021": 3,
+     "2025": 4
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4225552451",
+   "title": "Floquet-Mode Traveling-Wave Parametric Amplifiers",
+   "year_pub": 2022,
+   "incoming": 26,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2022,
+    "peak_year": 2024,
+    "development": [
+     2024
+    ],
+    "established": 2024,
+    "series": {
+     "2023": 6,
+     "2022": 5,
+     "2024": 4,
+     "2025": 9,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2507438926",
+   "title": "Squeezing and quantum state engineering with Josephson travelling wave",
+   "year_pub": 2017,
+   "incoming": 25,
+   "cls": "A",
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2024,
+    "development": [
+     2020,
+     2022,
+     2024
+    ],
+    "established": 2024,
+    "series": {
+     "2020": 2,
+     "2023": 3,
+     "2022": 4,
+     "2024": 2,
+     "2019": 3,
+     "2021": 2,
+     "2025": 7,
+     "2026": 1,
+     "2016": 1
+    }
+   }
+  }
+ ]
+}

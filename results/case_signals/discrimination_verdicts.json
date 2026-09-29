@@ -1,0 +1,146 @@
+[
+ {
+  "file": "(1991)!!! Iijima, Tanabe, Ikeno, Kohno — First IBAD-YSZ Biaxially Aligned.pdf",
+  "r": {
+   "verdict": "mixed",
+   "n": 32,
+   "eng": 0,
+   "eff": 0,
+   "neu": 32,
+   "eng_p": 0.0,
+   "eff_p": 0.0,
+   "neu_p": 100.0
+  },
+  "head_prod": false,
+  "head_fund": true,
+  "verdict": "fundamental"
+ },
+ {
+  "file": "(1992)!!! Iijima - In-plane aligned YBCO thin films on polycrystalline metallic substrates.pdf",
+  "r": {
+   "verdict": "mixed",
+   "n": 100,
+   "eng": 5,
+   "eff": 7,
+   "neu": 88,
+   "eng_p": 5.0,
+   "eff_p": 7.0,
+   "neu_p": 88.0
+  },
+  "head_prod": false,
+  "head_fund": true,
+  "verdict": "fundamental"
+ },
+ {
+  "file": "(1992)!!! Iijima, Tanabe, Kohno — Biaxially Aligned YSZ ISS Proceedings.pdf",
+  "r": {
+   "verdict": "mixed",
+   "n": 35,
+   "eng": 1,
+   "eff": 1,
+   "neu": 33,
+   "eng_p": 2.857142857142857,
+   "eff_p": 2.857142857142857,
+   "neu_p": 94.28571428571429
+  },
+  "head_prod": true,
+  "head_fund": true,
+  "verdict": "mixed"
+ },
+ {
+  "file": "(1997)!! Wang - In-plane textured MgO on Si3N4 by IBAD vs YSZ.pdf",
+  "r": {
+   "verdict": "fundamental",
+   "n": 92,
+   "eng": 2,
+   "eff": 7,
+   "neu": 83,
+   "eng_p": 2.1739130434782608,
+   "eff_p": 7.608695652173913,
+   "neu_p": 90.21739130434783
+  },
+  "head_prod": false,
+  "head_fund": true,
+  "verdict": "fundamental"
+ },
+ {
+  "file": "(1997)!!! Knierim et al. — Influence of Process Parameters on Growth of YSZ IBAD.pdf",
+  "r": {
+   "verdict": "fundamental",
+   "n": 104,
+   "eng": 13,
+   "eff": 20,
+   "neu": 71,
+   "eng_p": 12.5,
+   "eff_p": 19.23076923076923,
+   "neu_p": 68.26923076923077
+  },
+  "head_prod": false,
+  "head_fund": false,
+  "verdict": "fundamental"
+ },
+ {
+  "file": "(2018)! Guglya, Lyubchenko — IBAD Book Chapter.pdf",
+  "r": {
+   "verdict": "mixed",
+   "n": 280,
+   "eng": 21,
+   "eff": 22,
+   "neu": 237,
+   "eng_p": 7.5,
+   "eff_p": 7.857142857142857,
+   "neu_p": 84.64285714285714
+  },
+  "head_prod": false,
+  "head_fund": false,
+  "verdict": "mixed"
+ },
+ {
+  "file": "(2023)!! Yu - Preparation of MgO Self-Epitaxial Films for YBCO Coated Conductors.pdf",
+  "r": {
+   "verdict": "mixed",
+   "n": 280,
+   "eng": 9,
+   "eff": 11,
+   "neu": 260,
+   "eng_p": 3.2142857142857144,
+   "eff_p": 3.9285714285714284,
+   "neu_p": 92.85714285714286
+  },
+  "head_prod": true,
+  "head_fund": false,
+  "verdict": "applied"
+ },
+ {
+  "file": "(2025)!! Wu, Liu, Li — CeO2 Buffer IBAD-MgO Optimization.pdf",
+  "r": {
+   "verdict": "mixed",
+   "n": 195,
+   "eng": 21,
+   "eff": 19,
+   "neu": 155,
+   "eng_p": 10.76923076923077,
+   "eff_p": 9.743589743589743,
+   "neu_p": 79.48717948717949
+  },
+  "head_prod": true,
+  "head_fund": false,
+  "verdict": "applied"
+ },
+ {
+  "file": "(2026)!!! Baruah, Popov, Haenisch, Matias et al. — 30mm Wide IBAD-MgO KC4.pdf",
+  "r": {
+   "verdict": "applied",
+   "n": 95,
+   "eng": 28,
+   "eff": 6,
+   "neu": 61,
+   "eng_p": 29.473684210526315,
+   "eff_p": 6.315789473684211,
+   "neu_p": 64.21052631578948
+  },
+  "head_prod": true,
+  "head_fund": false,
+  "verdict": "applied"
+ }
+]

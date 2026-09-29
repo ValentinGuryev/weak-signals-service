@@ -1,0 +1,423 @@
+{
+ "fluxpump": [
+  {
+   "work_id": "https://openalex.org/W2159314799",
+   "title": "Flux Pump for HTS Magnets",
+   "year_pub": 2010,
+   "incoming": 133,
+   "phases": {
+    "first_cite": 2012,
+    "peak_year": 2021,
+    "development": [
+     2014,
+     2015,
+     2019,
+     2021
+    ],
+    "established": 2021,
+    "series": {
+     "2014": 1,
+     "2015": 5,
+     "2017": 8,
+     "2019": 11,
+     "2018": 11,
+     "2020": 14,
+     "2016": 13,
+     "2023": 14,
+     "2024": 11,
+     "2022": 14,
+     "2025": 11,
+     "2013": 2,
+     "2012": 1,
+     "2021": 12,
+     "2026": 5
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1945918776",
+   "title": "Mechanism of a high-Tc superconducting flux pump: Using alternati",
+   "year_pub": 2015,
+   "incoming": 102,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2022,
+    "development": [
+     2018,
+     2019,
+     2022
+    ],
+    "established": 2022,
+    "series": {
+     "2018": 6,
+     "2017": 5,
+     "2019": 10,
+     "2020": 12,
+     "2016": 7,
+     "2023": 15,
+     "2021": 10,
+     "2024": 10,
+     "2022": 12,
+     "2025": 10,
+     "2026": 5
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2002924177",
+   "title": "Dynamic resistance of a high- Tc superconducting flux pump",
+   "year_pub": 2014,
+   "incoming": 102,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2021,
+    "development": [
+     2017,
+     2019,
+     2021
+    ],
+    "established": 2021,
+    "series": {
+     "2018": 11,
+     "2015": 4,
+     "2017": 7,
+     "2019": 8,
+     "2020": 12,
+     "2016": 13,
+     "2023": 12,
+     "2021": 11,
+     "2024": 5,
+     "2022": 11,
+     "2025": 6,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2196789402",
+   "title": "Impact of flux gap upon dynamic resistance of a rotating HTS flux",
+   "year_pub": 2015,
+   "incoming": 78,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2020,
+    "development": [
+     2019
+    ],
+    "established": 2020,
+    "series": {
+     "2018": 5,
+     "2019": 9,
+     "2020": 12,
+     "2016": 11,
+     "2017": 4,
+     "2021": 12,
+     "2025": 3,
+     "2023": 7,
+     "2022": 7,
+     "2024": 5,
+     "2026": 3
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2026699008",
+   "title": "A novel high temperature superconducting magnetic flux pump for M",
+   "year_pub": 2010,
+   "incoming": 62,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2019,
+    "development": [
+     2017
+    ],
+    "established": 2019,
+    "series": {
+     "2017": 5,
+     "2019": 6,
+     "2016": 4,
+     "2021": 6,
+     "2024": 6,
+     "2018": 6,
+     "2020": 6,
+     "2015": 2,
+     "2022": 6,
+     "2023": 4,
+     "2025": 7,
+     "2026": 4
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2091810803",
+   "title": "Characterization of Current Stability in an HTS NMR System Energi",
+   "year_pub": 2013,
+   "incoming": 55,
+   "phases": {
+    "first_cite": 2014,
+    "peak_year": 2022,
+    "development": [
+     2017,
+     2019,
+     2022
+    ],
+    "established": 2022,
+    "series": {
+     "2014": 1,
+     "2015": 3,
+     "2019": 4,
+     "2018": 6,
+     "2016": 6,
+     "2021": 8,
+     "2022": 4,
+     "2020": 5,
+     "2023": 8,
+     "2024": 2,
+     "2025": 4,
+     "2026": 3,
+     "2017": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2486040671",
+   "title": "An HTS flux pump operated by directly driving a superconductor in",
+   "year_pub": 2016,
+   "incoming": 53,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2024,
+    "development": [
+     2019,
+     2021
+    ],
+    "established": 2024,
+    "series": {
+     "2017": 3,
+     "2019": 2,
+     "2016": 2,
+     "2018": 5,
+     "2024": 4,
+     "2023": 9,
+     "2020": 5,
+     "2022": 7,
+     "2021": 2,
+     "2025": 8,
+     "2026": 6
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2561509180",
+   "title": "An Overview of Flux Pumps for HTS Coils",
+   "year_pub": 2016,
+   "incoming": 53,
+   "phases": {
+    "first_cite": 2018,
+    "peak_year": 2023,
+    "development": [
+     2021,
+     2023
+    ],
+    "established": 2023,
+    "series": {
+     "2018": 5,
+     "2023": 10,
+     "2024": 7,
+     "2020": 9,
+     "2022": 8,
+     "2019": 3,
+     "2021": 1,
+     "2025": 5,
+     "2026": 5
+    }
+   }
+  }
+ ],
+ "joint": [
+  {
+   "work_id": "https://openalex.org/W2782261308",
+   "title": "A superconducting joint for GdBa2Cu3O7−δ-coated conductors",
+   "year_pub": 2014,
+   "incoming": 41,
+   "phases": {
+    "first_cite": 2014,
+    "peak_year": 2018,
+    "development": [
+     2016,
+     2017,
+     2018
+    ],
+    "established": 2018,
+    "series": {
+     "2017": 4,
+     "2018": 5,
+     "2022": 2,
+     "2019": 7,
+     "2021": 3,
+     "2025": 5,
+     "2024": 4,
+     "2023": 2,
+     "2026": 3,
+     "2016": 1,
+     "2020": 3,
+     "2015": 1,
+     "2014": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2144105513",
+   "title": "Development of a superconducting joint between a GdBa2Cu3O7-δ-coa",
+   "year_pub": 2015,
+   "incoming": 37,
+   "phases": {
+    "first_cite": 2017,
+    "peak_year": 2018,
+    "development": [],
+    "established": 2018,
+    "series": {
+     "2018": 5,
+     "2017": 3,
+     "2022": 4,
+     "2019": 7,
+     "2021": 3,
+     "2025": 5,
+     "2024": 3,
+     "2020": 3,
+     "2026": 4
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2757093827",
+   "title": "Fabrication, microstructure and persistent current measurement of",
+   "year_pub": 2017,
+   "incoming": 34,
+   "phases": {
+    "first_cite": 2018,
+    "peak_year": 2018,
+    "development": [],
+    "established": 2018,
+    "series": {
+     "2018": 3,
+     "2022": 4,
+     "2019": 8,
+     "2021": 2,
+     "2025": 5,
+     "2024": 3,
+     "2020": 5,
+     "2023": 1,
+     "2026": 3
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2007125419",
+   "title": "Laser drilling: enhancing superconducting joint of GdBa2Cu3O7 −δc",
+   "year_pub": 2014,
+   "incoming": 19,
+   "phases": {
+    "first_cite": 2017,
+    "peak_year": 2018,
+    "development": [],
+    "established": 2018,
+    "series": {
+     "2018": 3,
+     "2019": 4,
+     "2024": 2,
+     "2025": 3,
+     "2020": 2,
+     "2017": 2,
+     "2026": 1,
+     "2022": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2884356123",
+   "title": "Superconducting joint of REBCO wires for MRI magnet",
+   "year_pub": 2018,
+   "incoming": 19,
+   "phases": {
+    "first_cite": 2019,
+    "peak_year": 2019,
+    "development": [],
+    "established": 2019,
+    "series": {
+     "2022": 1,
+     "2019": 6,
+     "2021": 1,
+     "2025": 2,
+     "2024": 3,
+     "2020": 2,
+     "2023": 1,
+     "2026": 3
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4225153933",
+   "title": "An efficient approach for superconducting joint of YBCO coated co",
+   "year_pub": 2022,
+   "incoming": 13,
+   "phases": {
+    "first_cite": 2023,
+    "peak_year": 2026,
+    "development": [
+     2026
+    ],
+    "established": 2026,
+    "series": {
+     "2025": 6,
+     "2024": 2,
+     "2026": 3,
+     "2023": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3199054045",
+   "title": "Development of a persistent-mode NMR magnet with superconducting ",
+   "year_pub": 2021,
+   "incoming": 11,
+   "phases": {
+    "first_cite": 2022,
+    "peak_year": 2026,
+    "development": [
+     2025
+    ],
+    "established": 2026,
+    "series": {
+     "2025": 3,
+     "2024": 2,
+     "2023": 1,
+     "2022": 3,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2904389836",
+   "title": "High I c superconducting joint between Bi2223 tapes",
+   "year_pub": 2018,
+   "incoming": 9,
+   "phases": {
+    "first_cite": 2020,
+    "peak_year": 2023,
+    "development": [
+     2023
+    ],
+    "established": 2023,
+    "series": {
+     "2022": 3,
+     "2021": 1,
+     "2025": 2,
+     "2023": 1,
+     "2026": 1,
+     "2020": 1
+    }
+   }
+  }
+ ]
+}

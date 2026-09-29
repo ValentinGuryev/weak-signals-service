@@ -1,0 +1,801 @@
+{
+ "direction": "aso",
+ "name": "ASO (антисмысловые олигонуклеотиды)",
+ "promise_2018": "нишевой успех Spinraza",
+ "expected": "🔶",
+ "signal_terms": "\"antisense oligonucleotide\" AND (therapy OR therapeutic)",
+ "anchors": {
+  "Spinraza": {
+   "fda_year": 2016,
+   "counts": {
+    "2003": 1,
+    "2004": 1,
+    "2008": 3,
+    "2012": 3,
+    "2016": 16,
+    "2017": 98,
+    "2018": 182,
+    "2019": 277,
+    "2020": 286,
+    "2021": 239,
+    "2022": 250,
+    "2023": 268,
+    "2024": 266,
+    "2025": 284,
+    "2026": 195
+   }
+  },
+  "Exondys": {
+   "fda_year": 2016,
+   "counts": {
+    "2011": 1,
+    "2012": 2,
+    "2013": 8,
+    "2014": 11,
+    "2015": 12,
+    "2016": 35,
+    "2017": 47,
+    "2018": 50,
+    "2019": 30,
+    "2020": 23,
+    "2021": 22,
+    "2022": 21,
+    "2023": 20,
+    "2024": 13,
+    "2025": 24,
+    "2026": 27
+   }
+  },
+  "Amondys": {
+   "fda_year": 2021,
+   "counts": {
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2021": 14,
+    "2022": 10,
+    "2023": 6,
+    "2024": 8,
+    "2025": 12,
+    "2026": 14
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2003": 1,
+  "2004": 1,
+  "2008": 3,
+  "2011": 1,
+  "2012": 5,
+  "2013": 8,
+  "2014": 11,
+  "2015": 12,
+  "2016": 51,
+  "2017": 145,
+  "2018": 233,
+  "2019": 308,
+  "2020": 310,
+  "2021": 275,
+  "2022": 281,
+  "2023": 294,
+  "2024": 287,
+  "2025": 320,
+  "2026": 236
+ },
+ "signal_counts_by_year": {
+  "2000": 172,
+  "2001": 154,
+  "2002": 170,
+  "2003": 235,
+  "2004": 291,
+  "2005": 223,
+  "2006": 239,
+  "2007": 213,
+  "2008": 209,
+  "2009": 213,
+  "2010": 203,
+  "2011": 241,
+  "2012": 267,
+  "2013": 302,
+  "2014": 256,
+  "2015": 327,
+  "2016": 318,
+  "2017": 345,
+  "2018": 395,
+  "2019": 437,
+  "2020": 525,
+  "2021": 566,
+  "2022": 568,
+  "2023": 732,
+  "2024": 736,
+  "2025": 1211,
+  "2026": 1078
+ },
+ "corpus_size": 114,
+ "works": [
+  {
+   "id": "https://openalex.org/W2765483614",
+   "title": "Nusinersen versus Sham Control in Infantile-Onset Spinal Muscular Atrophy",
+   "year": 2017,
+   "cited_by": 2338
+  },
+  {
+   "id": "https://openalex.org/W2789114047",
+   "title": "Nusinersen versus Sham Control in Later-Onset Spinal Muscular Atrophy",
+   "year": 2018,
+   "cited_by": 1456
+  },
+  {
+   "id": "https://openalex.org/W2560202024",
+   "title": "Treatment of infantile-onset spinal muscular atrophy with nusinersen: a phase 2, open-label, dose-escalation study",
+   "year": 2016,
+   "cited_by": 1037
+  },
+  {
+   "id": "https://openalex.org/W3137153690",
+   "title": "Antisense technology: an overview and prospectus",
+   "year": 2021,
+   "cited_by": 752
+  },
+  {
+   "id": "https://openalex.org/W2972356268",
+   "title": "Nusinersen initiated in infants during the presymptomatic stage of spinal muscular atrophy: Interim efficacy and safety results from the Phase 2 NURTURE study",
+   "year": 2019,
+   "cited_by": 642
+  },
+  {
+   "id": "https://openalex.org/W2300951885",
+   "title": "Results from a phase 1 study of nusinersen (ISIS-SMN Rx ) in children with spinal muscular atrophy",
+   "year": 2016,
+   "cited_by": 612
+  },
+  {
+   "id": "https://openalex.org/W2961133941",
+   "title": "Antisense Oligonucleotide Therapies for Neurodegenerative Diseases",
+   "year": 2019,
+   "cited_by": 357
+  },
+  {
+   "id": "https://openalex.org/W3011851030",
+   "title": "Nusinersen in adults with 5q spinal muscular atrophy: a non-interventional, multicentre, observational cohort study",
+   "year": 2020,
+   "cited_by": 353
+  },
+  {
+   "id": "https://openalex.org/W2590705890",
+   "title": "Nusinersen: First Global Approval",
+   "year": 2017,
+   "cited_by": 296
+  },
+  {
+   "id": "https://openalex.org/W2940033607",
+   "title": "Real‐World Data for Regulatory Decision Making: Challenges and Possible Solutions for Europe",
+   "year": 2019,
+   "cited_by": 293
+  },
+  {
+   "id": "https://openalex.org/W3160334825",
+   "title": "Five-Year Extension Results of the Phase 1 START Trial of Onasemnogene Abeparvovec in Spinal Muscular Atrophy",
+   "year": 2021,
+   "cited_by": 289
+  },
+  {
+   "id": "https://openalex.org/W2942374408",
+   "title": "Nusinersen in later-onset spinal muscular atrophy",
+   "year": 2019,
+   "cited_by": 264
+  },
+  {
+   "id": "https://openalex.org/W2787482106",
+   "title": "Advances in therapy for spinal muscular atrophy: promises and challenges",
+   "year": 2018,
+   "cited_by": 248
+  },
+  {
+   "id": "https://openalex.org/W2588486271",
+   "title": "Nusinersen, an antisense oligonucleotide drug for spinal muscular atrophy",
+   "year": 2017,
+   "cited_by": 247
+  },
+  {
+   "id": "https://openalex.org/W2977837642",
+   "title": "Safety and Treatment Effects of Nusinersen in Longstanding Adult 5q-SMA Type 3 – A Prospective Observational Study",
+   "year": 2019,
+   "cited_by": 221
+  },
+  {
+   "id": "https://openalex.org/W2939958603",
+   "title": "Neurofilament as a potential biomarker for spinal muscular atrophy",
+   "year": 2019,
+   "cited_by": 209
+  },
+  {
+   "id": "https://openalex.org/W2324878797",
+   "title": "Intrathecal Injections in Children With Spinal Muscular Atrophy",
+   "year": 2016,
+   "cited_by": 203
+  },
+  {
+   "id": "https://openalex.org/W2978447867",
+   "title": "Age-dependent SMN expression in disease-relevant tissue and implications for SMA treatment",
+   "year": 2019,
+   "cited_by": 197
+  },
+  {
+   "id": "https://openalex.org/W2595650684",
+   "title": "FDA Approval of Nusinersen for Spinal Muscular Atrophy Makes 2016 the Year of Splice Modulating Oligonucleotides",
+   "year": 2017,
+   "cited_by": 195
+  },
+  {
+   "id": "https://openalex.org/W3084730147",
+   "title": "Nusinersen safety and effects on motor function in adult spinal muscular atrophy type 2 and 3",
+   "year": 2020,
+   "cited_by": 192
+  },
+  {
+   "id": "https://openalex.org/W2978123250",
+   "title": "One Year of Newborn Screening for SMA – Results of a German Pilot Project",
+   "year": 2019,
+   "cited_by": 191
+  },
+  {
+   "id": "https://openalex.org/W2890315635",
+   "title": "Nusinersen treatment of spinal muscular atrophy: current knowledge and existing gaps",
+   "year": 2018,
+   "cited_by": 183
+  },
+  {
+   "id": "https://openalex.org/W2593574576",
+   "title": "Oligonucleotide therapies for disorders of the nervous system",
+   "year": 2017,
+   "cited_by": 181
+  },
+  {
+   "id": "https://openalex.org/W3206999035",
+   "title": "Motor function in type 2 and 3 SMA patients treated with Nusinersen: a critical review and meta-analysis",
+   "year": 2021,
+   "cited_by": 179
+  },
+  {
+   "id": "https://openalex.org/W2750790091",
+   "title": "Nusinersen for the treatment of spinal muscular atrophy",
+   "year": 2017,
+   "cited_by": 175
+  },
+  {
+   "id": "https://openalex.org/W2612305870",
+   "title": "How the discovery of ISS-N1 led to the first medical therapy for spinal muscular atrophy",
+   "year": 2017,
+   "cited_by": 174
+  },
+  {
+   "id": "https://openalex.org/W2587538450",
+   "title": "ISS-N1 makes the first FDA-approved drug for spinal muscular atrophy",
+   "year": 2017,
+   "cited_by": 174
+  },
+  {
+   "id": "https://openalex.org/W3124511546",
+   "title": "Spinal Muscular Atrophy: Mutations, Testing, and Clinical Relevance",
+   "year": 2021,
+   "cited_by": 172
+  },
+  {
+   "id": "https://openalex.org/W4309030216",
+   "title": "Nano drug delivery systems for antisense oligonucleotides (ASO) therapeutics",
+   "year": 2022,
+   "cited_by": 170
+  },
+  {
+   "id": "https://openalex.org/W3001054030",
+   "title": "Overturning the Paradigm of Spinal Muscular Atrophy as Just a Motor Neuron Disease",
+   "year": 2020,
+   "cited_by": 167
+  },
+  {
+   "id": "https://openalex.org/W2943941783",
+   "title": "Nusinersen: A Novel Antisense Oligonucleotide for the Treatment of Spinal Muscular Atrophy",
+   "year": 2019,
+   "cited_by": 163
+  },
+  {
+   "id": "https://openalex.org/W2945865866",
+   "title": "NFL is a marker of treatment response in children with SMA treated with nusinersen",
+   "year": 2019,
+   "cited_by": 160
+  },
+  {
+   "id": "https://openalex.org/W3041342782",
+   "title": "New Treatments in Spinal Muscular Atrophy: Positive Results and New Challenges",
+   "year": 2020,
+   "cited_by": 158
+  },
+  {
+   "id": "https://openalex.org/W2764194659",
+   "title": "Pilot study of population-based newborn screening for spinal muscular atrophy in New York state",
+   "year": 2017,
+   "cited_by": 155
+  },
+  {
+   "id": "https://openalex.org/W4385278403",
+   "title": "Spinal Muscular Atrophy: The Past, Present, and Future of Diagnosis and Treatment",
+   "year": 2023,
+   "cited_by": 154
+  },
+  {
+   "id": "https://openalex.org/W2802644471",
+   "title": "Evaluation of Children with SMA Type 1 Under Treatment with Nusinersen within the Expanded Access Program in Germany",
+   "year": 2018,
+   "cited_by": 149
+  },
+  {
+   "id": "https://openalex.org/W2910420119",
+   "title": "SMArtCARE - A platform to collect real-life outcome data of patients with spinal muscular atrophy",
+   "year": 2019,
+   "cited_by": 142
+  },
+  {
+   "id": "https://openalex.org/W4361255733",
+   "title": "Base editing rescue of spinal muscular atrophy in cells and in mice",
+   "year": 2023,
+   "cited_by": 141
+  },
+  {
+   "id": "https://openalex.org/W4308425595",
+   "title": "Advances and limitations for the treatment of spinal muscular atrophy",
+   "year": 2022,
+   "cited_by": 138
+  },
+  {
+   "id": "https://openalex.org/W2809192712",
+   "title": "Mechanism of Splicing Regulation of Spinal Muscular Atrophy Genes",
+   "year": 2018,
+   "cited_by": 138
+  },
+  {
+   "id": "https://openalex.org/W1533447420",
+   "title": "Eteplirsen for the treatment of Duchenne muscular dystrophy",
+   "year": 2013,
+   "cited_by": 815
+  },
+  {
+   "id": "https://openalex.org/W2234725241",
+   "title": "Longitudinal effect of eteplirsen versus historical control on ambulation in D uchenne muscular dystrophy",
+   "year": 2015,
+   "cited_by": 510
+  },
+  {
+   "id": "https://openalex.org/W2593956993",
+   "title": "Eteplirsen in the treatment of Duchenne muscular dystrophy",
+   "year": 2017,
+   "cited_by": 496
+  },
+  {
+   "id": "https://openalex.org/W2587479628",
+   "title": "FDA Approves Eteplirsen for Duchenne Muscular Dystrophy: The Next Chapter in the Eteplirsen Saga",
+   "year": 2016,
+   "cited_by": 363
+  },
+  {
+   "id": "https://openalex.org/W2800737181",
+   "title": "Eteplirsen treatment for Duchenne muscular dystrophy",
+   "year": 2018,
+   "cited_by": 232
+  },
+  {
+   "id": "https://openalex.org/W2548654043",
+   "title": "Eteplirsen: First Global Approval",
+   "year": 2016,
+   "cited_by": 230
+  },
+  {
+   "id": "https://openalex.org/W2076120862",
+   "title": "Dystromirs as Serum Biomarkers for Monitoring the Disease Severity in Duchenne Muscular Dystrophy",
+   "year": 2013,
+   "cited_by": 153
+  },
+  {
+   "id": "https://openalex.org/W4214596965",
+   "title": "Adverse Drug Reactions and Toxicity of the Food and Drug Administration–Approved Antisense Oligonucleotide Drugs",
+   "year": 2022,
+   "cited_by": 132
+  },
+  {
+   "id": "https://openalex.org/W2806798700",
+   "title": "Exon-skipping advances for Duchenne muscular dystrophy",
+   "year": 2018,
+   "cited_by": 126
+  },
+  {
+   "id": "https://openalex.org/W2562698917",
+   "title": "Exon skipping: a first in class strategy for Duchenne muscular dystrophy",
+   "year": 2016,
+   "cited_by": 126
+  },
+  {
+   "id": "https://openalex.org/W3171683053",
+   "title": "Open-Label Evaluation of Eteplirsen in Patients with Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping: PROMOVI Trial",
+   "year": 2021,
+   "cited_by": 121
+  },
+  {
+   "id": "https://openalex.org/W4214717665",
+   "title": "Absorption, Distribution, Metabolism, and Excretion of US Food and Drug Administration–Approved Antisense Oligonucleotide Drugs",
+   "year": 2022,
+   "cited_by": 108
+  },
+  {
+   "id": "https://openalex.org/W4379384846",
+   "title": "The potential role and mechanism of circRNA/miRNA axis in cholesterol synthesis",
+   "year": 2023,
+   "cited_by": 107
+  },
+  {
+   "id": "https://openalex.org/W2081872244",
+   "title": "Restoration of the Dystrophin-associated Glycoprotein Complex After Exon Skipping Therapy in Duchenne Muscular Dystrophy",
+   "year": 2011,
+   "cited_by": 105
+  },
+  {
+   "id": "https://openalex.org/W2781785051",
+   "title": "Skipping Multiple Exons to Treat DMD—Promises and Challenges",
+   "year": 2018,
+   "cited_by": 100
+  },
+  {
+   "id": "https://openalex.org/W2920898182",
+   "title": "Eteplirsen Treatment Attenuates Respiratory Decline in Ambulatory and Non-Ambulatory Patients with Duchenne Muscular Dystrophy",
+   "year": 2019,
+   "cited_by": 98
+  },
+  {
+   "id": "https://openalex.org/W3031070702",
+   "title": "Optimization of antisense-mediated exon skipping for Duchenne muscular dystrophy",
+   "year": 2020,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W1998398326",
+   "title": "What Can We Learn From Clinical Trials of Exon Skipping for DMD?",
+   "year": 2014,
+   "cited_by": 91
+  },
+  {
+   "id": "https://openalex.org/W2907199792",
+   "title": "Restoring Dystrophin Expression in Duchenne Muscular Dystrophy: Current Status of Therapeutic Approaches",
+   "year": 2019,
+   "cited_by": 90
+  },
+  {
+   "id": "https://openalex.org/W2620355703",
+   "title": "Respiratory involvement in neuromuscular disorders",
+   "year": 2017,
+   "cited_by": 90
+  },
+  {
+   "id": "https://openalex.org/W3194893531",
+   "title": "Deliver the promise: RNAs as a new class of molecular entities for therapy and vaccination",
+   "year": 2021,
+   "cited_by": 89
+  },
+  {
+   "id": "https://openalex.org/W2741955929",
+   "title": "Quantitative Antisense Screening and Optimization for Exon 51 Skipping in Duchenne Muscular Dystrophy",
+   "year": 2017,
+   "cited_by": 88
+  },
+  {
+   "id": "https://openalex.org/W2954082563",
+   "title": "Long-term treatment with eteplirsen in nonambulatory patients with Duchenne muscular dystrophy",
+   "year": 2019,
+   "cited_by": 85
+  },
+  {
+   "id": "https://openalex.org/W3097395965",
+   "title": "Current and emerging therapies for Duchenne muscular dystrophy and spinal muscular atrophy",
+   "year": 2020,
+   "cited_by": 81
+  },
+  {
+   "id": "https://openalex.org/W3043754956",
+   "title": "Muscle and cardiac therapeutic strategies for Duchenne muscular dystrophy: past, present, and future",
+   "year": 2020,
+   "cited_by": 79
+  },
+  {
+   "id": "https://openalex.org/W2780045000",
+   "title": "Long-Term Pulmonary Function in Duchenne Muscular Dystrophy: Comparison of Eteplirsen-Treated Patients to Natural History",
+   "year": 2017,
+   "cited_by": 70
+  },
+  {
+   "id": "https://openalex.org/W2554491985",
+   "title": "Eteplirsen therapy for Duchenne muscular dystrophy: skipping to the front of the line",
+   "year": 2016,
+   "cited_by": 68
+  },
+  {
+   "id": "https://openalex.org/W2560408974",
+   "title": "Eteplirsen Approved for Duchenne Muscular Dystrophy: The FDA Faces a Difficult Choice",
+   "year": 2016,
+   "cited_by": 68
+  },
+  {
+   "id": "https://openalex.org/W3118286213",
+   "title": "Developing DMD therapeutics: a review of the effectiveness of small molecules, stop-codon readthrough, dystrophin gene replacement, and exon-skipping therapies",
+   "year": 2021,
+   "cited_by": 67
+  },
+  {
+   "id": "https://openalex.org/W2889644405",
+   "title": "Analysis of extracellular mRNA in human urine reveals splice variant biomarkers of muscular dystrophies",
+   "year": 2018,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W3188390717",
+   "title": "An open science pathway for drug marketing authorization—Registered drug approval",
+   "year": 2021,
+   "cited_by": 60
+  },
+  {
+   "id": "https://openalex.org/W2905428362",
+   "title": "A Sequel to the Eteplirsen Saga: Eteplirsen Is Approved in the United States but Was Not Approved in Europe",
+   "year": 2018,
+   "cited_by": 60
+  },
+  {
+   "id": "https://openalex.org/W2889267042",
+   "title": "An Overview of Recent Advances and Clinical Applications of Exon Skipping and Splice Modulation for Muscular Dystrophy and Various Genetic Diseases",
+   "year": 2018,
+   "cited_by": 58
+  },
+  {
+   "id": "https://openalex.org/W2075373823",
+   "title": "Pharmacological prospects in the treatment of Duchenne muscular dystrophy",
+   "year": 2013,
+   "cited_by": 57
+  },
+  {
+   "id": "https://openalex.org/W2765136948",
+   "title": "Making sense of antisense oligonucleotides: A narrative review",
+   "year": 2017,
+   "cited_by": 55
+  },
+  {
+   "id": "https://openalex.org/W3213032771",
+   "title": "Pharmacology and toxicology of eteplirsen and SRP-5051 for DMD exon 51 skipping: an update",
+   "year": 2021,
+   "cited_by": 54
+  },
+  {
+   "id": "https://openalex.org/W3128547784",
+   "title": "Comparison of Long-term Ambulatory Function in Patients with Duchenne Muscular Dystrophy Treated with Eteplirsen and Matched Natural History Controls",
+   "year": 2021,
+   "cited_by": 54
+  },
+  {
+   "id": "https://openalex.org/W3193541681",
+   "title": "A Combined Prospective and Retrospective Comparison of Long-Term Functional Outcomes Suggests Delayed Loss of Ambulation and Pulmonary Decline with Long-Term Eteplirsen Treatment",
+   "year": 2021,
+   "cited_by": 52
+  },
+  {
+   "id": "https://openalex.org/W3083490781",
+   "title": "Overview of gene therapy in spinal muscular atrophy and Duchenne muscular dystrophy",
+   "year": 2020,
+   "cited_by": 51
+  },
+  {
+   "id": "https://openalex.org/W3155362558",
+   "title": "Casimersen: First Approval",
+   "year": 2021,
+   "cited_by": 284
+  },
+  {
+   "id": "https://openalex.org/W3166174049",
+   "title": "Safety, tolerability, and pharmacokinetics of casimersen in patients with D uchenne muscular dystrophy amenable to exon 45 skipping: A randomized, double‐blind, placebo‐controlled, dose‐titration trial",
+   "year": 2021,
+   "cited_by": 153
+  },
+  {
+   "id": "https://openalex.org/W4400015400",
+   "title": "Mechanisms of Action of the US Food and Drug Administration-Approved Antisense Oligonucleotide Drugs",
+   "year": 2024,
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W4409912110",
+   "title": "Clinical applications of exon-skipping antisense oligonucleotides in neuromuscular diseases",
+   "year": 2025,
+   "cited_by": 41
+  },
+  {
+   "id": "https://openalex.org/W4200087363",
+   "title": "Casimersen for Duchenne muscular dystrophy",
+   "year": 2021,
+   "cited_by": 36
+  },
+  {
+   "id": "https://openalex.org/W4394995985",
+   "title": "Casimersen (AMONDYS 45™): An Antisense Oligonucleotide for Duchenne Muscular Dystrophy",
+   "year": 2024,
+   "cited_by": 34
+  },
+  {
+   "id": "https://openalex.org/W4214509536",
+   "title": "Research and Development of Oligonucleotide Therapeutics in Japan for Rare Diseases",
+   "year": 2022,
+   "cited_by": 27
+  },
+  {
+   "id": "https://openalex.org/W4386224061",
+   "title": "Advances in Dystrophinopathy Diagnosis and Therapy",
+   "year": 2023,
+   "cited_by": 26
+  },
+  {
+   "id": "https://openalex.org/W3204182376",
+   "title": "Interrogation of Dystrophin and Dystroglycan Complex Protein Turnover After Exon Skipping Therapy",
+   "year": 2021,
+   "cited_by": 23
+  },
+  {
+   "id": "https://openalex.org/W4280545221",
+   "title": "Casimersen for the treatment of Duchenne muscular dystrophy",
+   "year": 2022,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4304202600",
+   "title": "P.132 Casimersen in patients with Duchenne muscular dystrophy amenable to exon 45 skipping: Interim results from the Phase 3 ESSENCE trial",
+   "year": 2022,
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W3167186946",
+   "title": "Restoring Protein Expression in Neuromuscular Conditions: A Review Assessing the Current State of Exon Skipping/Inclusion and Gene Therapies for Duchenne Muscular Dystrophy and Spinal Muscular Atrophy",
+   "year": 2021,
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W4391174112",
+   "title": "Characteristics of Patients Receiving Novel Muscular Dystrophy Drugs in Trials vs Routine Care",
+   "year": 2024,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4390336568",
+   "title": "AMONDYS 45 (Casimersen), a Novel Antisense Phosphorodiamidate Morpholino Oligomer: Clinical Considerations for Treatment in Duchenne Muscular Dystrophy",
+   "year": 2023,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4416770261",
+   "title": "Small RNA or oligonucleotide drugs and challenges in evaluating drug-drug interactions",
+   "year": 2025,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4214515572",
+   "title": "Evaluation of Exon Skipping and Dystrophin Restoration in In Vitro Models of Duchenne Muscular Dystrophy",
+   "year": 2022,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4399545315",
+   "title": "Access to novel therapies for Duchenne muscular dystrophy—Insights from expert treating physicians",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4392600068",
+   "title": "Increase in Full-Length Dystrophin by Exon Skipping in Duchenne Muscular Dystrophy Patients with Single Exon Duplications: An Open-label Study",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W3156649207",
+   "title": "Casimersen treatment in eligible patients with Duchenne muscular dystrophy: safety, tolerability, and pharmacokinetics over 144 weeks of treatment",
+   "year": 2021,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4404181603",
+   "title": "Characterization of Nonclinical Drug Metabolism and Pharmacokinetic Properties of Phosphorodiamidate Morpholino Oligonucleotides, a Novel Drug Class for Duchenne Muscular Dystrophy",
+   "year": 2024,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4377102962",
+   "title": "Recent advances in RNA-targeting therapy for neurological diseases",
+   "year": 2023,
+   "cited_by": 5
+  },
+  {
+   "id": "https://openalex.org/W4412697133",
+   "title": "An Overview of Recent Advances and Clinical Applications of Exon Skipping and Splice Modulation for Muscular Dystrophy and Various Genetic Diseases",
+   "year": 2025,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4231463708",
+   "title": "DMD – THERAPY",
+   "year": 2020,
+   "cited_by": 4
+  },
+  {
+   "id": "https://openalex.org/W4412491306",
+   "title": "Real-world phosphorodiamidate morpholino oligomer treatment patterns in Duchenne muscular dystrophy: a claims-based analysis",
+   "year": 2025,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4404219633",
+   "title": "Assessment of Phosphorodiamidate Morpholino Oligomer Treatment Patterns for Patients with Duchenne Muscular Dystrophy: A MarketScan Claims Analysis",
+   "year": 2024,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4387306426",
+   "title": "P31 Interim analysis of EVOLVE: evaluating Eteplirsen, Golodirsen, or Casimersen treatment in patients <7 years old in routine clinical practice",
+   "year": 2023,
+   "cited_by": 3
+  },
+  {
+   "id": "https://openalex.org/W4414370951",
+   "title": "The Utilization, Reimbursement, and Cost of Targeted Therapies for Duchenne Muscular Dystrophy (DMD) in US Medicaid Programs: A Descriptive Trend Analysis from 2017 to 2022",
+   "year": 2025,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4328127387",
+   "title": "An overview of recent US-approved gene therapies for Duchenne muscular dystrophy and their respective clinical development programs",
+   "year": 2023,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4309584003",
+   "title": "Gene Therapies for Spinal Muscular Atrophy and Duchenne Muscular Dystrophy: A Pathbreaking Moment in Therapeutics",
+   "year": 2022,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4225376242",
+   "title": "Absorption, Distribution, Metabolism, and Excretion of FDA‐approved Antisense Oligonucleotide Drugs",
+   "year": 2022,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4205331432",
+   "title": "DMD - TREATMENT",
+   "year": 2021,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W4252987780",
+   "title": "Casimersen",
+   "year": 2021,
+   "cited_by": 2
+  },
+  {
+   "id": "https://openalex.org/W7153039836",
+   "title": "Advancements from the EVOLVE study for assessing real-world experience with eteplirsen, golodirsen and casimersen for the treatment of DMD",
+   "year": 2026,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W7154891908",
+   "title": "Vaccination in Pediatric Hereditary and Genetic Neuromuscular disorders: Current Evidence-Based Recommendations",
+   "year": 2026,
+   "cited_by": 1
+  },
+  {
+   "id": "https://openalex.org/W7133488665",
+   "title": "Status of Clinical Care of Duchenne Muscular Dystrophy: Global Perspective and Situation in India",
+   "year": 2026,
+   "cited_by": 1
+  }
+ ]
+}

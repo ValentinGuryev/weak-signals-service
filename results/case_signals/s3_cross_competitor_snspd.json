@@ -1,0 +1,37 @@
+{
+ "question": "Как конкуренты SNSPD (TES, InGaAs-SPAD) цитируют друг друга?",
+ "corpus_sizes": {
+  "SNSPD": 1831,
+  "TES": 159,
+  "SPAD": 180
+ },
+ "pairs": [
+  {
+   "pair": "SNSPD vs TES",
+   "SNSPD_to_TES": "0/3660 (0.00%)",
+   "TES_to_SNSPD": "67/2981 (2.25%)",
+   "bridges": 1,
+   "bridges_examples": [
+    "https://openalex.org/W2612611141"
+   ],
+   "verdict": "НОВИЧОК vs СТАНДАРТ (асимметрия)"
+  },
+  {
+   "pair": "SNSPD vs SPAD",
+   "SNSPD_to_SPAD": "0/3660 (0.00%)",
+   "SPAD_to_SNSPD": "74/3317 (2.23%)",
+   "bridges": 0,
+   "bridges_examples": [],
+   "verdict": "НОВИЧОК vs СТАНДАРТ (асимметрия)"
+  },
+  {
+   "pair": "TES vs SPAD",
+   "TES_to_SPAD": "0/2981 (0.00%)",
+   "SPAD_to_TES": "1/3317 (0.03%)",
+   "bridges": 0,
+   "bridges_examples": [],
+   "verdict": "ИЗОЛЯЦИЯ (равные конкуренты, разные сообщества)"
+  }
+ ],
+ "date": "2026-09-03"
+}

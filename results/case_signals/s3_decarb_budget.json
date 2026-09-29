@@ -1,0 +1,41 @@
+{
+ "requests": [
+  [
+   "counts",
+   "saf"
+  ],
+  [
+   "counts",
+   "hydrogen_aviation"
+  ],
+  [
+   "counts",
+   "electric_aircraft_all"
+  ],
+  [
+   "counts",
+   "turboelectric_bli"
+  ],
+  [
+   "counts",
+   "ammonia_aviation"
+  ],
+  [
+   "counts",
+   "battery_aviation"
+  ],
+  [
+   "corpus",
+   "saf_core"
+  ],
+  [
+   "corpus",
+   "turbo_bli"
+  ],
+  [
+   "corpus",
+   "ammonia_av"
+  ]
+ ],
+ "n_requests": 9
+}

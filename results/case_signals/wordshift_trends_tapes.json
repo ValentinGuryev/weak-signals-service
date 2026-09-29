@@ -1,0 +1,10120 @@
+{
+ "periods": [
+  "-2005",
+  "2006-2013",
+  "2014-2018",
+  "2019-2022",
+  "2023-2026"
+ ],
+ "period_totals": {
+  "-2005": 0,
+  "2006-2013": 72,
+  "2014-2018": 1324,
+  "2019-2022": 564,
+  "2023-2026": 292
+ },
+ "trends": {
+  "electromagnet": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "architectur": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "densiti": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    5.319148936170213,
+    6.8493150684931505
+   ]
+  },
+  "anisotropi": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  "experiment": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    5.319148936170213,
+    6.8493150684931505
+   ]
+  },
+  "mechan": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  "investig": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  "recent": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "sampl": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    5.319148936170213,
+    6.8493150684931505
+   ]
+  },
+  "peak": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "behavior": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "singl": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "while": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  "lead": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  "compact": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "overal": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "compani": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "full": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "agreement": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "reduc": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "energi": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  "second-gener": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "trap": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "bulk": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    10.273972602739725
+   ]
+  },
+  "magnitud": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "power": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "accur": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  "fusion": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "exhibit": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "complex": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "irrevers": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "vortex": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "defect": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "parallel": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "signific": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "belong": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "technolog": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "best": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "look": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "line": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "upper": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "current-carri": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "wherea": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "explor": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "abil": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "weak": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "collect": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "artifici": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "matrix": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "bho-dop": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "eubco": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "particl": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "curv": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "anistropi": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "independ": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "conclus": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "properli": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "engin": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "optim": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "further": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "rare-earth": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "barium": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "cuprat": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "requir": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "flux-flow": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "expon": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "modern": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "magnetis": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "characteris": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "top-seed": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "melt": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "growth": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "tsmg": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "gdbco-ag": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "good": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "quantit": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "qualit": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "criterion": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "transport-deriv": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "thermo-magneto-angular": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "equival": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "neither": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "fishtail": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "reliabl": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "prepar": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "mount": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "enabl": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "manuscript": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "supplementari": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "interpol": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "finite-el": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "captur": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "round": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "corc": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    10.273972602739725
+   ]
+  },
+  "current-": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "offer": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "larger": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "cross-sect": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "spatial": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "ineffici": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "bridg": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "trade-off": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "korean": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "though": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "remain": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "unverifi": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "comprehens": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "three-dimension": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "overcom": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "reduced-ord": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "gaug": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "consid": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "six-tap": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "enclos": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "magneto-angular": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "ensur": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "benchmark": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "contextu": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "refer": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "geometri": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "single-lay": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "double-lay": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "ten-tap": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "compel": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "balanc": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "flexibl": {
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "adiabat": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "demagnet": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "refriger": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    41.666666666666664,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hydrogen": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "re-liquefact": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "design": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    27.777777777777775,
+    9.06344410876133,
+    7.092198581560283,
+    6.8493150684931505
+   ]
+  },
+  "curi": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "select": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "powder": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "sinter": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "oxygen-fre": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "puriti": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "copper": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "ofhc": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "enhanc": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  "thermal": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  "conduct": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    2.2658610271903323,
+    0.0,
+    0.0
+   ]
+  },
+  "frequenc": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "perfor": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "plate": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "heat": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "exchang": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "pphe": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "convect": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "util": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  "switch": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    27.777777777777775,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "expect": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "fast": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "respons": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "convent": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    1.5105740181268883,
+    0.0,
+    0.0
+   ]
+  },
+  "gas-gap": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "conduction-cool": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  "extern": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "field": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    19.637462235649547,
+    24.822695035460995,
+    13.698630136986301
+   ]
+  },
+  "variat": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  "gener": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "tape": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    17.371601208459214,
+    23.04964539007092,
+    20.54794520547945
+   ]
+  },
+  "kapton": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  "insul": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "sunam": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    14.35045317220544,
+    15.957446808510637,
+    13.698630136986301
+   ]
+  },
+  "process": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  "ramp": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    2.2658610271903323,
+    0.0,
+    0.0
+   ]
+  },
+  "rate": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "respect": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "loss": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "theoret": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "scale": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "behaviour": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "devic": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "perform": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    11.32930513595166,
+    8.865248226950355,
+    10.273972602739725
+   ]
+  },
+  "influenc": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "fabric": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  "materi": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "paramet": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "vari": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "manufactur": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    9.06344410876133,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  "critic": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    11.32930513595166,
+    10.638297872340425,
+    6.8493150684931505
+   ]
+  },
+  "surfac": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "current": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    18.882175226586103,
+    15.957446808510637,
+    10.273972602739725
+   ]
+  },
+  "differ": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    12.411347517730498,
+    6.8493150684931505
+   ]
+  },
+  "fujikura": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  "korea": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "superox": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    8.865248226950355,
+    3.4246575342465753
+   ]
+  },
+  "superpow": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    9.06344410876133,
+    7.092198581560283,
+    0.0
+   ]
+  },
+  "electr": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "transport": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "measur": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    15.105740181268883,
+    7.092198581560283,
+    13.698630136986301
+   ]
+  },
+  "experi": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "orient": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "layer": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  "order": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "larg": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "depend": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    10.638297872340425,
+    6.8493150684931505
+   ]
+  },
+  "rang": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    7.092198581560283,
+    3.4246575342465753
+   ]
+  },
+  "base": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "valid": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "approach": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "combin": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "determin": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "avail": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "sever": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "industri": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "promis": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "applic": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "properti": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "in-field": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "import": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    0.0,
+    0.0
+   ]
+  },
+  "strain": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  "stress": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "carri": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "capabl": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "commerci": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    9.818731117824774,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  "self-field": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "develop": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "high-field": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "laboratori": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "addit": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "studi": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    8.865248226950355,
+    3.4246575342465753
+   ]
+  },
+  "futur": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "howev": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "limit": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    13.698630136986301
+   ]
+  },
+  "research": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "publish": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "data": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  "shanghai": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "perpendicular": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "result": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.7975830815709966,
+    7.092198581560283,
+    3.4246575342465753
+   ]
+  },
+  "valu": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  "type": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "univers": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  "test": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    7.552870090634442,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "solder": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "observ": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "numer": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "model": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    3.5460992907801416,
+    10.273972602739725
+   ]
+  },
+  "length": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "character": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "twist": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "stacked-tap": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "cabl": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    0.0,
+    13.698630136986301
+   ]
+  },
+  "tstc": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    10.273972602739725
+   ]
+  },
+  "variou": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "characterist": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "continu": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "strength": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "structur": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "element": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "analysi": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    7.092198581560283,
+    0.0
+   ]
+  },
+  "compar": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "degrad": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "lower": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "state": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "high-temperatur": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  "essenti": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "contact": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "demonstr": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "resist": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "stack": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    23.04964539007092,
+    3.4246575342465753
+   ]
+  },
+  "cool": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "discuss": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "wind": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "diamet": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "construct": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "no-insul": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "incorpor": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "height": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "consist": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "doubl": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "pancak": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "coil": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    7.552870090634442,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "wound": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "width": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "liquid": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "nitrogen": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "charg": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "time": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "helium": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "strong": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "potenti": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "detail": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "wire": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "function": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "robinson": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "institut": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "victoria": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "wellington": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  "configur": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "coated-conductor": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "core": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  "provid": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "calcul": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "assembl": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "quench": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    0.0,
+    0.0
+   ]
+  },
+  "voltag": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "induct": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "compon": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "hybrid": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "dynam": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "simul": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "method": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  "capac": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "initi": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "inner": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "minimum": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "normal": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "robust": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "outer": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "made": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "produc": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "axion": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "precis": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "physic": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "ybco": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "point": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "inform": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "transit": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "system": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  "comparison": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  "featur": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "capp": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "user": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "levit": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  "cc-tape": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  "theva": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "substrat": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "squar": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "piec": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "htsc": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "mode": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "decreas": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "increas": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  "tend": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "satur": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "boil": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "thick": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  "flux": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "altern": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "includ": {
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "maximum": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "nomin": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "irradi": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "chang": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "fluenc": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "analyz": {
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "oper": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    41.666666666666664,
+    3.0211480362537766,
+    7.092198581560283,
+    0.0
+   ]
+  },
+  "magnet": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    55.55555555555555,
+    24.169184290030213,
+    28.368794326241133,
+    6.8493150684931505
+   ]
+  },
+  "effect": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  "achiev": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    27.777777777777775,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "forc": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    12.411347517730498,
+    0.0
+   ]
+  },
+  "have": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    4.531722054380665,
+    7.092198581560283,
+    3.4246575342465753
+   ]
+  },
+  "employ": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "appli": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.776435045317221,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  "coat": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    5.287009063444109,
+    5.319148936170213,
+    3.4246575342465753
+   ]
+  },
+  "target": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  "distribut": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  "estim": {
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    5.319148936170213,
+    0.0
+   ]
+  }
+ },
+ "ranked": [
+  {
+   "word": "electromagnet",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "architectur",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "densiti",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    5.319148936170213,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "anisotropi",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "experiment",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    5.319148936170213,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "mechan",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "investig",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "recent",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "sampl",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    5.319148936170213,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "peak",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "behavior",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "singl",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "while",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "lead",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "compact",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "overal",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "compani",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "full",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "agreement",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "reduc",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "energi",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "second-gener",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "trap",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "bulk",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "magnitud",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "power",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "accur",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "fusion",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "exhibit",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "complex",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "irrevers",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "vortex",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "defect",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "parallel",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "signific",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "belong",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "technolog",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "best",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "look",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "line",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "upper",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "current-carri",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "wherea",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "explor",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "abil",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "weak",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "collect",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "artifici",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "matrix",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "bho-dop",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "eubco",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "particl",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "curv",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "anistropi",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "independ",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "conclus",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "properli",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "engin",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "optim",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "further",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "rare-earth",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "barium",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "cuprat",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "requir",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "flux-flow",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "expon",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "modern",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "magnetis",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "characteris",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "top-seed",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "melt",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "growth",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "tsmg",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "gdbco-ag",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "good",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "quantit",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "qualit",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "criterion",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "transport-deriv",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "thermo-magneto-angular",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "equival",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "neither",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "fishtail",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "reliabl",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "prepar",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "mount",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "enabl",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "manuscript",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "supplementari",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "interpol",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "finite-el",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "captur",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "round",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "corc",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "current-",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "offer",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "larger",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "cross-sect",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "spatial",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "ineffici",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "bridg",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "trade-off",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "korean",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "though",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "remain",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "unverifi",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "comprehens",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "three-dimension",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "overcom",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "reduced-ord",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "gaug",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "consid",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "six-tap",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "enclos",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "magneto-angular",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "ensur",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "benchmark",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "contextu",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "refer",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "geometri",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "single-lay",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "double-lay",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "ten-tap",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "compel",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "balanc",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "flexibl",
+   "monotonic": 1.0,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "adiabat",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "demagnet",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "refriger",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    41.666666666666664,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "hydrogen",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "re-liquefact",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "design",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    27.777777777777775,
+    9.06344410876133,
+    7.092198581560283,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "curi",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "select",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "powder",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "sinter",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "oxygen-fre",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "puriti",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "copper",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "ofhc",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "enhanc",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "thermal",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "conduct",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    2.2658610271903323,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "frequenc",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "perfor",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "plate",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "heat",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "exchang",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "pphe",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "convect",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "util",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "switch",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    27.777777777777775,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "expect",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "fast",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "respons",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "convent",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    1.5105740181268883,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "gas-gap",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "conduction-cool",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "extern",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "field",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    19.637462235649547,
+    24.822695035460995,
+    13.698630136986301
+   ]
+  },
+  {
+   "word": "variat",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "gener",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "tape",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    17.371601208459214,
+    23.04964539007092,
+    20.54794520547945
+   ]
+  },
+  {
+   "word": "kapton",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "insul",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "sunam",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    14.35045317220544,
+    15.957446808510637,
+    13.698630136986301
+   ]
+  },
+  {
+   "word": "process",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "ramp",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    2.2658610271903323,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "rate",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "respect",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "loss",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "theoret",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "scale",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "behaviour",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "devic",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "perform",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    11.32930513595166,
+    8.865248226950355,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "influenc",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "fabric",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "materi",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "paramet",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "vari",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "manufactur",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    9.06344410876133,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  {
+   "word": "critic",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    11.32930513595166,
+    10.638297872340425,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "surfac",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "current",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    18.882175226586103,
+    15.957446808510637,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "differ",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    12.411347517730498,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "fujikura",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "korea",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "superox",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    8.865248226950355,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "superpow",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    9.06344410876133,
+    7.092198581560283,
+    0.0
+   ]
+  },
+  {
+   "word": "electr",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "transport",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "measur",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    15.105740181268883,
+    7.092198581560283,
+    13.698630136986301
+   ]
+  },
+  {
+   "word": "experi",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "orient",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "layer",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "order",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "larg",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "depend",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    10.638297872340425,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "rang",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    7.092198581560283,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "base",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "valid",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "approach",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "combin",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "determin",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "avail",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "sever",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "industri",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "promis",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "applic",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "properti",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "in-field",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "import",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "strain",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "stress",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "carri",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "capabl",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "commerci",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    9.818731117824774,
+    3.5460992907801416,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "self-field",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "develop",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "high-field",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "laboratori",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "addit",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "studi",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    8.865248226950355,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "futur",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "howev",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "limit",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    13.698630136986301
+   ]
+  },
+  {
+   "word": "research",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "publish",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "data",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "shanghai",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "perpendicular",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "result",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    6.7975830815709966,
+    7.092198581560283,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "valu",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  {
+   "word": "type",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "univers",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "test",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    7.552870090634442,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "solder",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "observ",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "numer",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "model",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    3.5460992907801416,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "length",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "character",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "twist",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "stacked-tap",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "cabl",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    6.042296072507553,
+    0.0,
+    13.698630136986301
+   ]
+  },
+  {
+   "word": "tstc",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "variou",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "characterist",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "continu",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "strength",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "structur",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "element",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "analysi",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    7.092198581560283,
+    0.0
+   ]
+  },
+  {
+   "word": "compar",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "degrad",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "lower",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "state",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "high-temperatur",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "essenti",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "contact",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "demonstr",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "resist",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "stack",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    23.04964539007092,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "cool",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "discuss",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "wind",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "diamet",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "construct",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "no-insul",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "incorpor",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "height",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "consist",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "doubl",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "pancak",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "coil",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    7.552870090634442,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "wound",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "width",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "liquid",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "nitrogen",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "charg",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "time",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    5.287009063444109,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "helium",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "strong",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "potenti",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "detail",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "wire",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "function",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "robinson",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "institut",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "victoria",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "wellington",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "configur",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "coated-conductor",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "core",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "provid",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "calcul",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "assembl",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    3.776435045317221,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "quench",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    2
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "word": "voltag",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    3.0211480362537766,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "induct",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "compon",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "hybrid",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "dynam",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "simul",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "method",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    4.531722054380665,
+    1.7730496453900708,
+    10.273972602739725
+   ]
+  },
+  {
+   "word": "capac",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "initi",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "inner",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "minimum",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "normal",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "robust",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "outer",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "made",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "produc",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    2.2658610271903323,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "axion",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "precis",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "physic",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "ybco",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    1.5105740181268883,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "point",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "inform",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "transit",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "system",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  {
+   "word": "comparison",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.7552870090634441,
+    0.0,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "featur",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "capp",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "user",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "levit",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  {
+   "word": "cc-tape",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  {
+   "word": "theva",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "substrat",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "squar",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "piec",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "htsc",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "mode",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "decreas",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "increas",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    8.865248226950355,
+    0.0
+   ]
+  },
+  {
+   "word": "tend",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "satur",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "boil",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "thick",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    5.319148936170213,
+    0.0
+   ]
+  },
+  {
+   "word": "flux",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "altern",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "includ",
+   "monotonic": 0.75,
+   "trend": "up",
+   "extremum": null,
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "maximum",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "nomin",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "irradi",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "chang",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "fluenc",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "analyz",
+   "monotonic": 0.75,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    3
+   ],
+   "freqs": [
+    0.0,
+    0.0,
+    0.0,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "oper",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    41.666666666666664,
+    3.0211480362537766,
+    7.092198581560283,
+    0.0
+   ]
+  },
+  {
+   "word": "magnet",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    55.55555555555555,
+    24.169184290030213,
+    28.368794326241133,
+    6.8493150684931505
+   ]
+  },
+  {
+   "word": "effect",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    1.5105740181268883,
+    3.5460992907801416,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "achiev",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    27.777777777777775,
+    1.5105740181268883,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "forc",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    12.411347517730498,
+    0.0
+   ]
+  },
+  {
+   "word": "have",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    4.531722054380665,
+    7.092198581560283,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "employ",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "appli",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    3.776435045317221,
+    1.7730496453900708,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "coat",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    5.287009063444109,
+    5.319148936170213,
+    3.4246575342465753
+   ]
+  },
+  {
+   "word": "target",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.0,
+    1.7730496453900708,
+    0.0
+   ]
+  },
+  {
+   "word": "distribut",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    2.2658610271903323,
+    3.5460992907801416,
+    0.0
+   ]
+  },
+  {
+   "word": "estim",
+   "monotonic": 0.5,
+   "trend": "flat",
+   "extremum": [
+    "max",
+    1
+   ],
+   "freqs": [
+    0.0,
+    13.888888888888888,
+    0.7552870090634441,
+    5.319148936170213,
+    0.0
+   ]
+  }
+ ]
+}

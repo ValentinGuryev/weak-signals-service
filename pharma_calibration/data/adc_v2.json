@@ -1,0 +1,839 @@
+{
+ "direction": "adc",
+ "name": "ADC (antibody-drug conjugates)",
+ "promise_2018": "зреющие; Enhertu — прорыв",
+ "expected": "✅",
+ "signal_terms": "\"antibody-drug conjugate\" OR \"antibody drug conjugate\"",
+ "anchors": {
+  "Adcetris": {
+   "fda_year": 2011,
+   "counts": {
+    "2005": 1,
+    "2007": 1,
+    "2008": 1,
+    "2009": 1,
+    "2010": 13,
+    "2011": 49,
+    "2012": 156,
+    "2013": 184,
+    "2014": 227,
+    "2015": 276,
+    "2016": 282,
+    "2017": 336,
+    "2018": 402,
+    "2019": 420,
+    "2020": 369,
+    "2021": 416,
+    "2022": 356,
+    "2023": 452,
+    "2024": 453,
+    "2025": 544,
+    "2026": 299
+   }
+  },
+  "Enhertu": {
+   "fda_year": 2019,
+   "counts": {
+    "2010": 1,
+    "2017": 2,
+    "2018": 14,
+    "2019": 39,
+    "2020": 106,
+    "2021": 190,
+    "2022": 330,
+    "2023": 631,
+    "2024": 744,
+    "2025": 1050,
+    "2026": 1002
+   }
+  },
+  "Padcev": {
+   "fda_year": 2019,
+   "counts": {
+    "2006": 1,
+    "2009": 5,
+    "2010": 1,
+    "2011": 3,
+    "2012": 5,
+    "2013": 4,
+    "2014": 3,
+    "2015": 4,
+    "2016": 8,
+    "2017": 5,
+    "2018": 18,
+    "2019": 36,
+    "2020": 70,
+    "2021": 102,
+    "2022": 141,
+    "2023": 267,
+    "2024": 443,
+    "2025": 541,
+    "2026": 561
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2005": 1,
+  "2006": 1,
+  "2007": 1,
+  "2008": 1,
+  "2009": 6,
+  "2010": 15,
+  "2011": 52,
+  "2012": 161,
+  "2013": 188,
+  "2014": 230,
+  "2015": 280,
+  "2016": 290,
+  "2017": 343,
+  "2018": 434,
+  "2019": 495,
+  "2020": 545,
+  "2021": 708,
+  "2022": 827,
+  "2023": 1350,
+  "2024": 1640,
+  "2025": 2135,
+  "2026": 1862
+ },
+ "signal_counts_by_year": {
+  "2000": 8,
+  "2001": 5,
+  "2002": 3,
+  "2003": 7,
+  "2004": 15,
+  "2005": 16,
+  "2006": 27,
+  "2007": 35,
+  "2008": 37,
+  "2009": 65,
+  "2010": 95,
+  "2011": 139,
+  "2012": 223,
+  "2013": 407,
+  "2014": 437,
+  "2015": 605,
+  "2016": 677,
+  "2017": 743,
+  "2018": 889,
+  "2019": 1154,
+  "2020": 1248,
+  "2021": 1372,
+  "2022": 1593,
+  "2023": 4136,
+  "2024": 3461,
+  "2025": 4489,
+  "2026": 4205
+ },
+ "corpus_size": 118,
+ "works": [
+  {
+   "id": "https://openalex.org/W2125616358",
+   "title": "PD-1 Blockade with Nivolumab in Relapsed or Refractory Hodgkin's Lymphoma",
+   "year": 2014,
+   "cited_by": 3578
+  },
+  {
+   "id": "https://openalex.org/W2597045666",
+   "title": "Strategies and challenges for the next generation of antibody–drug conjugates",
+   "year": 2017,
+   "cited_by": 2248
+  },
+  {
+   "id": "https://openalex.org/W2155256323",
+   "title": "Results of a Pivotal Phase II Study of Brentuximab Vedotin for Patients With Relapsed or Refractory Hodgkin's Lymphoma",
+   "year": 2012,
+   "cited_by": 1534
+  },
+  {
+   "id": "https://openalex.org/W2011118089",
+   "title": "Brentuximab Vedotin (SGN-35) for Relapsed CD30-Positive Lymphomas",
+   "year": 2010,
+   "cited_by": 1363
+  },
+  {
+   "id": "https://openalex.org/W2139891818",
+   "title": "Brentuximab Vedotin (SGN-35) in Patients With Relapsed or Refractory Systemic Anaplastic Large-Cell Lymphoma: Results of a Phase II Study",
+   "year": 2012,
+   "cited_by": 999
+  },
+  {
+   "id": "https://openalex.org/W2609973112",
+   "title": "Phase II Study of the Efficacy and Safety of Pembrolizumab for Relapsed/Refractory Classic Hodgkin Lymphoma",
+   "year": 2017,
+   "cited_by": 995
+  },
+  {
+   "id": "https://openalex.org/W2504623699",
+   "title": "Nivolumab for classical Hodgkin's lymphoma after failure of both autologous stem-cell transplantation and brentuximab vedotin: a multicentre, multicohort, single-arm phase 2 trial",
+   "year": 2016,
+   "cited_by": 930
+  },
+  {
+   "id": "https://openalex.org/W2165168809",
+   "title": "Antibody–Drug Conjugates: An Emerging Concept in Cancer Therapy",
+   "year": 2014,
+   "cited_by": 918
+  },
+  {
+   "id": "https://openalex.org/W2775803967",
+   "title": "Brentuximab Vedotin with Chemotherapy for Stage III or IV Hodgkin’s Lymphoma",
+   "year": 2017,
+   "cited_by": 789
+  },
+  {
+   "id": "https://openalex.org/W2531611585",
+   "title": "Antibody-drug conjugates: recent advances in conjugation and linker chemistries",
+   "year": 2016,
+   "cited_by": 779
+  },
+  {
+   "id": "https://openalex.org/W2124514746",
+   "title": "Antibody-Drug Conjugates in Cancer Therapy",
+   "year": 2012,
+   "cited_by": 774
+  },
+  {
+   "id": "https://openalex.org/W2794872274",
+   "title": "Nivolumab for Relapsed/Refractory Classic Hodgkin Lymphoma After Failure of Autologous Hematopoietic Cell Transplantation: Extended Follow-Up of the Multicohort Single-Arm Phase II CheckMate 205 Trial",
+   "year": 2018,
+   "cited_by": 764
+  },
+  {
+   "id": "https://openalex.org/W2093580676",
+   "title": "The discovery and development of brentuximab vedotin for use in relapsed Hodgkin lymphoma and systemic anaplastic large cell lymphoma",
+   "year": 2012,
+   "cited_by": 764
+  },
+  {
+   "id": "https://openalex.org/W2062486240",
+   "title": "Brentuximab vedotin as consolidation therapy after autologous stem-cell transplantation in patients with Hodgkin's lymphoma at risk of relapse or progression (AETHERA): a randomised, double-blind, placebo-controlled, phase 3 trial",
+   "year": 2015,
+   "cited_by": 740
+  },
+  {
+   "id": "https://openalex.org/W2903308035",
+   "title": "Brentuximab vedotin with chemotherapy for CD30-positive peripheral T-cell lymphoma (ECHELON-2): a global, double-blind, randomised, phase 3 trial",
+   "year": 2018,
+   "cited_by": 738
+  },
+  {
+   "id": "https://openalex.org/W2473498748",
+   "title": "Programmed Death-1 Blockade With Pembrolizumab in Patients With Classical Hodgkin Lymphoma After Brentuximab Vedotin Failure",
+   "year": 2016,
+   "cited_by": 674
+  },
+  {
+   "id": "https://openalex.org/W2150244588",
+   "title": "Site-specific antibody drug conjugates for cancer therapy",
+   "year": 2013,
+   "cited_by": 668
+  },
+  {
+   "id": "https://openalex.org/W2034609970",
+   "title": "Antibody–drug conjugates: targeted drug delivery for cancer",
+   "year": 2010,
+   "cited_by": 658
+  },
+  {
+   "id": "https://openalex.org/W2417431203",
+   "title": "Antibody–drug conjugates for cancer therapy",
+   "year": 2016,
+   "cited_by": 602
+  },
+  {
+   "id": "https://openalex.org/W2623658063",
+   "title": "Brentuximab vedotin or physician's choice in CD30-positive cutaneous T-cell lymphoma (ALCANZA): an international, open-label, randomised, phase 3, multicentre trial",
+   "year": 2017,
+   "cited_by": 593
+  },
+  {
+   "id": "https://openalex.org/W2146205672",
+   "title": "State-of-the-art in design rules for drug delivery platforms: Lessons learned from FDA-approved nanomedicines",
+   "year": 2014,
+   "cited_by": 537
+  },
+  {
+   "id": "https://openalex.org/W2226317100",
+   "title": "Antibody-drug conjugates—an emerging class of cancer treatment",
+   "year": 2016,
+   "cited_by": 528
+  },
+  {
+   "id": "https://openalex.org/W2248346391",
+   "title": "Antibody–drug conjugates as novel anti-cancer chemotherapeutics",
+   "year": 2015,
+   "cited_by": 492
+  },
+  {
+   "id": "https://openalex.org/W2774391334",
+   "title": "Hodgkin lymphoma: A review and update on recent progress",
+   "year": 2017,
+   "cited_by": 485
+  },
+  {
+   "id": "https://openalex.org/W2043028214",
+   "title": "Current ADC Linker Chemistry",
+   "year": 2015,
+   "cited_by": 444
+  },
+  {
+   "id": "https://openalex.org/W2322836921",
+   "title": "Long-Term Stabilization of Maleimide–Thiol Conjugates",
+   "year": 2014,
+   "cited_by": 425
+  },
+  {
+   "id": "https://openalex.org/W2500482667",
+   "title": "Five-year survival and durability results of brentuximab vedotin in patients with relapsed or refractory Hodgkin lymphoma",
+   "year": 2016,
+   "cited_by": 399
+  },
+  {
+   "id": "https://openalex.org/W3044350523",
+   "title": "Anti-CD30 CAR-T Cell Therapy in Relapsed and Refractory Hodgkin Lymphoma",
+   "year": 2020,
+   "cited_by": 385
+  },
+  {
+   "id": "https://openalex.org/W2743083943",
+   "title": "Clinical and immunological responses after CD30-specific chimeric antigen receptor–redirected lymphocytes",
+   "year": 2017,
+   "cited_by": 376
+  },
+  {
+   "id": "https://openalex.org/W2035118667",
+   "title": "Marketed therapeutic antibodies compendium",
+   "year": 2012,
+   "cited_by": 370
+  },
+  {
+   "id": "https://openalex.org/W2026373761",
+   "title": "Brentuximab Vedotin (SGN-35)",
+   "year": 2011,
+   "cited_by": 365
+  },
+  {
+   "id": "https://openalex.org/W2032129634",
+   "title": "Production of Site-Specific Antibody–Drug Conjugates Using Optimized Non-Natural Amino Acids in a Cell-Free Expression System",
+   "year": 2014,
+   "cited_by": 364
+  },
+  {
+   "id": "https://openalex.org/W2106294189",
+   "title": "Non-Hodgkin Lymphoma: Diagnosis and Treatment",
+   "year": 2005,
+   "cited_by": 357
+  },
+  {
+   "id": "https://openalex.org/W2272264121",
+   "title": "Recent advances in the construction of antibody–drug conjugates",
+   "year": 2016,
+   "cited_by": 356
+  },
+  {
+   "id": "https://openalex.org/W2032713012",
+   "title": "Objective responses in relapsed T-cell lymphomas with single-agent brentuximab vedotin",
+   "year": 2014,
+   "cited_by": 353
+  },
+  {
+   "id": "https://openalex.org/W4285392390",
+   "title": "Overall Survival with Brentuximab Vedotin in Stage III or IV Hodgkin’s Lymphoma",
+   "year": 2022,
+   "cited_by": 350
+  },
+  {
+   "id": "https://openalex.org/W2123023182",
+   "title": "A phase 1 study of the bispecific anti-CD30/CD16A antibody construct AFM13 in patients with relapsed or refractory Hodgkin lymphoma",
+   "year": 2015,
+   "cited_by": 335
+  },
+  {
+   "id": "https://openalex.org/W2968942240",
+   "title": "Pembrolizumab in relapsed or refractory Hodgkin lymphoma: 2-year follow-up of KEYNOTE-087",
+   "year": 2019,
+   "cited_by": 334
+  },
+  {
+   "id": "https://openalex.org/W2772084440",
+   "title": "Interim results of brentuximab vedotin in combination with nivolumab in patients with relapsed or refractory Hodgkin lymphoma",
+   "year": 2017,
+   "cited_by": 322
+  },
+  {
+   "id": "https://openalex.org/W2742314046",
+   "title": "Antibody–Drug Conjugates for Cancer Treatment",
+   "year": 2018,
+   "cited_by": 310
+  },
+  {
+   "id": "https://openalex.org/W4281640394",
+   "title": "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer",
+   "year": 2022,
+   "cited_by": 2666
+  },
+  {
+   "id": "https://openalex.org/W2996630100",
+   "title": "Trastuzumab Deruxtecan in Previously Treated HER2-Positive Breast Cancer",
+   "year": 2019,
+   "cited_by": 2021
+  },
+  {
+   "id": "https://openalex.org/W3147820834",
+   "title": "Trastuzumab Deruxtecan in Previously Treated HER2-Positive Gastric Cancer",
+   "year": 2020,
+   "cited_by": 1340
+  },
+  {
+   "id": "https://openalex.org/W4220964921",
+   "title": "Trastuzumab Deruxtecan versus Trastuzumab Emtansine for Breast Cancer",
+   "year": 2022,
+   "cited_by": 1180
+  },
+  {
+   "id": "https://openalex.org/W4387865238",
+   "title": "Efficacy and Safety of Trastuzumab Deruxtecan in Patients With HER2-Expressing Solid Tumors: Primary Results From the DESTINY-PanTumor02 Phase II Trial",
+   "year": 2023,
+   "cited_by": 1043
+  },
+  {
+   "id": "https://openalex.org/W3201219318",
+   "title": "Trastuzumab Deruxtecan in HER2 -Mutant Non–Small-Cell Lung Cancer",
+   "year": 2021,
+   "cited_by": 1025
+  },
+  {
+   "id": "https://openalex.org/W3005585857",
+   "title": "Antitumor Activity and Safety of Trastuzumab Deruxtecan in Patients With HER2-Low–Expressing Advanced Breast Cancer: Results From a Phase Ib Study",
+   "year": 2020,
+   "cited_by": 824
+  },
+  {
+   "id": "https://openalex.org/W4311116389",
+   "title": "Trastuzumab deruxtecan versus trastuzumab emtansine in patients with HER2-positive metastatic breast cancer: updated results from DESTINY-Breast03, a randomised, open-label, phase 3 trial",
+   "year": 2022,
+   "cited_by": 678
+  },
+  {
+   "id": "https://openalex.org/W4379600909",
+   "title": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: ASCO–College of American Pathologists Guideline Update",
+   "year": 2023,
+   "cited_by": 648
+  },
+  {
+   "id": "https://openalex.org/W2760931533",
+   "title": "Safety, pharmacokinetics, and antitumour activity of trastuzumab deruxtecan (DS-8201), a HER2-targeting antibody–drug conjugate, in patients with advanced breast and gastric or gastro-oesophageal tumours: a phase 1 dose-escalation study",
+   "year": 2017,
+   "cited_by": 508
+  },
+  {
+   "id": "https://openalex.org/W4402548585",
+   "title": "Trastuzumab Deruxtecan after Endocrine Therapy in Metastatic Breast Cancer",
+   "year": 2024,
+   "cited_by": 448
+  },
+  {
+   "id": "https://openalex.org/W2917113139",
+   "title": "The Latest Research and Development into the Antibody–Drug Conjugate, [fam-] Trastuzumab Deruxtecan (DS-8201a), for HER2 Cancer Therapy",
+   "year": 2019,
+   "cited_by": 447
+  },
+  {
+   "id": "https://openalex.org/W2995764973",
+   "title": "Antibodies to watch in 2020",
+   "year": 2019,
+   "cited_by": 439
+  },
+  {
+   "id": "https://openalex.org/W3159805754",
+   "title": "Trastuzumab deruxtecan (DS-8201) in patients with HER2-expressing metastatic colorectal cancer (DESTINY-CRC01): a multicentre, open-label, phase 2 trial",
+   "year": 2021,
+   "cited_by": 422
+  },
+  {
+   "id": "https://openalex.org/W4290673816",
+   "title": "Trastuzumab deruxtecan in HER2-positive breast cancer with brain metastases: a single-arm, phase 2 trial",
+   "year": 2022,
+   "cited_by": 401
+  },
+  {
+   "id": "https://openalex.org/W4385212704",
+   "title": "Trastuzumab deruxtecan in metastatic breast cancer with variable HER2 expression: the phase 2 DAISY trial",
+   "year": 2023,
+   "cited_by": 389
+  },
+  {
+   "id": "https://openalex.org/W3211745509",
+   "title": "Antibody–drug conjugates: Smart chemotherapy delivery across tumor histologies",
+   "year": 2021,
+   "cited_by": 387
+  },
+  {
+   "id": "https://openalex.org/W4366529414",
+   "title": "Trastuzumab deruxtecan versus treatment of physician's choice in patients with HER2-positive metastatic breast cancer (DESTINY-Breast02): a randomised, open-label, multicentre, phase 3 trial",
+   "year": 2023,
+   "cited_by": 367
+  },
+  {
+   "id": "https://openalex.org/W3013632168",
+   "title": "Targeting HER2 with Trastuzumab Deruxtecan: A Dose-Expansion, Phase I Study in Multiple Advanced Solid Tumors",
+   "year": 2020,
+   "cited_by": 359
+  },
+  {
+   "id": "https://openalex.org/W4210684267",
+   "title": "Examination of Low ERBB2 Protein Expression in Breast Cancer Tissue",
+   "year": 2022,
+   "cited_by": 355
+  },
+  {
+   "id": "https://openalex.org/W2942867242",
+   "title": "Trastuzumab deruxtecan (DS-8201a) in patients with advanced HER2-positive breast cancer previously treated with trastuzumab emtansine: a dose-expansion, phase 1 study",
+   "year": 2019,
+   "cited_by": 355
+  },
+  {
+   "id": "https://openalex.org/W4386592635",
+   "title": "Trastuzumab Deruxtecan in Patients With HER2 -Mutant Metastatic Non–Small-Cell Lung Cancer: Primary Results From the Randomized, Phase II DESTINY-Lung02 Trial",
+   "year": 2023,
+   "cited_by": 321
+  },
+  {
+   "id": "https://openalex.org/W3147006194",
+   "title": "Biomarker-targeted therapies for advanced-stage gastric and gastro-oesophageal junction cancers: an emerging paradigm",
+   "year": 2021,
+   "cited_by": 314
+  },
+  {
+   "id": "https://openalex.org/W3013150216",
+   "title": "HER2-Mediated Internalization of Cytotoxic Agents in ERBB2 Amplified or Mutant Lung Cancers",
+   "year": 2020,
+   "cited_by": 296
+  },
+  {
+   "id": "https://openalex.org/W2799596353",
+   "title": "A HER2-Targeting Antibody–Drug Conjugate, Trastuzumab Deruxtecan (DS-8201a), Enhances Antitumor Immunity in a Mouse Model",
+   "year": 2018,
+   "cited_by": 283
+  },
+  {
+   "id": "https://openalex.org/W3009885756",
+   "title": "Trastuzumab Deruxtecan: First Approval",
+   "year": 2020,
+   "cited_by": 271
+  },
+  {
+   "id": "https://openalex.org/W3123935228",
+   "title": "Antibody–drug conjugates in solid tumors: a look into novel targets",
+   "year": 2021,
+   "cited_by": 258
+  },
+  {
+   "id": "https://openalex.org/W4291396228",
+   "title": "Pooled analysis of drug-related interstitial lung disease and/or pneumonitis in nine trastuzumab deruxtecan monotherapy studies",
+   "year": 2022,
+   "cited_by": 257
+  },
+  {
+   "id": "https://openalex.org/W4380738795",
+   "title": "Trastuzumab deruxtecan in patients in the USA and Europe with HER2-positive advanced gastric or gastroesophageal junction cancer with disease progression on or after a trastuzumab-containing regimen (DESTINY-Gastric02): primary and updated analyses from a single-arm, phase 2 study",
+   "year": 2023,
+   "cited_by": 256
+  },
+  {
+   "id": "https://openalex.org/W4281619692",
+   "title": "Trastuzumab deruxtecan in patients with central nervous system involvement from HER2-positive breast cancer: The DEBBRAH trial",
+   "year": 2022,
+   "cited_by": 251
+  },
+  {
+   "id": "https://openalex.org/W4316814847",
+   "title": "Payload diversification: a key step in the development of antibody–drug conjugates",
+   "year": 2023,
+   "cited_by": 249
+  },
+  {
+   "id": "https://openalex.org/W2943729639",
+   "title": "Trastuzumab deruxtecan (DS-8201a) in patients with advanced HER2-positive gastric cancer: a dose-expansion, phase 1 study",
+   "year": 2019,
+   "cited_by": 231
+  },
+  {
+   "id": "https://openalex.org/W4213425607",
+   "title": "Drug-induced interstitial lung disease during cancer therapies: expert opinion on diagnosis and treatment",
+   "year": 2022,
+   "cited_by": 230
+  },
+  {
+   "id": "https://openalex.org/W3187784120",
+   "title": "Implementing antibody-drug conjugates (ADCs) in HER2-positive breast cancer: state of the art and future directions",
+   "year": 2021,
+   "cited_by": 223
+  },
+  {
+   "id": "https://openalex.org/W4229027274",
+   "title": "Disitamab vedotin: a novel antibody-drug conjugates for cancer therapy",
+   "year": 2022,
+   "cited_by": 218
+  },
+  {
+   "id": "https://openalex.org/W3143953357",
+   "title": "The frequency of low HER2 expression in breast cancer and a comparison of prognosis between patients with HER2-low and HER2-negative breast cancer by HR status",
+   "year": 2021,
+   "cited_by": 218
+  },
+  {
+   "id": "https://openalex.org/W3045680625",
+   "title": "Novel HER2–targeted therapies for HER2–positive metastatic breast cancer",
+   "year": 2020,
+   "cited_by": 217
+  },
+  {
+   "id": "https://openalex.org/W4313553529",
+   "title": "Immunotherapy and Targeted Therapy for Advanced Gastroesophageal Cancer: ASCO Guideline",
+   "year": 2023,
+   "cited_by": 215
+  },
+  {
+   "id": "https://openalex.org/W4408662609",
+   "title": "European Association of Urology Guidelines on Muscle-invasive and Metastatic Bladder Cancer: Summary of the 2025 Guidelines",
+   "year": 2025,
+   "cited_by": 212
+  },
+  {
+   "id": "https://openalex.org/W4402514945",
+   "title": "Trastuzumab deruxtecan in HER2-positive advanced breast cancer with or without brain metastases: a phase 3b/4 trial",
+   "year": 2024,
+   "cited_by": 207
+  },
+  {
+   "id": "https://openalex.org/W3127912627",
+   "title": "Enfortumab Vedotin in Previously Treated Advanced Urothelial Carcinoma",
+   "year": 2021,
+   "cited_by": 1221
+  },
+  {
+   "id": "https://openalex.org/W4392498919",
+   "title": "Enfortumab Vedotin and Pembrolizumab in Untreated Advanced Urothelial Cancer",
+   "year": 2024,
+   "cited_by": 1058
+  },
+  {
+   "id": "https://openalex.org/W2302699227",
+   "title": "Enfortumab Vedotin Antibody–Drug Conjugate Targeting Nectin-4 Is a Highly Potent Therapeutic Agent in Multiple Preclinical Cancer Models",
+   "year": 2016,
+   "cited_by": 732
+  },
+  {
+   "id": "https://openalex.org/W2966500633",
+   "title": "Pivotal Trial of Enfortumab Vedotin in Urothelial Carcinoma After Platinum and Anti-Programmed Death 1/Programmed Death Ligand 1 Therapy",
+   "year": 2019,
+   "cited_by": 645
+  },
+  {
+   "id": "https://openalex.org/W2915483287",
+   "title": "Antibodies to watch in 2019",
+   "year": 2018,
+   "cited_by": 434
+  },
+  {
+   "id": "https://openalex.org/W3005336040",
+   "title": "EV-101: A Phase I Study of Single-Agent Enfortumab Vedotin in Patients With Nectin-4–Positive Solid Tumors, Including Metastatic Urothelial Carcinoma",
+   "year": 2020,
+   "cited_by": 338
+  },
+  {
+   "id": "https://openalex.org/W3209393335",
+   "title": "The 2021 Updated European Association of Urology Guidelines on Metastatic Urothelial Carcinoma",
+   "year": 2021,
+   "cited_by": 300
+  },
+  {
+   "id": "https://openalex.org/W3161582771",
+   "title": "Enfortumab vedotin after PD-1 or PD-L1 inhibitors in cisplatin-ineligible patients with advanced urothelial carcinoma (EV‑201): a multicentre, single-arm, phase 2 trial",
+   "year": 2021,
+   "cited_by": 287
+  },
+  {
+   "id": "https://openalex.org/W4293698156",
+   "title": "Enfortumab Vedotin Plus Pembrolizumab in Previously Untreated Advanced Urothelial Cancer",
+   "year": 2022,
+   "cited_by": 279
+  },
+  {
+   "id": "https://openalex.org/W2936221437",
+   "title": "Management of metastatic bladder cancer",
+   "year": 2019,
+   "cited_by": 254
+  },
+  {
+   "id": "https://openalex.org/W4311928016",
+   "title": "Membranous NECTIN-4 Expression Frequently Decreases during Metastatic Spread of Urothelial Carcinoma and Is Associated with Enfortumab Vedotin Resistance",
+   "year": 2022,
+   "cited_by": 218
+  },
+  {
+   "id": "https://openalex.org/W3106723715",
+   "title": "The biology and rationale of targeting nectin-4 in urothelial carcinoma",
+   "year": 2020,
+   "cited_by": 206
+  },
+  {
+   "id": "https://openalex.org/W4382198144",
+   "title": "Enfortumab Vedotin With or Without Pembrolizumab in Cisplatin-Ineligible Patients With Previously Untreated Locally Advanced or Metastatic Urothelial Cancer",
+   "year": 2023,
+   "cited_by": 191
+  },
+  {
+   "id": "https://openalex.org/W1915297548",
+   "title": "Fall Detection and Activity Recognition with Machine Learning",
+   "year": 2009,
+   "cited_by": 191
+  },
+  {
+   "id": "https://openalex.org/W3185273357",
+   "title": "Targeting cancer with antibody-drug conjugates: Promises and challenges",
+   "year": 2021,
+   "cited_by": 189
+  },
+  {
+   "id": "https://openalex.org/W3087937382",
+   "title": "FDA Approval Summary: Enfortumab Vedotin for Locally Advanced or Metastatic Urothelial Carcinoma",
+   "year": 2020,
+   "cited_by": 188
+  },
+  {
+   "id": "https://openalex.org/W3157692800",
+   "title": "Expression of Nectin-4 in Bladder Urothelial Carcinoma, in Morphologic Variants, and Nonurothelial Histotypes",
+   "year": 2021,
+   "cited_by": 168
+  },
+  {
+   "id": "https://openalex.org/W4386530351",
+   "title": "EV-301 long-term outcomes: 24-month findings from the phase III trial of enfortumab vedotin versus chemotherapy in patients with previously treated advanced urothelial carcinoma",
+   "year": 2023,
+   "cited_by": 165
+  },
+  {
+   "id": "https://openalex.org/W3166074522",
+   "title": "Heterogeneity in NECTIN4 Expression Across Molecular Subtypes of Urothelial Cancer Mediates Sensitivity to Enfortumab Vedotin",
+   "year": 2021,
+   "cited_by": 164
+  },
+  {
+   "id": "https://openalex.org/W4379229130",
+   "title": "Mechanisms of Resistance to Antibody-Drug Conjugates",
+   "year": 2023,
+   "cited_by": 156
+  },
+  {
+   "id": "https://openalex.org/W4207057365",
+   "title": "Management of Dermatologic Events Associated With the Nectin-4-directed Antibody-Drug Conjugate Enfortumab Vedotin",
+   "year": 2022,
+   "cited_by": 154
+  },
+  {
+   "id": "https://openalex.org/W3109207812",
+   "title": "Marine Anticancer Agents: An Overview with a Particular Focus on Their Chemical Classes",
+   "year": 2020,
+   "cited_by": 143
+  },
+  {
+   "id": "https://openalex.org/W4387809539",
+   "title": "LBA6 EV-302/KEYNOTE-A39: Open-label, randomized phase III study of enfortumab vedotin in combination with pembrolizumab (EV+P) vs chemotherapy (Chemo) in previously untreated locally advanced metastatic urothelial carcinoma (la/mUC)",
+   "year": 2023,
+   "cited_by": 137
+  },
+  {
+   "id": "https://openalex.org/W4395083112",
+   "title": "NECTIN4 Amplification Is Frequent in Solid Tumors and Predicts Enfortumab Vedotin Response in Metastatic Urothelial Cancer",
+   "year": 2024,
+   "cited_by": 127
+  },
+  {
+   "id": "https://openalex.org/W3008618884",
+   "title": "Study EV-103: Preliminary durability results of enfortumab vedotin plus pembrolizumab for locally advanced or metastatic urothelial carcinoma.",
+   "year": 2020,
+   "cited_by": 112
+  },
+  {
+   "id": "https://openalex.org/W3045923742",
+   "title": "Expression of Nectin-4 and PD-L1 in Upper Tract Urothelial Carcinoma",
+   "year": 2020,
+   "cited_by": 105
+  },
+  {
+   "id": "https://openalex.org/W4366821818",
+   "title": "First-in-Human Study of the Radioligand 68Ga-N188 Targeting Nectin-4 for PET/CT Imaging of Advanced Urothelial Carcinoma",
+   "year": 2023,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W4387849664",
+   "title": "The Double Antibody Drug Conjugate (DAD) phase I trial: sacituzumab govitecan plus enfortumab vedotin for metastatic urothelial carcinoma",
+   "year": 2023,
+   "cited_by": 96
+  },
+  {
+   "id": "https://openalex.org/W7130433278",
+   "title": "Perioperative Enfortumab Vedotin and Pembrolizumab in Bladder Cancer",
+   "year": 2026,
+   "cited_by": 93
+  },
+  {
+   "id": "https://openalex.org/W4214711830",
+   "title": "TROP2 Expression Across Molecular Subtypes of Urothelial Carcinoma and Enfortumab Vedotin-resistant Cells",
+   "year": 2022,
+   "cited_by": 92
+  },
+  {
+   "id": "https://openalex.org/W4200121162",
+   "title": "Efficacy of enfortumab vedotin in advanced urothelial cancer: Analysis from the Urothelial Cancer Network to Investigate Therapeutic Experiences (UNITE) study",
+   "year": 2021,
+   "cited_by": 88
+  },
+  {
+   "id": "https://openalex.org/W2969641801",
+   "title": "A phase I study of enfortumab vedotin in Japanese patients with locally advanced or metastatic urothelial carcinoma",
+   "year": 2019,
+   "cited_by": 82
+  },
+  {
+   "id": "https://openalex.org/W4405805273",
+   "title": "The Financial Burden of Localized and Metastatic Bladder Cancer",
+   "year": 2024,
+   "cited_by": 74
+  },
+  {
+   "id": "https://openalex.org/W4296078948",
+   "title": "BT8009; A Nectin-4 Targeting Bicycle Toxin Conjugate for Treatment of Solid Tumors",
+   "year": 2022,
+   "cited_by": 74
+  },
+  {
+   "id": "https://openalex.org/W3163417926",
+   "title": "Perioperative Pembrolizumab Therapy in Muscle-Invasive Bladder Cancer: Phase III KEYNOTE-866 and KEYNOTE-905/EV-303",
+   "year": 2021,
+   "cited_by": 72
+  },
+  {
+   "id": "https://openalex.org/W4229457345",
+   "title": "Overcoming Resistance to Anti–Nectin-4 Antibody-Drug Conjugate",
+   "year": 2022,
+   "cited_by": 70
+  },
+  {
+   "id": "https://openalex.org/W4210838726",
+   "title": "The Anti-Nectin 4: A Promising Tumor Cells Target. A Systematic Review",
+   "year": 2022,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4410929528",
+   "title": "Enfortumab vedotin plus pembrolizumab in untreated locally advanced or metastatic urothelial carcinoma: 2.5-year median follow-up of the phase III EV-302/KEYNOTE-A39 trial",
+   "year": 2025,
+   "cited_by": 68
+  }
+ ]
+}

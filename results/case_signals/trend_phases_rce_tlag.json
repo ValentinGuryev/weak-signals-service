@@ -1,0 +1,301 @@
+{
+ "rce": [
+  {
+   "work_id": "https://openalex.org/W2004915176",
+   "title": "RCE-DR, a novel process for coated conductor fabrication with hig",
+   "year_pub": 2014,
+   "incoming": 9,
+   "phases": {
+    "first_cite": 2014,
+    "peak_year": 2015,
+    "development": [],
+    "established": 2015,
+    "series": {
+     "2017": 1,
+     "2014": 2,
+     "2016": 2,
+     "2021": 1,
+     "2015": 1,
+     "2018": 1,
+     "2019": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2027078781",
+   "title": "Characteristics of High-$J_{c}$ GdBCO Coated Conductors Fabricate",
+   "year_pub": 2012,
+   "incoming": 8,
+   "phases": {
+    "first_cite": 2014,
+    "peak_year": 2014,
+    "development": [],
+    "established": 2014,
+    "series": {
+     "2014": 2,
+     "2016": 2,
+     "2021": 1,
+     "2018": 1,
+     "2019": 1,
+     "2020": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2119126849",
+   "title": "YBCO films grown by reactive co-evaporation on simplified IBAD-Mg",
+   "year_pub": 2009,
+   "incoming": 7,
+   "phases": {
+    "first_cite": 2010,
+    "peak_year": 2012,
+    "development": [],
+    "established": 2012,
+    "series": {
+     "2014": 2,
+     "2012": 2,
+     "2010": 1,
+     "2021": 1,
+     "2015": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2019012085",
+   "title": "Development of long-length SmBCO coated conductors using a batch-",
+   "year_pub": 2008,
+   "incoming": 6,
+   "phases": {
+    "first_cite": 2010,
+    "peak_year": 2014,
+    "development": [
+     2013
+    ],
+    "established": 2014,
+    "series": {
+     "2014": 3,
+     "2013": 1,
+     "2012": 1,
+     "2010": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1026792815",
+   "title": "The Effect of Growth Temperature on $\\text{GdBa}_{2}\\text{Cu}_{3}",
+   "year_pub": 2014,
+   "incoming": 5,
+   "phases": {
+    "first_cite": 2016,
+    "peak_year": 2016,
+    "development": [],
+    "established": 2016,
+    "series": {
+     "2016": 1,
+     "2021": 1,
+     "2018": 1,
+     "2019": 1,
+     "2020": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2154614547",
+   "title": "Reactive Co-Evaporation of YBCO as a Low-Cost Process for Fabrica",
+   "year_pub": 2009,
+   "incoming": 5,
+   "phases": {
+    "first_cite": 2009,
+    "peak_year": 2009,
+    "development": [],
+    "established": 2009,
+    "series": {
+     "2009": 2,
+     "2012": 1,
+     "2010": 1,
+     "2021": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W1971900130",
+   "title": "Strong pinning in very fast grown reactive co-evaporated GdBa2Cu3",
+   "year_pub": 2014,
+   "incoming": 4,
+   "phases": {
+    "first_cite": 2014,
+    "peak_year": 2014,
+    "development": [],
+    "established": 2014,
+    "series": {
+     "2014": 1,
+     "2018": 1,
+     "2019": 1,
+     "2020": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W2017204042",
+   "title": "Strain and magnetic field response of Ic in reinforced GdBCO coat",
+   "year_pub": 2014,
+   "incoming": 3,
+   "phases": {
+    "first_cite": 2015,
+    "peak_year": 2015,
+    "development": [],
+    "established": 2015,
+    "series": {
+     "2016": 1,
+     "2015": 1,
+     "2018": 1
+    }
+   }
+  }
+ ],
+ "tlag": [
+  {
+   "work_id": "https://openalex.org/W2999277850",
+   "title": "Ultrafast transient liquid assisted growth of high current densit",
+   "year_pub": 2020,
+   "incoming": 11,
+   "phases": {
+    "first_cite": 2020,
+    "peak_year": 2026,
+    "development": [
+     2024,
+     2026
+    ],
+    "established": 2026,
+    "series": {
+     "2022": 3,
+     "2020": 1,
+     "2024": 1,
+     "2025": 3,
+     "2021": 1,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4296239761",
+   "title": "Kinetic Control of Ultrafast Transient Liquid Assisted Growth of ",
+   "year_pub": 2022,
+   "incoming": 9,
+   "phases": {
+    "first_cite": 2022,
+    "peak_year": 2026,
+    "development": [
+     2026
+    ],
+    "established": 2026,
+    "series": {
+     "2022": 3,
+     "2024": 1,
+     "2025": 3,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3127247683",
+   "title": "Combinatorial Screening of Cuprate Superconductors by Drop-On-Dem",
+   "year_pub": 2021,
+   "incoming": 5,
+   "phases": {
+    "first_cite": 2022,
+    "peak_year": 2022,
+    "development": [],
+    "established": 2022,
+    "series": {
+     "2022": 3,
+     "2026": 1,
+     "2025": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4307036125",
+   "title": "Chemical and Microstructural Nanoscale Homogeneity in Superconduc",
+   "year_pub": 2022,
+   "incoming": 5,
+   "phases": {
+    "first_cite": 2022,
+    "peak_year": 2026,
+    "development": [
+     2025
+    ],
+    "established": 2026,
+    "series": {
+     "2022": 1,
+     "2024": 1,
+     "2025": 1,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W3035043152",
+   "title": "Relevance of the Formation of Intermediate Non-Equilibrium Phases",
+   "year_pub": 2020,
+   "incoming": 4,
+   "phases": {
+    "first_cite": 2021,
+    "peak_year": 2021,
+    "development": [],
+    "established": 2021,
+    "series": {
+     "2022": 2,
+     "2024": 1,
+     "2021": 1
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4402862581",
+   "title": "Metal Propionate Solutions for High-Throughput Liquid-Assisted Ma",
+   "year_pub": 2024,
+   "incoming": 3,
+   "phases": {
+    "first_cite": 2025,
+    "peak_year": 2025,
+    "development": [],
+    "established": 2025,
+    "series": {
+     "2025": 1,
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4414081589",
+   "title": "Role of Liquid Composition in the Transient Liquid Assisted Growt",
+   "year_pub": 2025,
+   "incoming": 2,
+   "phases": {
+    "first_cite": 2026,
+    "peak_year": 2026,
+    "development": [],
+    "established": 2026,
+    "series": {
+     "2026": 2
+    }
+   }
+  },
+  {
+   "work_id": "https://openalex.org/W4408017165",
+   "title": "Spatially Resolved Characterization of the Local Superconducting ",
+   "year_pub": 2025,
+   "incoming": 1,
+   "phases": {
+    "first_cite": 2026,
+    "peak_year": 2026,
+    "development": [],
+    "established": 2026,
+    "series": {
+     "2026": 1
+    }
+   }
+  }
+ ]
+}

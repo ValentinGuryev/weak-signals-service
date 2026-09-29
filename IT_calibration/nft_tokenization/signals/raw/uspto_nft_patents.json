@@ -1,0 +1,366 @@
+{
+ "case": "it_calibration_nft_tokenization",
+ "signal": "patents",
+ "date": "2026-09-20",
+ "channel": "MCP patent-client-agents (USPTO PPUBS)",
+ "queries": [
+  {
+   "q": "\"non-fungible token\"",
+   "jurisdiction": "us",
+   "source": "uspto_ppubs"
+  },
+  {
+   "q": "\"digital asset tokenization\"",
+   "jurisdiction": "us",
+   "source": "uspto_ppubs"
+  }
+ ],
+ "raw_pubs": 32,
+ "dedup_L1_publication": 32,
+ "dedup_L2_invention": 27,
+ "by_filing_year_L1": {
+  "2018": 1,
+  "2019": 1,
+  "2022": 4,
+  "2023": 6,
+  "2024": 1,
+  "2025": 9,
+  "2026": 10
+ },
+ "by_filing_year_L2": {
+  "2018": 1,
+  "2022": 3,
+  "2023": 4,
+  "2025": 9,
+  "2026": 10
+ },
+ "by_rel": {
+  "noise": 9,
+  "infra": 10,
+  "core": 13
+ },
+ "n_families": 27,
+ "note": "2026 неполный год; PPUBS публикует с задержкой выкатки (pub-дата 2026 у filing 2023-25) — честный ряд по filing. L2 = дедуп по семье (assignee+смысл). rel: core=напрямую NFT/токенизация, infra=блокчейн/диджитал-активы (фон), noise=фраза в полном тексте без отношения.",
+ "patents": [
+  {
+   "pn": "20260281180",
+   "title": "COMMUNICATION BETWEEN NETWORKS",
+   "pub": "2026-09-17",
+   "filing": "2026-03-16",
+   "app": "QPQ AG",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "qpq"
+  },
+  {
+   "pn": "20260280878",
+   "title": "SECURELY PROCESSING A CONTINGENT ACTION TOKEN",
+   "pub": "2026-09-17",
+   "filing": "2026-05-01",
+   "app": "2BC Innovations, LLC",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "2bc"
+  },
+  {
+   "pn": "20260281122",
+   "title": "SYSTEMS AND METHODS FOR NODE-BASED NETWORK ACCESS CONTROL",
+   "pub": "2026-09-17",
+   "filing": "2025-03-11",
+   "app": "Wells Fargo Bank, N.A.",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "wf1"
+  },
+  {
+   "pn": "20260277997",
+   "title": "TOUCH ENABLED GRAPHICAL USER INTERFACES AND SYSTEMS FOR DISTRIBUTING REAL TIME CONTENT",
+   "pub": "2026-09-17",
+   "filing": "2026-05-08",
+   "app": "Vigon AI Media Inc.",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "vigon"
+  },
+  {
+   "pn": "20260278127",
+   "title": "SYSTEMS AND METHODS FOR NODE-BASED RESOURCE PROTECTION",
+   "pub": "2026-09-17",
+   "filing": "2025-03-11",
+   "app": "Wells Fargo Bank, N.A.",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "wf2"
+  },
+  {
+   "pn": "20260278604",
+   "title": "BLOCKCHAIN-BASED DATA TRANSACTION DEVICE AND METHOD",
+   "pub": "2026-09-17",
+   "filing": "2025-05-29",
+   "app": "LG ELECTRONICS INC.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "lg_bc"
+  },
+  {
+   "pn": "20260278632",
+   "title": "VERSATILE LAYER-3 BLOCKCHAIN SERVICE INTERFACE FOR AUTOMATING AND DECENTRALIZING PECUNIARY MICRO TRANSACTIONS AMONG IOT AND M2M DEVICES",
+   "pub": "2026-09-17",
+   "filing": "2025-06-18",
+   "app": "Schwartz; Theodore R.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "schwartz"
+  },
+  {
+   "pn": "20260278715",
+   "title": "SYSTEM AND METHOD FOR HIERARCHICAL SMART-CONTRACT ARCHITECTURE FOR OPEN INNOVATION PORTFOLIOS",
+   "pub": "2026-09-17",
+   "filing": "2026-05-11",
+   "app": "Villamar; Carlos R.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "villamar"
+  },
+  {
+   "pn": "20260278686",
+   "title": "MULTI-SHARE OF UNIQUE NON-FUNGIBLE TOKENS WITH PRIVACY-PRESERVING TRACKING",
+   "pub": "2026-09-17",
+   "filing": "2025-08-14",
+   "app": "BIGtoken, Inc.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "bigtoken"
+  },
+  {
+   "pn": "20260278960",
+   "title": "ARCHITECTURES COMBINING AUGMENTED REALITY AND VIRTUAL REALITY OR OTHER REMOTE APPLICATIONS TO FACILITATE INTERACTIONS WITH THE VIRTUAL WORLD AND PHYSICAL WORLD",
+   "pub": "2026-09-17",
+   "filing": "2026-05-11",
+   "app": "The Aerospace Corporation",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "aero"
+  },
+  {
+   "pn": "20260279221",
+   "title": "SYSTEM AND METHOD FOR ADAPTIVE MULTI-AGENT TRAINING CONTENT GENERATION VIA ITERATIVE SUBJECT MATTER EXPERT (SME) CAPTURE AND RETRIEVAL-AUGMENTED GENERATION",
+   "pub": "2026-09-17",
+   "filing": "2025-03-12",
+   "app": "ZYGLIO, INC.",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "zyglio"
+  },
+  {
+   "pn": "20260280893",
+   "title": "Blockchain-Enabled Digital Transaction Architecture for Incentivizing Trust in Digital Engineering",
+   "pub": "2026-09-17",
+   "filing": "2026-05-18",
+   "app": "Istari Digital, Inc.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "istari"
+  },
+  {
+   "pn": "20260280895",
+   "title": "SYSTEM AND METHOD FOR THE CRYPTOGRAPHIC SERIALIZATION, SPATIALLY DETERMINISTIC ATTESTATION, AND CROSS-NETWORK SYNCHRONIZATION OF DYNAMIC DATA OBJECT STATES",
+   "pub": "2026-09-17",
+   "filing": "2026-05-04",
+   "app": "MarketWorks LLC",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "marketworks"
+  },
+  {
+   "pn": "20260278548",
+   "title": "SOURCING-ENABLED WORKFLOW MANAGEMENT SYSTEM AND METHOD CROSS-REFERENCE TO RELATED APPLICATIONS",
+   "pub": "2026-09-17",
+   "filing": "2026-05-01",
+   "app": "MOTHERSHIP IP, LLC",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "mothership1"
+  },
+  {
+   "pn": "20260278549",
+   "title": "TOTAL PEOPLE OPERATIONS PLATFORM WITH ADVANCED AI TRAINING AND PROCUREMENT SYSTEM AND METHOD",
+   "pub": "2026-09-17",
+   "filing": "2026-05-08",
+   "app": "MOTHERSHIP IP, LLC",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "mothership2"
+  },
+  {
+   "pn": "20260278599",
+   "title": "SYSTEM FOR RECORDING TRANSACTION HISTORY OF ARTWORK",
+   "pub": "2026-09-17",
+   "filing": "2026-03-09",
+   "app": "SoftBank Group Corp.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "softbank"
+  },
+  {
+   "pn": "20260278567",
+   "title": "MANAGING CRYPTO DEPOSITS VIA A NON-CUSTODIAL ESCROW",
+   "pub": "2026-09-17",
+   "filing": "2025-03-14",
+   "app": "Coinbase, Inc.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "coinbase"
+  },
+  {
+   "pn": "20260278044",
+   "title": "SYSTEM AND METHOD FOR POSTING NON-FUNGIBLE TOKEN (NFT) AND PROVING OWNERSHIP THEREOF",
+   "pub": "2026-09-17",
+   "filing": "2025-05-29",
+   "app": "LG ELECTRONICS INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "lg_nft"
+  },
+  {
+   "pn": "20260278568",
+   "title": "DEVICES, SYSTEMS, AND METHODS FOR SEAMLESSLY INTEGRATING AND FACILITATING THE USE OF FIAT AND DIGITAL ASSETS",
+   "pub": "2026-09-17",
+   "filing": "2023-04-11",
+   "app": "Visa International Service Association",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "visa"
+  },
+  {
+   "pn": "20260278609",
+   "title": "TERMINAL, SYSTEM, CONTROL METHOD OF TERMINAL, AND STORAGE MEDIUM",
+   "pub": "2026-09-17",
+   "filing": "2023-03-22",
+   "app": "NEC Corporation",
+   "cc": "1/1",
+   "rel": "noise",
+   "fam": "nec"
+  },
+  {
+   "pn": "20250315894",
+   "title": "COMPUTER-IMPLEMENTED METHODS AND SYSTEMS FOR SECURE DIGITAL ASSET TOKENIZATION AND TRANSFER USING DISTRIBUTED LEDGER TECHNOLOGY",
+   "pub": "2025-10-09",
+   "filing": "2025-04-09",
+   "app": "Web3 Freedom Club DAO LLC",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "web3dao"
+  },
+  {
+   "pn": "20230342822",
+   "title": "METHOD AND SYSTEM OF SENTIMENT-BASED TOKENIZATION AND SECURE DEPLOYMENT THEREOF",
+   "pub": "2023-10-26",
+   "filing": "2023-06-09",
+   "app": "HIWAVE TECHNOLOGIES INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "hiwave_tok"
+  },
+  {
+   "pn": "12333580",
+   "title": "Method and system of sentiment-based tokenization and secure deployment thereof",
+   "pub": "2025-06-17",
+   "filing": "2023-06-09",
+   "app": "HIWAVE TECHNOLOGIES INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "hiwave_tok"
+  },
+  {
+   "pn": "20230325857",
+   "title": "METHOD AND SYSTEM OF SENTIMENT-BASED SELECTIVE USER ENGAGEMENT",
+   "pub": "2023-10-12",
+   "filing": "2023-06-09",
+   "app": "HIWAVE TECHNOLOGIES INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "hiwave_eng"
+  },
+  {
+   "pn": "12333560",
+   "title": "Method and system of sentiment-based selective user engagement",
+   "pub": "2025-06-17",
+   "filing": "2023-06-09",
+   "app": "HIWAVE TECHNOLOGIES INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "hiwave_eng"
+  },
+  {
+   "pn": "20230162166",
+   "title": "AUTOMATIC COLLECTION OF USER-GENERATED AUDIOVISUAL ASSETS AND GENERATION OF NON-FUNGIBLE TOKEN ASSETS",
+   "pub": "2023-05-25",
+   "filing": "2022-11-18",
+   "app": "Keller; Keaton",
+   "cc": "705/35",
+   "rel": "core",
+   "fam": "keller"
+  },
+  {
+   "pn": "20230071093",
+   "title": "SYSTEM AND METHOD FOR UNIFIED SMART CONTRACT-BASED LISTING AND TRANSACTION OF NFT ASSESTS ACROSS MULTIPLE PLATFORMS",
+   "pub": "2023-03-09",
+   "filing": "2022-09-03",
+   "app": "VLINDER INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "vlinder"
+  },
+  {
+   "pn": "20220366021",
+   "title": "VERIFYING, MONITORING, AND TOKENIZING DIGITAL ASSETS AS PROOF OF OWNERSHIP AND VALUATION OF THE DIGITAL ASSETS",
+   "pub": "2022-11-17",
+   "filing": "2022-05-16",
+   "app": "TULIP DIGITAL ASSET EXCHANGE, INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "tulip"
+  },
+  {
+   "pn": "12182232",
+   "title": "Verifying, monitoring, and tokenizing digital assets as proof of ownership and valuation of the digital assets",
+   "pub": "2024-12-31",
+   "filing": "2022-05-16",
+   "app": "TULIP DIGITAL ASSET EXCHANGE, INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "tulip"
+  },
+  {
+   "pn": "20250094545",
+   "title": "VERIFYING, MONITORING, AND TOKENIZING DIGITAL ASSETS AS PROOF OF OWNERSHIP AND VALUATION OF THE DIGITAL ASSETS",
+   "pub": "2025-03-20",
+   "filing": "2024-11-25",
+   "app": "TULIP DIGITAL ASSET EXCHANGE, INC.",
+   "cc": "1/1",
+   "rel": "core",
+   "fam": "tulip"
+  },
+  {
+   "pn": "20190080407",
+   "title": "SYSTEM AND METHOD OF PROVIDING UNIQUE IDENTIFIERS IN SECURITY BLOCKCHAIN-BASED TOKENS",
+   "pub": "2019-03-14",
+   "filing": "2018-09-10",
+   "app": "TEMPLUM, INC.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "templum"
+  },
+  {
+   "pn": "20190197622",
+   "title": "SYSTEM AND METHOD OF PROVIDING UNIQUE IDENTIFIERS IN SECURITY BLOCKCHAIN-BASED TOKENS",
+   "pub": "2019-06-27",
+   "filing": "2019-02-25",
+   "app": "TEMPLUM, INC.",
+   "cc": "1/1",
+   "rel": "infra",
+   "fam": "templum"
+  }
+ ]
+}

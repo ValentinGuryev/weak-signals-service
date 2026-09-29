@@ -1,0 +1,788 @@
+{
+ "direction": "gene_therapy_aav",
+ "name": "Генная терапия (AAV, in vivo)",
+ "promise_2018": "прорыв Luxturna/Zolgensma",
+ "expected": "🔶",
+ "signal_terms": "\"gene therapy\" AND (AAV OR \"adeno-associated\")",
+ "anchors": {
+  "Luxturna": {
+   "fda_year": 2017,
+   "counts": {
+    "2000": 1,
+    "2006": 1,
+    "2008": 1,
+    "2016": 2,
+    "2017": 13,
+    "2018": 39,
+    "2019": 62,
+    "2020": 55,
+    "2021": 63,
+    "2022": 65,
+    "2023": 59,
+    "2024": 56,
+    "2025": 68,
+    "2026": 62
+   }
+  },
+  "Zolgensma": {
+   "fda_year": 2019,
+   "counts": {
+    "2006": 1,
+    "2018": 1,
+    "2019": 99,
+    "2020": 105,
+    "2021": 128,
+    "2022": 136,
+    "2023": 183,
+    "2024": 162,
+    "2025": 148,
+    "2026": 129
+   }
+  },
+  "Hemgenix": {
+   "fda_year": 2022,
+   "counts": {
+    "2019": 1,
+    "2020": 4,
+    "2021": 3,
+    "2022": 12,
+    "2023": 39,
+    "2024": 54,
+    "2025": 31,
+    "2026": 26
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2000": 1,
+  "2006": 2,
+  "2008": 1,
+  "2016": 2,
+  "2017": 13,
+  "2018": 40,
+  "2019": 162,
+  "2020": 164,
+  "2021": 194,
+  "2022": 213,
+  "2023": 281,
+  "2024": 272,
+  "2025": 247,
+  "2026": 217
+ },
+ "signal_counts_by_year": {
+  "2000": 145,
+  "2001": 181,
+  "2002": 217,
+  "2003": 220,
+  "2004": 293,
+  "2005": 364,
+  "2006": 342,
+  "2007": 252,
+  "2008": 282,
+  "2009": 298,
+  "2010": 316,
+  "2011": 361,
+  "2012": 332,
+  "2013": 350,
+  "2014": 373,
+  "2015": 533,
+  "2016": 478,
+  "2017": 441,
+  "2018": 487,
+  "2019": 661,
+  "2020": 766,
+  "2021": 753,
+  "2022": 817,
+  "2023": 1025,
+  "2024": 1129,
+  "2025": 1391,
+  "2026": 1075
+ },
+ "corpus_size": 114,
+ "works": [
+  {
+   "id": "https://openalex.org/W2736065260",
+   "title": "Efficacy and safety of voretigene neparvovec (AAV2-hRPE65v2) in patients with RPE65 -mediated inherited retinal dystrophy: a randomised, controlled, open-label, phase 3 trial",
+   "year": 2017,
+   "cited_by": 1947
+  },
+  {
+   "id": "https://openalex.org/W3111331330",
+   "title": "Current Clinical Applications of In Vivo Gene Therapy with AAVs",
+   "year": 2020,
+   "cited_by": 760
+  },
+  {
+   "id": "https://openalex.org/W2765080153",
+   "title": "Molecular genetics and emerging therapies for retinitis pigmentosa: Basic research and clinical perspectives",
+   "year": 2017,
+   "cited_by": 418
+  },
+  {
+   "id": "https://openalex.org/W2952178822",
+   "title": "Efficacy, Safety, and Durability of Voretigene Neparvovec-rzyl in RPE65 Mutation–Associated Inherited Retinal Dystrophy",
+   "year": 2019,
+   "cited_by": 404
+  },
+  {
+   "id": "https://openalex.org/W2959256911",
+   "title": "Recombinant Adeno-Associated Virus Gene Therapy in Light of Luxturna (and Zolgensma and Glybera): Where Are We, and How Did We Get Here?",
+   "year": 2019,
+   "cited_by": 330
+  },
+  {
+   "id": "https://openalex.org/W3092913715",
+   "title": "Immune responses to retinal gene therapy using adeno-associated viral vectors – Implications for treatment success and safety",
+   "year": 2020,
+   "cited_by": 247
+  },
+  {
+   "id": "https://openalex.org/W2908402311",
+   "title": "Pharmaceutical Development of AAV-Based Gene Therapy Products for the Eye",
+   "year": 2018,
+   "cited_by": 222
+  },
+  {
+   "id": "https://openalex.org/W2914965689",
+   "title": "Luxturna: FDA documents reveal the value of a costly gene therapy",
+   "year": 2019,
+   "cited_by": 214
+  },
+  {
+   "id": "https://openalex.org/W3149378228",
+   "title": "Durability of Voretigene Neparvovec for Biallelic RPE65-Mediated Inherited Retinal Disease",
+   "year": 2021,
+   "cited_by": 197
+  },
+  {
+   "id": "https://openalex.org/W3107549158",
+   "title": "Clinical Perspective: Treating RPE65-Associated Retinal Dystrophy",
+   "year": 2020,
+   "cited_by": 187
+  },
+  {
+   "id": "https://openalex.org/W2995820186",
+   "title": "Adeno-associated viral vector-mediated immune responses: Understanding barriers to gene delivery",
+   "year": 2019,
+   "cited_by": 173
+  },
+  {
+   "id": "https://openalex.org/W3148863837",
+   "title": "Perifoveal Chorioretinal Atrophy after Subretinal Voretigene Neparvovec-rzyl for RPE65-Mediated Leber Congenital Amaurosis",
+   "year": 2021,
+   "cited_by": 155
+  },
+  {
+   "id": "https://openalex.org/W2954423091",
+   "title": "Next-generation AAV vectors—do not judge a virus (only) by its cover",
+   "year": 2019,
+   "cited_by": 151
+  },
+  {
+   "id": "https://openalex.org/W4283156377",
+   "title": "Retinitis Pigmentosa: Burden of Disease and Current Unmet Needs",
+   "year": 2022,
+   "cited_by": 143
+  },
+  {
+   "id": "https://openalex.org/W4319216298",
+   "title": "AAV vectors applied to the treatment of CNS disorders: Clinical status and challenges",
+   "year": 2023,
+   "cited_by": 134
+  },
+  {
+   "id": "https://openalex.org/W3011416849",
+   "title": "Gene therapy beyond luxturna: a new horizon of the treatment for inherited retinal disease",
+   "year": 2020,
+   "cited_by": 123
+  },
+  {
+   "id": "https://openalex.org/W2896913082",
+   "title": "Gene therapy for RPE65-related retinal disease",
+   "year": 2018,
+   "cited_by": 123
+  },
+  {
+   "id": "https://openalex.org/W4206710973",
+   "title": "Review of gene therapies for age-related macular degeneration",
+   "year": 2022,
+   "cited_by": 118
+  },
+  {
+   "id": "https://openalex.org/W3135268126",
+   "title": "Gene therapy for inherited retinal diseases: progress and possibilities",
+   "year": 2021,
+   "cited_by": 118
+  },
+  {
+   "id": "https://openalex.org/W4387370065",
+   "title": "Current State of Human Gene Therapy: Approved Products and Vectors",
+   "year": 2023,
+   "cited_by": 109
+  },
+  {
+   "id": "https://openalex.org/W2987842697",
+   "title": "Gene Therapy in Retinal Dystrophies",
+   "year": 2019,
+   "cited_by": 106
+  },
+  {
+   "id": "https://openalex.org/W4291465575",
+   "title": "Subretinal Injection Techniques for Retinal Disease: A Review",
+   "year": 2022,
+   "cited_by": 99
+  },
+  {
+   "id": "https://openalex.org/W4411966080",
+   "title": "Viral and non-viral vectors in gene therapy: current state and clinical perspectives",
+   "year": 2025,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W3157769326",
+   "title": "An Update on Gene Therapy for Inherited Retinal Dystrophy: Experience in Leber Congenital Amaurosis Clinical Trials",
+   "year": 2021,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W4321252661",
+   "title": "Retinitis Pigmentosa: Novel Therapeutic Targets and Drug Development",
+   "year": 2023,
+   "cited_by": 80
+  },
+  {
+   "id": "https://openalex.org/W4281382958",
+   "title": "Development of retinal atrophy after subretinal gene therapy with voretigene neparvovec",
+   "year": 2022,
+   "cited_by": 80
+  },
+  {
+   "id": "https://openalex.org/W3107193617",
+   "title": "Gene therapy for inherited retinal diseases",
+   "year": 2021,
+   "cited_by": 80
+  },
+  {
+   "id": "https://openalex.org/W2964088387",
+   "title": "Cost-effectiveness of Voretigene Neparvovec-rzyl vs Standard Care forRPE65-Mediated Inherited Retinal Disease",
+   "year": 2019,
+   "cited_by": 80
+  },
+  {
+   "id": "https://openalex.org/W3102913507",
+   "title": "Voretigene Neparvovec in Retinal Diseases: A Review of the Current Clinical Evidence",
+   "year": 2020,
+   "cited_by": 77
+  },
+  {
+   "id": "https://openalex.org/W2962807939",
+   "title": "Surgical Technique for Subretinal Gene Therapy in Humans with Inherited Retinal Degeneration",
+   "year": 2019,
+   "cited_by": 72
+  },
+  {
+   "id": "https://openalex.org/W2793446133",
+   "title": "Prospect of retinal gene therapy following commercialization of voretigene neparvovec-rzyl for retinal dystrophy mediated by RPE65 mutation",
+   "year": 2018,
+   "cited_by": 72
+  },
+  {
+   "id": "https://openalex.org/W4295720447",
+   "title": "Gene Therapy for Inherited Retinal Disease: Long-Term Durability of Effect",
+   "year": 2022,
+   "cited_by": 71
+  },
+  {
+   "id": "https://openalex.org/W2995083313",
+   "title": "Comparative Analysis of the Capsid Structures of AAVrh.10, AAVrh.39, and AAV8",
+   "year": 2019,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4390944289",
+   "title": "Real-World Safety and Effectiveness of Voretigene Neparvovec: Results up to 2 Years from the Prospective, Registry-Based PERCEIVE Study",
+   "year": 2024,
+   "cited_by": 65
+  },
+  {
+   "id": "https://openalex.org/W3130546939",
+   "title": "Evolving AAV-delivered therapeutics towards ultimate cures",
+   "year": 2021,
+   "cited_by": 65
+  },
+  {
+   "id": "https://openalex.org/W4225616504",
+   "title": "Financing and Reimbursement Models for Personalised Medicine: A Systematic Review to Identify Current Models and Future Options",
+   "year": 2022,
+   "cited_by": 64
+  },
+  {
+   "id": "https://openalex.org/W3029095168",
+   "title": "Ocular Disease Therapeutics: Design and Delivery of Drugs for Diseases of the Eye",
+   "year": 2020,
+   "cited_by": 63
+  },
+  {
+   "id": "https://openalex.org/W4376504388",
+   "title": "Clinical applications of gene therapy for rare diseases: A review",
+   "year": 2023,
+   "cited_by": 62
+  },
+  {
+   "id": "https://openalex.org/W4200390871",
+   "title": "Visual Acuity, Retinal Morphology, and Patients’ Perceptions after Voretigene Neparovec-rzyl Therapy for RPE65-Associated Retinal Disease",
+   "year": 2021,
+   "cited_by": 62
+  },
+  {
+   "id": "https://openalex.org/W4206609089",
+   "title": "Real-world outcomes of voretigene neparvovec treatment in pediatric patients with RPE65-associated Leber congenital amaurosis",
+   "year": 2022,
+   "cited_by": 59
+  },
+  {
+   "id": "https://openalex.org/W3135935053",
+   "title": "Onasemnogene abeparvovec gene therapy for symptomatic infantile-onset spinal muscular atrophy in patients with two copies of SMN2 (STR1VE): an open-label, single-arm, multicentre, phase 3 trial",
+   "year": 2021,
+   "cited_by": 490
+  },
+  {
+   "id": "https://openalex.org/W2955699452",
+   "title": "Onasemnogene Abeparvovec: First Global Approval",
+   "year": 2019,
+   "cited_by": 341
+  },
+  {
+   "id": "https://openalex.org/W4283011798",
+   "title": "Onasemnogene abeparvovec for presymptomatic infants with two copies of SMN2 at risk for spinal muscular atrophy type 1: the Phase III SPR1NT trial",
+   "year": 2022,
+   "cited_by": 313
+  },
+  {
+   "id": "https://openalex.org/W3104374915",
+   "title": "Hepatotoxicity following administration of onasemnogene abeparvovec (AVXS-101) for the treatment of spinal muscular atrophy",
+   "year": 2020,
+   "cited_by": 311
+  },
+  {
+   "id": "https://openalex.org/W3160334825",
+   "title": "Five-Year Extension Results of the Phase 1 START Trial of Onasemnogene Abeparvovec in Spinal Muscular Atrophy",
+   "year": 2021,
+   "cited_by": 289
+  },
+  {
+   "id": "https://openalex.org/W4283031673",
+   "title": "Onasemnogene abeparvovec for presymptomatic infants with three copies of SMN2 at risk for spinal muscular atrophy: the Phase III SPR1NT trial",
+   "year": 2022,
+   "cited_by": 288
+  },
+  {
+   "id": "https://openalex.org/W3199905728",
+   "title": "Onasemnogene abeparvovec gene therapy for symptomatic infantile-onset spinal muscular atrophy type 1 (STR1VE-EU): an open-label, single-arm, multicentre, phase 3 trial",
+   "year": 2021,
+   "cited_by": 262
+  },
+  {
+   "id": "https://openalex.org/W3108080594",
+   "title": "Thrombotic Microangiopathy Following Onasemnogene Abeparvovec for Spinal Muscular Atrophy: A Case Series",
+   "year": 2020,
+   "cited_by": 205
+  },
+  {
+   "id": "https://openalex.org/W2951109748",
+   "title": "From Clinical Trials to Clinical Practice: Practical Considerations for Gene Replacement Therapy in SMA Type 1",
+   "year": 2019,
+   "cited_by": 191
+  },
+  {
+   "id": "https://openalex.org/W2966208621",
+   "title": "AVXS-101 (Onasemnogene Abeparvovec) for SMA1: Comparative Study with a Prospective Natural History Cohort",
+   "year": 2019,
+   "cited_by": 183
+  },
+  {
+   "id": "https://openalex.org/W2946733099",
+   "title": "Impact of Age and Motor Function in a Phase 1/2A Study of Infants With SMA Type 1 Receiving Single-Dose Gene Replacement Therapy",
+   "year": 2019,
+   "cited_by": 181
+  },
+  {
+   "id": "https://openalex.org/W3124511546",
+   "title": "Spinal Muscular Atrophy: Mutations, Testing, and Clinical Relevance",
+   "year": 2021,
+   "cited_by": 172
+  },
+  {
+   "id": "https://openalex.org/W3001054030",
+   "title": "Overturning the Paradigm of Spinal Muscular Atrophy as Just a Motor Neuron Disease",
+   "year": 2020,
+   "cited_by": 167
+  },
+  {
+   "id": "https://openalex.org/W4280574529",
+   "title": "Fatal thrombotic microangiopathy case following adeno-associated viral SMN gene therapy",
+   "year": 2022,
+   "cited_by": 160
+  },
+  {
+   "id": "https://openalex.org/W3041342782",
+   "title": "New Treatments in Spinal Muscular Atrophy: Positive Results and New Challenges",
+   "year": 2020,
+   "cited_by": 158
+  },
+  {
+   "id": "https://openalex.org/W4385278403",
+   "title": "Spinal Muscular Atrophy: The Past, Present, and Future of Diagnosis and Treatment",
+   "year": 2023,
+   "cited_by": 154
+  },
+  {
+   "id": "https://openalex.org/W4308425595",
+   "title": "Advances and limitations for the treatment of spinal muscular atrophy",
+   "year": 2022,
+   "cited_by": 138
+  },
+  {
+   "id": "https://openalex.org/W3080552198",
+   "title": "Gene Therapy for Spinal Muscular Atrophy: Safety and Early Outcomes",
+   "year": 2020,
+   "cited_by": 136
+  },
+  {
+   "id": "https://openalex.org/W3210678052",
+   "title": "Gene replacement therapy with onasemnogene abeparvovec in children with spinal muscular atrophy aged 24 months or younger and bodyweight up to 15 kg: an observational cohort study",
+   "year": 2021,
+   "cited_by": 125
+  },
+  {
+   "id": "https://openalex.org/W3192418782",
+   "title": "Clinical Trial and Postmarketing Safety of Onasemnogene Abeparvovec Therapy",
+   "year": 2021,
+   "cited_by": 122
+  },
+  {
+   "id": "https://openalex.org/W4225124381",
+   "title": "Mid- and long-term (at least 12 months) follow-up of patients with spinal muscular atrophy (SMA) treated with nusinersen, onasemnogene abeparvovec, risdiplam or combination therapies: A systematic review of real-world study data",
+   "year": 2022,
+   "cited_by": 112
+  },
+  {
+   "id": "https://openalex.org/W3204144377",
+   "title": "Biodistribution of onasemnogene abeparvovec DNA, mRNA and SMN protein in human tissue",
+   "year": 2021,
+   "cited_by": 110
+  },
+  {
+   "id": "https://openalex.org/W3012667247",
+   "title": "Onasemnogene Abeparvovec-xioi: Gene Therapy for Spinal Muscular Atrophy",
+   "year": 2020,
+   "cited_by": 104
+  },
+  {
+   "id": "https://openalex.org/W3042098710",
+   "title": "European ad-hoc consensus statement on gene replacement therapy for spinal muscular atrophy",
+   "year": 2020,
+   "cited_by": 102
+  },
+  {
+   "id": "https://openalex.org/W3122942724",
+   "title": "Systematic literature review of the economic burden of spinal muscular atrophy and economic evaluations of treatments",
+   "year": 2021,
+   "cited_by": 101
+  },
+  {
+   "id": "https://openalex.org/W2972177292",
+   "title": "Gene Therapy for ALS—A Perspective",
+   "year": 2019,
+   "cited_by": 99
+  },
+  {
+   "id": "https://openalex.org/W2944757191",
+   "title": "Cost-effectiveness analysis of using onasemnogene abeparvocec (AVXS-101) in spinal muscular atrophy type 1 patients",
+   "year": 2019,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W4324320986",
+   "title": "Gene Therapy for Spinal Muscular Atrophy (SMA): A Review of Current Challenges and Safety Considerations for Onasemnogene Abeparvovec (Zolgensma)",
+   "year": 2023,
+   "cited_by": 95
+  },
+  {
+   "id": "https://openalex.org/W2920823484",
+   "title": "Survival, Motor Function, and Motor Milestones: Comparison of AVXS-101 Relative to Nusinersen for the Treatment of Infants with Spinal Muscular Atrophy Type 1",
+   "year": 2019,
+   "cited_by": 95
+  },
+  {
+   "id": "https://openalex.org/W3131006260",
+   "title": "Spinal Muscular Atrophy",
+   "year": 2021,
+   "cited_by": 85
+  },
+  {
+   "id": "https://openalex.org/W4296793913",
+   "title": "Novartis Confirms Deaths of Two Patients Treated with Gene Therapy Zolgensma",
+   "year": 2022,
+   "cited_by": 84
+  },
+  {
+   "id": "https://openalex.org/W3203933728",
+   "title": "Current and Future Prospects for Gene Therapy for Rare Genetic Diseases Affecting the Brain and Spinal Cord",
+   "year": 2021,
+   "cited_by": 83
+  },
+  {
+   "id": "https://openalex.org/W4200394886",
+   "title": "Pricing Zolgensma – the world’s most expensive drug",
+   "year": 2021,
+   "cited_by": 81
+  },
+  {
+   "id": "https://openalex.org/W3097395965",
+   "title": "Current and emerging therapies for Duchenne muscular dystrophy and spinal muscular atrophy",
+   "year": 2020,
+   "cited_by": 81
+  },
+  {
+   "id": "https://openalex.org/W4321480301",
+   "title": "Gene Therapy with Etranacogene Dezaparvovec for Hemophilia B",
+   "year": 2023,
+   "cited_by": 361
+  },
+  {
+   "id": "https://openalex.org/W2982694372",
+   "title": "Etranacogene dezaparvovec (AMT-061 phase 2b): normal/near normal FIX activity and bleed cessation in hemophilia B",
+   "year": 2019,
+   "cited_by": 135
+  },
+  {
+   "id": "https://openalex.org/W4311666206",
+   "title": "Gene therapy for hemophilia",
+   "year": 2022,
+   "cited_by": 115
+  },
+  {
+   "id": "https://openalex.org/W4321437357",
+   "title": "Etranacogene Dezaparvovec: First Approval",
+   "year": 2023,
+   "cited_by": 93
+  },
+  {
+   "id": "https://openalex.org/W4392364671",
+   "title": "Etranacogene dezaparvovec gene therapy for haemophilia B (HOPE-B): 24-month post-hoc efficacy and safety data from a single-arm, multicentre, phase 3 trial",
+   "year": 2024,
+   "cited_by": 62
+  },
+  {
+   "id": "https://openalex.org/W4310960730",
+   "title": "Stable and durable factor IX levels in patients with hemophilia B over 3 years after etranacogene dezaparvovec gene therapy",
+   "year": 2022,
+   "cited_by": 59
+  },
+  {
+   "id": "https://openalex.org/W4394005744",
+   "title": "Hemophilia B and gene therapy: a new chapter with etranacogene dezaparvovec",
+   "year": 2024,
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W4386470878",
+   "title": "Hemophilia Gene Therapy: The End of the Beginning?",
+   "year": 2023,
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W4307252015",
+   "title": "Comprehensive analysis and prediction of long-term durability of factor IX activity following etranacogene dezaparvovec gene therapy in the treatment of hemophilia B",
+   "year": 2022,
+   "cited_by": 37
+  },
+  {
+   "id": "https://openalex.org/W4311860699",
+   "title": "First hemophilia B gene therapy approved: More than two decades in the making",
+   "year": 2022,
+   "cited_by": 32
+  },
+  {
+   "id": "https://openalex.org/W4381547933",
+   "title": "Hemophilia gene therapy: first, do no harm",
+   "year": 2023,
+   "cited_by": 30
+  },
+  {
+   "id": "https://openalex.org/W4295088247",
+   "title": "Liver Gene Therapy",
+   "year": 2022,
+   "cited_by": 28
+  },
+  {
+   "id": "https://openalex.org/W4409199535",
+   "title": "Completion of phase 2b trial of etranacogene dezaparvovec gene therapy in patients with hemophilia B over 5 years",
+   "year": 2025,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4408903493",
+   "title": "The deLIVERed promises of gene therapy: Past, present, and future of liver-directed gene therapy",
+   "year": 2025,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4327558030",
+   "title": "Two gene therapies for hemophilia available: Now what?",
+   "year": 2023,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4417095045",
+   "title": "Final Analysis of a Study of Etranacogene Dezaparvovec for Hemophilia B",
+   "year": 2025,
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W3216150095",
+   "title": "Etranacogene dezaparvovec for hemophilia B gene therapy",
+   "year": 2021,
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W3095969251",
+   "title": "AMT-060 Gene Therapy in Adults with Severe or Moderate-Severe Hemophilia B Confirm Stable FIX Expression and Durable Reductions in Bleeding and Factor IX Consumption for up to 5 Years",
+   "year": 2020,
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W4390264715",
+   "title": "Viral Vectors in Gene Replacement Therapy",
+   "year": 2023,
+   "cited_by": 18
+  },
+  {
+   "id": "https://openalex.org/W4388674879",
+   "title": "Etranacogene dezaparvovec-drlb gene therapy for patients with hemophilia B (congenital factor IX deficiency)",
+   "year": 2023,
+   "cited_by": 18
+  },
+  {
+   "id": "https://openalex.org/W4385230245",
+   "title": "Evaluating Gene Therapy as a Potential Paradigm Shift in Treating Severe Hemophilia",
+   "year": 2023,
+   "cited_by": 18
+  },
+  {
+   "id": "https://openalex.org/W4388797783",
+   "title": "Valoctocogene Roxaparvovec and Etranacogene Dezaparavovec: Novel Gene Therapies for Hemophilia A and B",
+   "year": 2023,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W3104279367",
+   "title": "First Data from the Phase 3 HOPE-B Gene Therapy Trial: Efficacy and Safety of Etranacogene Dezaparvovec (AAV5-Padua hFIX variant; AMT-061) in Adults with Severe or Moderate-Severe Hemophilia B Treated Irrespective of Pre-Existing Anti-Capsid Neutralizing Antibodies",
+   "year": 2020,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W4392656067",
+   "title": "Effect of etranacogene dezaparvovec on quality of life for severe and moderately severe haemophilia B participants: Results from the phase III HOPE‐B trial 2 years after gene therapy",
+   "year": 2024,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4389231009",
+   "title": "Long-Term Bleeding Protection, Sustained FIX Activity, Reduction of FIX Consumption and Safety of Hemophilia B Gene Therapy: Results from the HOPE-B Trial 3 Years after Administration of a Single Dose of Etranacogene Dezaparvovec in Adult Patients with Severe or Moderately Severe Hemophilia B",
+   "year": 2023,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4415543535",
+   "title": "The WFH Guidelines for the Management of Haemophilia: AAV Gene Therapy, 2025",
+   "year": 2025,
+   "cited_by": 12
+  },
+  {
+   "id": "https://openalex.org/W4387950499",
+   "title": "Etranacogene dezaparvovec for the treatment of adult patients with severe and moderately severe hemophilia B",
+   "year": 2023,
+   "cited_by": 12
+  },
+  {
+   "id": "https://openalex.org/W4310106582",
+   "title": "Adults with Severe or Moderately Severe Hemophilia B Receiving Etranacogene Dezaparvovec in the HOPE-B Phase 3 Clinical Trial Continue to Experience a Stable Increase in Mean Factor IX Activity Levels and Durable Hemostatic Protection after 24 Months’ Follow-up",
+   "year": 2022,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4282825415",
+   "title": "Worldwide use of factor IX Padua for hemophilia B gene therapy",
+   "year": 2022,
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W7117129559",
+   "title": "Overview of gene therapy for hemophilia: questions and answers to navigate the innovation",
+   "year": 2025,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4403151563",
+   "title": "Managed Entry Agreements for High-Cost, One-Off Potentially Curative Therapies: A Framework and Calculation Tool to Determine Their Suitability",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4402514518",
+   "title": "Biological Barriers for Drug Delivery and Development of Innovative Therapeutic Approaches in HIV, Pancreatic Cancer, and Hemophilia A/B",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4399258456",
+   "title": "Creating win-win-win situations with managed entry agreements? Prioritizing gene and cell therapies within the window of opportunity",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4393119436",
+   "title": "Cost-Effectiveness Analysis of Etranacogene Dezaparvovec Versus Extended Half-Life Prophylaxis for Moderate-to-Severe Haemophilia B in Germany",
+   "year": 2024,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4317359114",
+   "title": "Hemgenix - A Gene Therapy for Hemophilia B",
+   "year": 2023,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4413302970",
+   "title": "Natural history of preexisting AAV5 antibodies in adults with hemophilia B during the lead-in of the etranacogene dezaparvovec phase 3 study",
+   "year": 2025,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4406843834",
+   "title": "Gene-ius at work: Hemophilia B treatment enters a new era",
+   "year": 2025,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4401832012",
+   "title": "Gene therapy for people with hemophilia B: a proposed care delivery model in Italy",
+   "year": 2024,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4414072366",
+   "title": "Advances in Gene Therapy Clinical Trials for Hemophilia Care",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4413325973",
+   "title": "Curative Therapies for Hemophilias and Hemoglobinopathies in Adults: Immune, Gene, and Stem Cell Approaches in a Global Context",
+   "year": 2025,
+   "cited_by": 6
+  }
+ ]
+}

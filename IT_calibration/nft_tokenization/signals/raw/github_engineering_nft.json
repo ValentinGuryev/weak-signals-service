@@ -1,0 +1,128 @@
+{
+  "erc721": {
+    "query": "erc721 in:name,description,topics",
+    "per_year_created": {
+      "2016": 0,
+      "2017": 12,
+      "2018": 284,
+      "2019": 208,
+      "2020": 222,
+      "2021": 927,
+      "2022": 2430,
+      "2023": 1223,
+      "2024": 2145,
+      "2025": 644,
+      "2026": 396
+    },
+    "top_repos": [
+      {
+        "name": "AmazingAng/WTF-Solidity",
+        "stars": 14046,
+        "desc": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
+        "created": "2022-04-02"
+      },
+      {
+        "name": "Vectorized/solady",
+        "stars": 3373,
+        "desc": "Optimized Solidity snippets.",
+        "created": "2022-07-16"
+      },
+      {
+        "name": "blockchain-etl/ethereum-etl",
+        "stars": 3129,
+        "desc": "Python scripts for ETL (extract, transform and load) jobs for Ethereum blocks, t",
+        "created": "2018-05-02"
+      },
+      {
+        "name": "spothq/cryptocurrency-icons",
+        "stars": 2751,
+        "desc": "A set of icons for all the main cryptocurrencies and altcoins, in a range of sty",
+        "created": "2017-05-21"
+      }
+    ]
+  },
+  "non_fungible_phrase": {
+    "query": "\"non-fungible token\" in:name,description,topics",
+    "per_year_created": {
+      "2016": 0,
+      "2017": 3,
+      "2018": 52,
+      "2019": 48,
+      "2020": 56,
+      "2021": 188,
+      "2022": 284,
+      "2023": 312,
+      "2024": 257,
+      "2025": 192,
+      "2026": 65
+    },
+    "top_repos": [
+      {
+        "name": "nibbstack/erc721",
+        "stars": 1046,
+        "desc": "The reference implementation of the ERC-721 non-fungible token standard.",
+        "created": "2018-05-07"
+      },
+      {
+        "name": "gianni-dalerta/awesome-nft",
+        "stars": 973,
+        "desc": "A curated list of awesome Non Fungible Token (NFT, ERC721) frameworks, libraries",
+        "created": "2018-08-13"
+      },
+      {
+        "name": "onflow/flow-nft",
+        "stars": 457,
+        "desc": "The non-fungible token standard for the Flow network. Resource-oriented NFT cont",
+        "created": "2020-04-19"
+      },
+      {
+        "name": "soratur/collect",
+        "stars": 361,
+        "desc": "A non-fungible token marketplace from the early NFT days 📦",
+        "created": "2021-03-13"
+      }
+    ]
+  },
+  "nft_marketplace": {
+    "query": "\"nft\" marketplace in:name,description,topics",
+    "per_year_created": {
+      "2016": 1,
+      "2017": 0,
+      "2018": 7,
+      "2019": 11,
+      "2020": 16,
+      "2021": 1492,
+      "2022": 6188,
+      "2023": 3825,
+      "2024": 2679,
+      "2025": 3005,
+      "2026": 1441
+    },
+    "top_repos": [
+      {
+        "name": "ProjectOpenSea/seaport",
+        "stars": 2255,
+        "desc": "Seaport is a marketplace protocol for safely and efficiently buying and selling ",
+        "created": "2022-01-20"
+      },
+      {
+        "name": "decentraland/marketplace",
+        "stars": 1198,
+        "desc": "🏛️ Decentraland's NFT Marketplace",
+        "created": "2019-12-09"
+      },
+      {
+        "name": "ethereum-boilerplate/ethereum-nft-marketplace-boilerplate",
+        "stars": 869,
+        "desc": "",
+        "created": "2021-11-17"
+      },
+      {
+        "name": "kodadot/nft-gallery",
+        "stars": 685,
+        "desc": "Generative Art Marketplace ",
+        "created": "2021-01-29"
+      }
+    ]
+  }
+}

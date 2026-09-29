@@ -1,0 +1,24 @@
+{
+ "built": "2026-09-26 00:51",
+ "ok": [
+  "taxonomy/topic_vectors.npy",
+  "taxonomy/topic_vectors_i2.npy",
+  "taxonomy/topics.parquet",
+  "taxonomy/topics_i2.parquet",
+  "taxonomy/topic_ids.txt",
+  "digest",
+  "ngi_series",
+  "ngi_impact",
+  "birth_cache",
+  "lexicon",
+  "sp_candidates",
+  "sp_report",
+  "sp_series",
+  "embed_vectors"
+ ],
+ "missing": [
+  "q1ai_candidates",
+  "q1ai_report",
+  "q1ai_series"
+ ]
+}

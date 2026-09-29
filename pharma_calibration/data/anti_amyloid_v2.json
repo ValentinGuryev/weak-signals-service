@@ -1,0 +1,538 @@
+{
+ "direction": "anti_amyloid",
+ "name": "Анти-амилоид (Альцгеймер)",
+ "promise_2018": "надежды на модифицирующие терапии",
+ "expected": "❌",
+ "signal_terms": "\"amyloid\" AND (Alzheimer OR \"beta-amyloid\") AND (antibody OR immunotherapy)",
+ "anchors": {
+  "Aduhelm": {
+   "fda_year": 2021,
+   "counts": {
+    "2002": 1,
+    "2008": 1,
+    "2009": 1,
+    "2011": 1,
+    "2015": 14,
+    "2016": 31,
+    "2017": 28,
+    "2018": 23,
+    "2019": 43,
+    "2020": 56,
+    "2021": 242,
+    "2022": 304,
+    "2023": 218,
+    "2024": 204,
+    "2025": 226,
+    "2026": 107
+   }
+  },
+  "Leqembi": {
+   "fda_year": 2023,
+   "counts": {
+    "2002": 1,
+    "2013": 1,
+    "2021": 18,
+    "2022": 64,
+    "2023": 312,
+    "2024": 405,
+    "2025": 652,
+    "2026": 428
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2002": 2,
+  "2008": 1,
+  "2009": 1,
+  "2011": 1,
+  "2013": 1,
+  "2015": 14,
+  "2016": 31,
+  "2017": 28,
+  "2018": 23,
+  "2019": 43,
+  "2020": 56,
+  "2021": 260,
+  "2022": 368,
+  "2023": 530,
+  "2024": 609,
+  "2025": 878,
+  "2026": 535
+ },
+ "signal_counts_by_year": {
+  "2000": 54,
+  "2001": 66,
+  "2002": 55,
+  "2003": 76,
+  "2004": 82,
+  "2005": 87,
+  "2006": 109,
+  "2007": 74,
+  "2008": 147,
+  "2009": 110,
+  "2010": 126,
+  "2011": 105,
+  "2012": 97,
+  "2013": 137,
+  "2014": 95,
+  "2015": 80,
+  "2016": 89,
+  "2017": 77,
+  "2018": 61,
+  "2019": 70,
+  "2020": 88,
+  "2021": 73,
+  "2022": 105,
+  "2023": 127,
+  "2024": 150,
+  "2025": 169,
+  "2026": 90
+ },
+ "corpus_size": 74,
+ "works": [
+  {
+   "id": "https://openalex.org/W2329336071",
+   "title": "The amyloid hypothesis of Alzheimer's disease at 25 years",
+   "year": 2016,
+   "cited_by": 6274
+  },
+  {
+   "id": "https://openalex.org/W2510806376",
+   "title": "The antibody aducanumab reduces Aβ plaques in Alzheimer’s disease",
+   "year": 2016,
+   "cited_by": 3112
+  },
+  {
+   "id": "https://openalex.org/W4225741213",
+   "title": "Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease",
+   "year": 2022,
+   "cited_by": 1369
+  },
+  {
+   "id": "https://openalex.org/W4401806028",
+   "title": "Recent advances in Alzheimer’s disease: mechanisms, clinical trials and new drug development strategies",
+   "year": 2024,
+   "cited_by": 1082
+  },
+  {
+   "id": "https://openalex.org/W4213065543",
+   "title": "The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics",
+   "year": 2022,
+   "cited_by": 738
+  },
+  {
+   "id": "https://openalex.org/W3217122335",
+   "title": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+   "year": 2021,
+   "cited_by": 614
+  },
+  {
+   "id": "https://openalex.org/W2415242066",
+   "title": "Drug treatments in Alzheimer’s disease",
+   "year": 2016,
+   "cited_by": 579
+  },
+  {
+   "id": "https://openalex.org/W3085706776",
+   "title": "Alzheimer's disease: Recent treatment strategies",
+   "year": 2020,
+   "cited_by": 543
+  },
+  {
+   "id": "https://openalex.org/W3097527510",
+   "title": "Failure to demonstrate efficacy of aducanumab: An analysis of the EMERGE and ENGAGE trials as reported by Biogen, December 2019",
+   "year": 2020,
+   "cited_by": 541
+  },
+  {
+   "id": "https://openalex.org/W2995764973",
+   "title": "Antibodies to watch in 2020",
+   "year": 2019,
+   "cited_by": 439
+  },
+  {
+   "id": "https://openalex.org/W4306644813",
+   "title": "Lecanemab, Aducanumab, and Gantenerumab — Binding Profiles to Different Forms of Amyloid-Beta Might Explain Efficacy and Side Effects in Clinical Trials for Alzheimer's Disease",
+   "year": 2022,
+   "cited_by": 429
+  },
+  {
+   "id": "https://openalex.org/W2737900099",
+   "title": "Drug candidates in clinical trials for Alzheimer’s disease",
+   "year": 2017,
+   "cited_by": 425
+  },
+  {
+   "id": "https://openalex.org/W2802724927",
+   "title": "Structural and kinetic basis for the selectivity of aducanumab for aggregated forms of amyloid-β",
+   "year": 2018,
+   "cited_by": 378
+  },
+  {
+   "id": "https://openalex.org/W4388626497",
+   "title": "Anti-Amyloid Monoclonal Antibodies for the Treatment of Alzheimer’s Disease",
+   "year": 2023,
+   "cited_by": 366
+  },
+  {
+   "id": "https://openalex.org/W3048901815",
+   "title": "Aducanumab, gantenerumab, BAN2401, and ALZ-801—the first wave of amyloid-targeting drugs for Alzheimer’s disease with potential for near term approval",
+   "year": 2020,
+   "cited_by": 361
+  },
+  {
+   "id": "https://openalex.org/W4205628911",
+   "title": "Antibodies to watch in 2022",
+   "year": 2022,
+   "cited_by": 338
+  },
+  {
+   "id": "https://openalex.org/W4205125680",
+   "title": "The Impact of Systemic Inflammation on Alzheimer’s Disease Pathology",
+   "year": 2022,
+   "cited_by": 337
+  },
+  {
+   "id": "https://openalex.org/W2740614417",
+   "title": "Lessons Learned from Alzheimer Disease: Clinical Trials with Negative Outcomes",
+   "year": 2017,
+   "cited_by": 310
+  },
+  {
+   "id": "https://openalex.org/W3209578655",
+   "title": "Past, present and future of therapeutic strategies against amyloid-β peptides in Alzheimer’s disease: a systematic review",
+   "year": 2021,
+   "cited_by": 305
+  },
+  {
+   "id": "https://openalex.org/W3185184038",
+   "title": "Aducanumab: First Approval",
+   "year": 2021,
+   "cited_by": 292
+  },
+  {
+   "id": "https://openalex.org/W2992893037",
+   "title": "A resurrection of aducanumab for Alzheimer's disease",
+   "year": 2019,
+   "cited_by": 291
+  },
+  {
+   "id": "https://openalex.org/W3191999594",
+   "title": "Aducanumab: Appropriate Use Recommendations",
+   "year": 2021,
+   "cited_by": 290
+  },
+  {
+   "id": "https://openalex.org/W4390547811",
+   "title": "Ultrasound Blood–Brain Barrier Opening and Aducanumab in Alzheimer’s Disease",
+   "year": 2024,
+   "cited_by": 289
+  },
+  {
+   "id": "https://openalex.org/W2988412209",
+   "title": "The path forward in Alzheimer's disease therapeutics: Reevaluating the amyloid cascade hypothesis",
+   "year": 2019,
+   "cited_by": 286
+  },
+  {
+   "id": "https://openalex.org/W4223533048",
+   "title": "Impact of Anti-amyloid-β Monoclonal Antibodies on the Pathology and Clinical Profile of Alzheimer’s Disease: A Focus on Aducanumab and Lecanemab",
+   "year": 2022,
+   "cited_by": 267
+  },
+  {
+   "id": "https://openalex.org/W4281839906",
+   "title": "The Role of Amyloid PET in Imaging Neurodegenerative Disorders: A Review",
+   "year": 2022,
+   "cited_by": 262
+  },
+  {
+   "id": "https://openalex.org/W4220954708",
+   "title": "Immunotherapy for Alzheimer’s disease: targeting β-amyloid and beyond",
+   "year": 2022,
+   "cited_by": 259
+  },
+  {
+   "id": "https://openalex.org/W4387259038",
+   "title": "Clinical trials of new drugs for Alzheimer disease: a 2020–2023 update",
+   "year": 2023,
+   "cited_by": 251
+  },
+  {
+   "id": "https://openalex.org/W3146410983",
+   "title": "Effects of monoclonal antibodies against amyloid-β on clinical and biomarker outcomes and adverse event risks: A systematic review and meta-analysis of phase III RCTs in Alzheimer’s disease",
+   "year": 2021,
+   "cited_by": 251
+  },
+  {
+   "id": "https://openalex.org/W3173952338",
+   "title": "Recent advances on drug development and emerging therapeutic agents for Alzheimer’s disease",
+   "year": 2021,
+   "cited_by": 250
+  },
+  {
+   "id": "https://openalex.org/W3178441362",
+   "title": "Approval of Aducanumab for Alzheimer Disease—The FDA’s Perspective",
+   "year": 2021,
+   "cited_by": 247
+  },
+  {
+   "id": "https://openalex.org/W3149600507",
+   "title": "Evaluation of Aducanumab for Alzheimer Disease",
+   "year": 2021,
+   "cited_by": 245
+  },
+  {
+   "id": "https://openalex.org/W3166605268",
+   "title": "Neurotoxic Soluble Amyloid Oligomers Drive Alzheimer’s Pathogenesis and Represent a Clinically Validated Target for Slowing Disease Progression",
+   "year": 2021,
+   "cited_by": 240
+  },
+  {
+   "id": "https://openalex.org/W4294162864",
+   "title": "The neuroprotective effects of glucagon-like peptide 1 in Alzheimer’s and Parkinson’s disease: An in-depth review",
+   "year": 2022,
+   "cited_by": 237
+  },
+  {
+   "id": "https://openalex.org/W4281488754",
+   "title": "Therapeutic Approach to Alzheimer’s Disease: Current Treatments and New Perspectives",
+   "year": 2022,
+   "cited_by": 237
+  },
+  {
+   "id": "https://openalex.org/W3161140821",
+   "title": "Aducanumab produced a clinically meaningful benefit in association with amyloid lowering",
+   "year": 2021,
+   "cited_by": 236
+  },
+  {
+   "id": "https://openalex.org/W4225623397",
+   "title": "Quantification of amyloid PET for future clinical use: a state-of-the-art review",
+   "year": 2022,
+   "cited_by": 227
+  },
+  {
+   "id": "https://openalex.org/W4220705385",
+   "title": "Alzheimer’s Disease: Key Insights from Two Decades of Clinical Trial Failures",
+   "year": 2022,
+   "cited_by": 227
+  },
+  {
+   "id": "https://openalex.org/W2946865729",
+   "title": "Alzheimer disease and aducanumab: adjusting our approach",
+   "year": 2019,
+   "cited_by": 214
+  },
+  {
+   "id": "https://openalex.org/W3010930366",
+   "title": "Pathways Connecting Late-Life Depression and Dementia",
+   "year": 2020,
+   "cited_by": 211
+  },
+  {
+   "id": "https://openalex.org/W4310461604",
+   "title": "Lecanemab in Early Alzheimer’s Disease",
+   "year": 2022,
+   "cited_by": 5607
+  },
+  {
+   "id": "https://openalex.org/W4360591479",
+   "title": "Lecanemab: Appropriate Use Recommendations",
+   "year": 2023,
+   "cited_by": 893
+  },
+  {
+   "id": "https://openalex.org/W3152692563",
+   "title": "A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer’s disease with lecanemab, an anti-Aβ protofibril antibody",
+   "year": 2021,
+   "cited_by": 835
+  },
+  {
+   "id": "https://openalex.org/W4312128797",
+   "title": "Lecanemab in patients with early Alzheimer’s disease: detailed results on biomarker, cognitive, and clinical effects from the randomized and open-label extension of the phase 2 proof-of-concept study",
+   "year": 2022,
+   "cited_by": 298
+  },
+  {
+   "id": "https://openalex.org/W4291824893",
+   "title": "The AHEAD 3‐45 Study: Design of a prevention trial for Alzheimer's disease",
+   "year": 2022,
+   "cited_by": 286
+  },
+  {
+   "id": "https://openalex.org/W4313546276",
+   "title": "Multiple Cerebral Hemorrhages in a Patient Receiving Lecanemab and Treated with t-PA for Stroke",
+   "year": 2023,
+   "cited_by": 225
+  },
+  {
+   "id": "https://openalex.org/W4387675480",
+   "title": "Accelerating Alzheimer’s therapeutic development: The past and future of clinical trials",
+   "year": 2023,
+   "cited_by": 196
+  },
+  {
+   "id": "https://openalex.org/W4367041078",
+   "title": "Lecanemab in Early Alzheimer’s Disease",
+   "year": 2023,
+   "cited_by": 190
+  },
+  {
+   "id": "https://openalex.org/W4315434323",
+   "title": "FDA approves Alzheimer’s drug lecanemab amid safety concerns",
+   "year": 2023,
+   "cited_by": 184
+  },
+  {
+   "id": "https://openalex.org/W4390613013",
+   "title": "Antibodies to watch in 2024",
+   "year": 2024,
+   "cited_by": 176
+  },
+  {
+   "id": "https://openalex.org/W4396804148",
+   "title": "Updated safety results from phase 3 lecanemab study in early Alzheimer’s disease",
+   "year": 2024,
+   "cited_by": 166
+  },
+  {
+   "id": "https://openalex.org/W4210807180",
+   "title": "Detection and Management of Amyloid-Related Imaging Abnormalities in Patients with Alzheimer's Disease Treated with Anti-Amyloid Beta Therapy",
+   "year": 2022,
+   "cited_by": 164
+  },
+  {
+   "id": "https://openalex.org/W4385549041",
+   "title": "Current and future therapeutic strategies for Alzheimer’s disease: an overview of drug development bottlenecks",
+   "year": 2023,
+   "cited_by": 160
+  },
+  {
+   "id": "https://openalex.org/W4385230581",
+   "title": "Anti-Amyloid Immunotherapies for Alzheimer's Disease: A 2023 Clinical Update",
+   "year": 2023,
+   "cited_by": 154
+  },
+  {
+   "id": "https://openalex.org/W4220777365",
+   "title": "Amyloid-Related Imaging Abnormalities With Anti-amyloid Antibodies for the Treatment of Dementia Due to Alzheimer's Disease",
+   "year": 2022,
+   "cited_by": 152
+  },
+  {
+   "id": "https://openalex.org/W4389617681",
+   "title": "Fatal iatrogenic cerebral β-amyloid-related arteritis in a woman treated with lecanemab for Alzheimer’s disease",
+   "year": 2023,
+   "cited_by": 149
+  },
+  {
+   "id": "https://openalex.org/W4385854855",
+   "title": "Eligibility for Anti-Amyloid Treatment in a Population-Based Study of Cognitive Aging",
+   "year": 2023,
+   "cited_by": 148
+  },
+  {
+   "id": "https://openalex.org/W4322720275",
+   "title": "Lecanemab: First Approval",
+   "year": 2023,
+   "cited_by": 141
+  },
+  {
+   "id": "https://openalex.org/W4389074728",
+   "title": "The FDA-approved anti-amyloid-β monoclonal antibodies for the treatment of Alzheimer’s disease: a systematic review and meta-analysis of randomized controlled trials",
+   "year": 2023,
+   "cited_by": 137
+  },
+  {
+   "id": "https://openalex.org/W4406829716",
+   "title": "Second-generation anti-amyloid monoclonal antibodies for Alzheimer’s disease: current landscape and future perspectives",
+   "year": 2025,
+   "cited_by": 134
+  },
+  {
+   "id": "https://openalex.org/W4377195480",
+   "title": "The affordability of lecanemab, an amyloid-targeting therapy for Alzheimer's disease: an EADC-EC viewpoint",
+   "year": 2023,
+   "cited_by": 127
+  },
+  {
+   "id": "https://openalex.org/W4319461701",
+   "title": "Lecanemab (BAN2401): an anti–beta-amyloid monoclonal antibody for the treatment of Alzheimer disease",
+   "year": 2023,
+   "cited_by": 123
+  },
+  {
+   "id": "https://openalex.org/W4408201841",
+   "title": "Microglial mechanisms drive amyloid-β clearance in immunized patients with Alzheimer’s disease",
+   "year": 2025,
+   "cited_by": 118
+  },
+  {
+   "id": "https://openalex.org/W4391046340",
+   "title": "Comparative efficacy, tolerability and acceptability of donanemab, lecanemab, aducanumab and lithium on cognitive function in mild cognitive impairment and Alzheimer's disease: A systematic review and network meta-analysis",
+   "year": 2024,
+   "cited_by": 118
+  },
+  {
+   "id": "https://openalex.org/W4391033321",
+   "title": "Risk factors in developing amyloid related imaging abnormalities (ARIA) and clinical implications",
+   "year": 2024,
+   "cited_by": 116
+  },
+  {
+   "id": "https://openalex.org/W4387016359",
+   "title": "Lecanemab Clarity AD: Quality-of-Life Results from a Randomized, Double-Blind Phase 3 Trial in Early Alzheimer's Disease",
+   "year": 2023,
+   "cited_by": 115
+  },
+  {
+   "id": "https://openalex.org/W4328023305",
+   "title": "ARIA in patients treated with lecanemab (BAN2401) in a phase 2 study in early Alzheimer's disease",
+   "year": 2023,
+   "cited_by": 112
+  },
+  {
+   "id": "https://openalex.org/W4387455035",
+   "title": "Guidelines for pharmacotherapy in Alzheimer’s disease – A primer on FDA-approved drugs",
+   "year": 2023,
+   "cited_by": 106
+  },
+  {
+   "id": "https://openalex.org/W4310776178",
+   "title": "Lecanemab for Alzheimer's disease: tempering hype and hope",
+   "year": 2022,
+   "cited_by": 104
+  },
+  {
+   "id": "https://openalex.org/W4385268425",
+   "title": "Antiamyloid Monoclonal Antibody Therapy for Alzheimer Disease",
+   "year": 2023,
+   "cited_by": 101
+  },
+  {
+   "id": "https://openalex.org/W3208670486",
+   "title": "Genomics of Alzheimer’s disease implicates the innate and adaptive immune systems",
+   "year": 2021,
+   "cited_by": 99
+  },
+  {
+   "id": "https://openalex.org/W4376225808",
+   "title": "Abundant Aβ fibrils in ultracentrifugal supernatants of aqueous extracts from Alzheimer’s disease brains",
+   "year": 2023,
+   "cited_by": 96
+  },
+  {
+   "id": "https://openalex.org/W4386996842",
+   "title": "Anti-Amyloid Therapies for Alzheimer’s Disease and the Amyloid Cascade Hypothesis",
+   "year": 2023,
+   "cited_by": 95
+  },
+  {
+   "id": "https://openalex.org/W4391116469",
+   "title": "Clinically Important Benefits and Harms of Monoclonal Antibodies Targeting Amyloid for the Treatment of Alzheimer Disease: A Systematic Review and Meta-Analysis",
+   "year": 2024,
+   "cited_by": 94
+  }
+ ]
+}

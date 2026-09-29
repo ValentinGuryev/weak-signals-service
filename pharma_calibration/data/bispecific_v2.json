@@ -1,0 +1,841 @@
+{
+ "direction": "bispecific",
+ "name": "Биспецифичные антитела",
+ "promise_2018": "перспективно в онкологии",
+ "expected": "✅",
+ "signal_terms": "\"bispecific antibody\"",
+ "anchors": {
+  "Blincyto": {
+   "fda_year": 2014,
+   "counts": {
+    "2004": 1,
+    "2005": 1,
+    "2007": 2,
+    "2008": 8,
+    "2009": 8,
+    "2010": 11,
+    "2011": 11,
+    "2012": 25,
+    "2013": 33,
+    "2014": 64,
+    "2015": 100,
+    "2016": 134,
+    "2017": 168,
+    "2018": 170,
+    "2019": 290,
+    "2020": 243,
+    "2021": 273,
+    "2022": 340,
+    "2023": 381,
+    "2024": 423,
+    "2025": 563,
+    "2026": 365
+   }
+  },
+  "Hemlibra": {
+   "fda_year": 2017,
+   "counts": {
+    "2010": 1,
+    "2016": 14,
+    "2017": 34,
+    "2018": 94,
+    "2019": 154,
+    "2020": 184,
+    "2021": 188,
+    "2022": 215,
+    "2023": 329,
+    "2024": 271,
+    "2025": 279,
+    "2026": 196
+   }
+  },
+  "Tecvayli": {
+   "fda_year": 2022,
+   "counts": {
+    "2020": 8,
+    "2021": 14,
+    "2022": 57,
+    "2023": 190,
+    "2024": 265,
+    "2025": 434,
+    "2026": 297
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2004": 1,
+  "2005": 1,
+  "2007": 2,
+  "2008": 8,
+  "2009": 8,
+  "2010": 12,
+  "2011": 11,
+  "2012": 25,
+  "2013": 33,
+  "2014": 64,
+  "2015": 100,
+  "2016": 148,
+  "2017": 202,
+  "2018": 264,
+  "2019": 444,
+  "2020": 435,
+  "2021": 475,
+  "2022": 612,
+  "2023": 900,
+  "2024": 959,
+  "2025": 1276,
+  "2026": 858
+ },
+ "signal_counts_by_year": {
+  "2000": 56,
+  "2001": 88,
+  "2002": 46,
+  "2003": 49,
+  "2004": 73,
+  "2005": 62,
+  "2006": 51,
+  "2007": 60,
+  "2008": 72,
+  "2009": 57,
+  "2010": 85,
+  "2011": 125,
+  "2012": 157,
+  "2013": 148,
+  "2014": 177,
+  "2015": 202,
+  "2016": 276,
+  "2017": 290,
+  "2018": 407,
+  "2019": 515,
+  "2020": 656,
+  "2021": 783,
+  "2022": 1005,
+  "2023": 2322,
+  "2024": 2030,
+  "2025": 2900,
+  "2026": 2499
+ },
+ "corpus_size": 120,
+ "works": [
+  {
+   "id": "https://openalex.org/W2118796952",
+   "title": "Chimeric Antigen Receptor T Cells for Sustained Remissions in Leukemia",
+   "year": 2014,
+   "cited_by": 5471
+  },
+  {
+   "id": "https://openalex.org/W2591709377",
+   "title": "Blinatumomab versus Chemotherapy for Advanced Acute Lymphoblastic Leukemia",
+   "year": 2017,
+   "cited_by": 2144
+  },
+  {
+   "id": "https://openalex.org/W2107925822",
+   "title": "Safety and activity of blinatumomab for adult patients with relapsed or refractory B-precursor acute lymphoblastic leukaemia: a multicentre, single-arm, phase 2 study",
+   "year": 2014,
+   "cited_by": 1271
+  },
+  {
+   "id": "https://openalex.org/W1991644988",
+   "title": "Tumor Regression in Cancer Patients by Very Low Doses of a T Cell–Engaging Antibody",
+   "year": 2008,
+   "cited_by": 1086
+  },
+  {
+   "id": "https://openalex.org/W2118241155",
+   "title": "Targeted Therapy With the T-Cell–Engaging Antibody Blinatumomab of Chemotherapy-Refractory Minimal Residual Disease in B-Lineage Acute Lymphoblastic Leukemia Patients Results in High Response Rate and Prolonged Leukemia-Free Survival",
+   "year": 2011,
+   "cited_by": 919
+  },
+  {
+   "id": "https://openalex.org/W2787145330",
+   "title": "Blinatumomab for minimal residual disease in adults with B-cell precursor acute lymphoblastic leukemia",
+   "year": 2018,
+   "cited_by": 866
+  },
+  {
+   "id": "https://openalex.org/W3083881843",
+   "title": "Pediatric acute lymphoblastic leukemia",
+   "year": 2020,
+   "cited_by": 710
+  },
+  {
+   "id": "https://openalex.org/W1967512987",
+   "title": "Phase II Trial of the Anti-CD19 Bispecific T Cell–Engager Blinatumomab Shows Hematologic and Molecular Remissions in Patients With Relapsed or Refractory B-Precursor Acute Lymphoblastic Leukemia",
+   "year": 2014,
+   "cited_by": 666
+  },
+  {
+   "id": "https://openalex.org/W2076560655",
+   "title": "Cytokine release syndrome after blinatumomab treatment related to abnormal macrophage activation and ameliorated with cytokine-directed therapy",
+   "year": 2013,
+   "cited_by": 623
+  },
+  {
+   "id": "https://openalex.org/W2529226476",
+   "title": "Phase I/Phase II Study of Blinatumomab in Pediatric Patients With Relapsed/Refractory Acute Lymphoblastic Leukemia",
+   "year": 2016,
+   "cited_by": 615
+  },
+  {
+   "id": "https://openalex.org/W1981730803",
+   "title": "Alternative molecular formats and therapeutic applications for bispecific antibodies",
+   "year": 2015,
+   "cited_by": 607
+  },
+  {
+   "id": "https://openalex.org/W2136453261",
+   "title": "CD19: a biomarker for B cell development, lymphoma diagnosis and therapy",
+   "year": 2012,
+   "cited_by": 573
+  },
+  {
+   "id": "https://openalex.org/W2514418134",
+   "title": "Dual CD19 and CD123 targeting prevents antigen-loss relapses after CD19-directed immunotherapies",
+   "year": 2016,
+   "cited_by": 563
+  },
+  {
+   "id": "https://openalex.org/W3093938683",
+   "title": "Dasatinib–Blinatumomab for Ph-Positive Acute Lymphoblastic Leukemia in Adults",
+   "year": 2020,
+   "cited_by": 515
+  },
+  {
+   "id": "https://openalex.org/W2038414910",
+   "title": "Long-term follow-up of hematologic relapse-free survival in a phase 2 study of blinatumomab in patients with MRD in B-lineage ALL",
+   "year": 2012,
+   "cited_by": 473
+  },
+  {
+   "id": "https://openalex.org/W1996815863",
+   "title": "Immunopharmacologic response of patients with B-lineage acute lymphoblastic leukemia to continuous infusion of T cell–engaging CD19/CD3-bispecific BiTE antibody blinatumomab",
+   "year": 2012,
+   "cited_by": 470
+  },
+  {
+   "id": "https://openalex.org/W2599899418",
+   "title": "Complete Hematologic and Molecular Response in Adult Patients With Relapsed/Refractory Philadelphia Chromosome–Positive B-Precursor Acute Lymphoblastic Leukemia Following Treatment With Blinatumomab: Results From a Phase II, Single-Arm, Multicenter Study",
+   "year": 2017,
+   "cited_by": 451
+  },
+  {
+   "id": "https://openalex.org/W2279127916",
+   "title": "Bispecific T-Cell Engager (BiTE) Antibody Construct Blinatumomab for the Treatment of Patients With Relapsed/Refractory Non-Hodgkin Lymphoma: Final Results From a Phase I Study",
+   "year": 2016,
+   "cited_by": 426
+  },
+  {
+   "id": "https://openalex.org/W3135688349",
+   "title": "Effect of Postreinduction Therapy Consolidation With Blinatumomab vs Chemotherapy on Disease-Free Survival in Children, Adolescents, and Young Adults With First Relapse of B-Cell Acute Lymphoblastic Leukemia",
+   "year": 2021,
+   "cited_by": 376
+  },
+  {
+   "id": "https://openalex.org/W2236959863",
+   "title": "Phase 2 study of the bispecific T-cell engager (BiTE) antibody blinatumomab in relapsed/refractory diffuse large B-cell lymphoma",
+   "year": 2016,
+   "cited_by": 375
+  },
+  {
+   "id": "https://openalex.org/W2220679566",
+   "title": "FDA Approval: Blinatumomab",
+   "year": 2015,
+   "cited_by": 373
+  },
+  {
+   "id": "https://openalex.org/W2031452426",
+   "title": "Blinatumomab: A historical perspective",
+   "year": 2012,
+   "cited_by": 364
+  },
+  {
+   "id": "https://openalex.org/W3134763925",
+   "title": "Effect of Blinatumomab vs Chemotherapy on Event-Free Survival Among Children With High-risk First-Relapse B-Cell Acute Lymphoblastic Leukemia",
+   "year": 2021,
+   "cited_by": 339
+  },
+  {
+   "id": "https://openalex.org/W2784605149",
+   "title": "Bispecific antibodies: design, therapy, perspectives",
+   "year": 2018,
+   "cited_by": 291
+  },
+  {
+   "id": "https://openalex.org/W3159583337",
+   "title": "Bispecific T cell engagers: an emerging therapy for management of hematologic malignancies",
+   "year": 2021,
+   "cited_by": 290
+  },
+  {
+   "id": "https://openalex.org/W2525034031",
+   "title": "Catch me if you can: Leukemia Escape after CD19-Directed T Cell Immunotherapies",
+   "year": 2016,
+   "cited_by": 289
+  },
+  {
+   "id": "https://openalex.org/W2211884070",
+   "title": "Bispecific antibodies and their applications",
+   "year": 2015,
+   "cited_by": 287
+  },
+  {
+   "id": "https://openalex.org/W2104173785",
+   "title": "Anti-CD20/CD3 T cell–dependent bispecific antibody for the treatment of B cell malignancies",
+   "year": 2015,
+   "cited_by": 280
+  },
+  {
+   "id": "https://openalex.org/W2582784681",
+   "title": "Frequency of regulatory T cells determines the outcome of the T-cell-engaging antibody blinatumomab in patients with B-precursor ALL",
+   "year": 2017,
+   "cited_by": 277
+  },
+  {
+   "id": "https://openalex.org/W4287578662",
+   "title": "T-cell exhaustion induced by continuous bispecific molecule exposure is ameliorated by treatment-free intervals",
+   "year": 2022,
+   "cited_by": 276
+  },
+  {
+   "id": "https://openalex.org/W2539686048",
+   "title": "Resistance to anti-CD19/CD3 BiTE in acute lymphoblastic leukemia may be mediated by disrupted CD19 membrane trafficking",
+   "year": 2016,
+   "cited_by": 268
+  },
+  {
+   "id": "https://openalex.org/W2178103997",
+   "title": "Novel immunotherapies in lymphoid malignancies",
+   "year": 2015,
+   "cited_by": 262
+  },
+  {
+   "id": "https://openalex.org/W4400940914",
+   "title": "Blinatumomab for MRD-Negative Acute Lymphoblastic Leukemia in Adults",
+   "year": 2024,
+   "cited_by": 257
+  },
+  {
+   "id": "https://openalex.org/W4309144621",
+   "title": "Ponatinib and blinatumomab for Philadelphia chromosome-positive acute lymphoblastic leukaemia: a US, single-centre, single-arm, phase 2 trial",
+   "year": 2022,
+   "cited_by": 245
+  },
+  {
+   "id": "https://openalex.org/W3025865156",
+   "title": "The BiTE (bispecific T‐cell engager) platform: Development and future potential of a targeted immuno‐oncology therapy across tumor types",
+   "year": 2020,
+   "cited_by": 236
+  },
+  {
+   "id": "https://openalex.org/W3165570177",
+   "title": "The landscape of bispecific T cell engager in cancer treatment",
+   "year": 2021,
+   "cited_by": 229
+  },
+  {
+   "id": "https://openalex.org/W2780976661",
+   "title": "Bispecific antibodies for cancer therapy: A review",
+   "year": 2017,
+   "cited_by": 223
+  },
+  {
+   "id": "https://openalex.org/W2557368153",
+   "title": "Cytokine release syndrome with novel therapeutics for acute lymphoblastic leukemia",
+   "year": 2016,
+   "cited_by": 223
+  },
+  {
+   "id": "https://openalex.org/W4367041068",
+   "title": "Blinatumomab Added to Chemotherapy in Infant Lymphoblastic Leukemia",
+   "year": 2023,
+   "cited_by": 215
+  },
+  {
+   "id": "https://openalex.org/W2403074774",
+   "title": "Blinatumomab, a Bispecific T-cell Engager (BiTE®) for CD-19 Targeted Cancer Immunotherapy: Clinical Pharmacology and Its Implications",
+   "year": 2016,
+   "cited_by": 214
+  },
+  {
+   "id": "https://openalex.org/W2734287351",
+   "title": "Emicizumab Prophylaxis in Hemophilia A with Inhibitors",
+   "year": 2017,
+   "cited_by": 1106
+  },
+  {
+   "id": "https://openalex.org/W2888898681",
+   "title": "Emicizumab Prophylaxis in Patients Who Have Hemophilia A without Inhibitors",
+   "year": 2018,
+   "cited_by": 761
+  },
+  {
+   "id": "https://openalex.org/W2400928773",
+   "title": "Factor VIII–Mimetic Function of Humanized Bispecific Antibody in Hemophilia A",
+   "year": 2016,
+   "cited_by": 471
+  },
+  {
+   "id": "https://openalex.org/W2980900975",
+   "title": "A multicenter, open-label phase 3 study of emicizumab prophylaxis in children with hemophilia A with inhibitors",
+   "year": 2019,
+   "cited_by": 394
+  },
+  {
+   "id": "https://openalex.org/W2936143155",
+   "title": "Efficacy, safety, and pharmacokinetics of emicizumab prophylaxis given every 4 weeks in people with haemophilia A (HAVEN 4): a multicentre, open-label, non-randomised phase 3 study",
+   "year": 2019,
+   "cited_by": 388
+  },
+  {
+   "id": "https://openalex.org/W3176503176",
+   "title": "Hemophilic arthropathy: Current knowledge and future perspectives",
+   "year": 2021,
+   "cited_by": 303
+  },
+  {
+   "id": "https://openalex.org/W3115183047",
+   "title": "Long-term outcomes with emicizumab prophylaxis for hemophilia A with or without FVIII inhibitors from the HAVEN 1-4 studies",
+   "year": 2020,
+   "cited_by": 299
+  },
+  {
+   "id": "https://openalex.org/W2766748635",
+   "title": "Emicizumab, a bispecific antibody recognizing coagulation factors IX and X: how does it actually compare to factor VIII?",
+   "year": 2017,
+   "cited_by": 264
+  },
+  {
+   "id": "https://openalex.org/W2915163461",
+   "title": "Antibodies to watch in 2017",
+   "year": 2016,
+   "cited_by": 239
+  },
+  {
+   "id": "https://openalex.org/W2915870000",
+   "title": "Antibodies to watch in 2018",
+   "year": 2018,
+   "cited_by": 234
+  },
+  {
+   "id": "https://openalex.org/W3006620258",
+   "title": "Hemophilia therapy: the future has begun",
+   "year": 2020,
+   "cited_by": 222
+  },
+  {
+   "id": "https://openalex.org/W2609215705",
+   "title": "Factor VIIIa-mimetic cofactor activity of a bispecific antibody to factors IX/IXa and X/Xa, emicizumab, depends on its ability to bridge the antigens",
+   "year": 2017,
+   "cited_by": 204
+  },
+  {
+   "id": "https://openalex.org/W2903935895",
+   "title": "New therapies for hemophilia",
+   "year": 2018,
+   "cited_by": 169
+  },
+  {
+   "id": "https://openalex.org/W2972682000",
+   "title": "A multicentre, open‐label study of emicizumab given every 2 or 4 weeks in children with severe haemophilia A without inhibitors",
+   "year": 2019,
+   "cited_by": 160
+  },
+  {
+   "id": "https://openalex.org/W3047889023",
+   "title": "Emicizumab for the treatment of acquired hemophilia A",
+   "year": 2020,
+   "cited_by": 150
+  },
+  {
+   "id": "https://openalex.org/W2900118404",
+   "title": "Inhibitors in haemophilia A and B: Management of bleeds, inhibitor eradication and strategies for difficult‐to‐treat patients",
+   "year": 2018,
+   "cited_by": 135
+  },
+  {
+   "id": "https://openalex.org/W2944389084",
+   "title": "Effects and Interferences of Emicizumab, a Humanised Bispecific Antibody Mimicking Activated Factor VIII Cofactor Function, on Coagulation Assays",
+   "year": 2019,
+   "cited_by": 131
+  },
+  {
+   "id": "https://openalex.org/W3118996547",
+   "title": "The changing treatment landscape in haemophilia: from standard half-life clotting factor concentrates to gene editing",
+   "year": 2021,
+   "cited_by": 130
+  },
+  {
+   "id": "https://openalex.org/W2760006373",
+   "title": "Long-term safety and efficacy of emicizumab in a phase 1/2 study in patients with hemophilia A with or without inhibitors",
+   "year": 2017,
+   "cited_by": 129
+  },
+  {
+   "id": "https://openalex.org/W4235469187",
+   "title": "Modified clot waveform analysis to measure plasma coagulation potential in the presence of the anti‐factor IXa/factor X bispecific antibody emicizumab",
+   "year": 2018,
+   "cited_by": 123
+  },
+  {
+   "id": "https://openalex.org/W3016733980",
+   "title": "Real‐world use of emicizumab in patients with haemophilia A: Bleeding outcomes and surgical procedures",
+   "year": 2020,
+   "cited_by": 112
+  },
+  {
+   "id": "https://openalex.org/W2793763904",
+   "title": "Use of thrombin generation assay to personalize treatment of breakthrough bleeds in a patient with hemophilia and inhibitors receiving prophylaxis with emicizumab",
+   "year": 2018,
+   "cited_by": 110
+  },
+  {
+   "id": "https://openalex.org/W2997692976",
+   "title": "Factor VIII replacement is still the standard of care in haemophilia A.",
+   "year": 2019,
+   "cited_by": 101
+  },
+  {
+   "id": "https://openalex.org/W2998511169",
+   "title": "Cost-Effectiveness and Budget Impact of Emicizumab Prophylaxis in Haemophilia A Patients with Inhibitors",
+   "year": 2019,
+   "cited_by": 99
+  },
+  {
+   "id": "https://openalex.org/W2974663101",
+   "title": "Emicizumab: A Review in Haemophilia A",
+   "year": 2019,
+   "cited_by": 99
+  },
+  {
+   "id": "https://openalex.org/W4322491078",
+   "title": "Hemophilia treatment innovation: 50 years of progress and more to come",
+   "year": 2023,
+   "cited_by": 98
+  },
+  {
+   "id": "https://openalex.org/W2943226571",
+   "title": "The changing face of immune tolerance induction in haemophilia A with the advent of emicizumab",
+   "year": 2019,
+   "cited_by": 98
+  },
+  {
+   "id": "https://openalex.org/W3094025934",
+   "title": "Pharmacokinetics and Pharmacodynamics of Emicizumab in Persons with Hemophilia A with Factor VIII Inhibitors: HAVEN 1 Study",
+   "year": 2020,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W2989582015",
+   "title": "Emicizumab prophylaxis in patients with haemophilia A with and without inhibitors",
+   "year": 2019,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W2965331692",
+   "title": "Emicizumab prophylaxis among infants and toddlers with severe hemophilia A and inhibitors—a single‐center cohort",
+   "year": 2019,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W2951227459",
+   "title": "Laboratory Monitoring in Emicizumab-Treated Persons with Hemophilia A",
+   "year": 2019,
+   "cited_by": 97
+  },
+  {
+   "id": "https://openalex.org/W2800065495",
+   "title": "Routine measurements of factor VIII activity and inhibitor titer in the presence of emicizumab utilizing anti‐idiotype monoclonal antibodies",
+   "year": 2018,
+   "cited_by": 96
+  },
+  {
+   "id": "https://openalex.org/W2901541178",
+   "title": "The effect of emicizumab prophylaxis on health‐related outcomes in persons with haemophilia A with inhibitors: HAVEN 1 Study",
+   "year": 2018,
+   "cited_by": 95
+  },
+  {
+   "id": "https://openalex.org/W2805799263",
+   "title": "Treatment of bleeding episodes in haemophilia A complicated by a factor VIII inhibitor in patients receiving Emicizumab. Interim guidance from UKHCDO Inhibitor Working Party and Executive Committee",
+   "year": 2018,
+   "cited_by": 90
+  },
+  {
+   "id": "https://openalex.org/W4318302179",
+   "title": "Emicizumab in people with moderate or mild haemophilia A (HAVEN 6): a multicentre, open-label, single-arm, phase 3 study",
+   "year": 2023,
+   "cited_by": 89
+  },
+  {
+   "id": "https://openalex.org/W3165012990",
+   "title": "A factor VIIIa–mimetic bispecific antibody, Mim8, ameliorates bleeding upon severe vascular challenge in hemophilia A mice",
+   "year": 2021,
+   "cited_by": 89
+  },
+  {
+   "id": "https://openalex.org/W4390047763",
+   "title": "Emicizumab prophylaxis in infants with hemophilia A (HAVEN 7): primary analysis of a phase 3b open-label trial",
+   "year": 2023,
+   "cited_by": 86
+  },
+  {
+   "id": "https://openalex.org/W3025362682",
+   "title": "Laboratory monitoring of hemophilia A treatments: new challenges",
+   "year": 2020,
+   "cited_by": 84
+  },
+  {
+   "id": "https://openalex.org/W3042667920",
+   "title": "Emicizumab treatment and monitoring in a paediatric cohort: real‐world data",
+   "year": 2020,
+   "cited_by": 83
+  },
+  {
+   "id": "https://openalex.org/W2905475559",
+   "title": "New therapies using nonfactor products for patients with hemophilia and inhibitors",
+   "year": 2018,
+   "cited_by": 83
+  },
+  {
+   "id": "https://openalex.org/W4282033105",
+   "title": "Teclistamab in Relapsed or Refractory Multiple Myeloma",
+   "year": 2022,
+   "cited_by": 1218
+  },
+  {
+   "id": "https://openalex.org/W3188071931",
+   "title": "Teclistamab, a B-cell maturation antigen × CD3 bispecific antibody, in patients with relapsed or refractory multiple myeloma (MajesTEC-1): a multicentre, open-label, single-arm, phase 1 study",
+   "year": 2021,
+   "cited_by": 327
+  },
+  {
+   "id": "https://openalex.org/W4310875677",
+   "title": "Antibodies to watch in 2023",
+   "year": 2022,
+   "cited_by": 278
+  },
+  {
+   "id": "https://openalex.org/W3087111554",
+   "title": "Teclistamab is an active T cell–redirecting bispecific antibody against B-cell maturation antigen for multiple myeloma",
+   "year": 2020,
+   "cited_by": 142
+  },
+  {
+   "id": "https://openalex.org/W4385330097",
+   "title": "Bi- and trispecific immune cell engagers for immunotherapy of hematological malignancies",
+   "year": 2023,
+   "cited_by": 133
+  },
+  {
+   "id": "https://openalex.org/W4391052632",
+   "title": "Real-world analysis of teclistamab in 123 RRMM patients from Germany",
+   "year": 2024,
+   "cited_by": 116
+  },
+  {
+   "id": "https://openalex.org/W4406159439",
+   "title": "Talquetamab plus Teclistamab in Relapsed or Refractory Multiple Myeloma",
+   "year": 2025,
+   "cited_by": 105
+  },
+  {
+   "id": "https://openalex.org/W4402211750",
+   "title": "Teclistamab-Induced Remission in Refractory Systemic Lupus Erythematosus",
+   "year": 2024,
+   "cited_by": 104
+  },
+  {
+   "id": "https://openalex.org/W4392465169",
+   "title": "Teclistamab in relapsed refractory multiple myeloma: multi-institutional real-world study",
+   "year": 2024,
+   "cited_by": 104
+  },
+  {
+   "id": "https://openalex.org/W4388662093",
+   "title": "Incidence, timing, and management of infections in patients receiving teclistamab for the treatment of relapsed/refractory multiple myeloma in the MajesTEC‐1 study",
+   "year": 2023,
+   "cited_by": 94
+  },
+  {
+   "id": "https://openalex.org/W4389329631",
+   "title": "Teclistamab impairs humoral immunity in patients with heavily pretreated myeloma: importance of immunoglobulin supplementation",
+   "year": 2023,
+   "cited_by": 92
+  },
+  {
+   "id": "https://openalex.org/W4379281020",
+   "title": "First results from the RedirecTT-1 study with teclistamab (tec) + talquetamab (tal) simultaneously targeting BCMA and GPRC5D in patients (pts) with relapsed/refractory multiple myeloma (RRMM).",
+   "year": 2023,
+   "cited_by": 89
+  },
+  {
+   "id": "https://openalex.org/W4308684844",
+   "title": "Teclistamab: First Approval",
+   "year": 2022,
+   "cited_by": 88
+  },
+  {
+   "id": "https://openalex.org/W4401327466",
+   "title": "Long-term follow-up from the phase 1/2 MajesTEC-1 trial of teclistamab in patients with relapsed/refractory multiple myeloma.",
+   "year": 2024,
+   "cited_by": 86
+  },
+  {
+   "id": "https://openalex.org/W4390233658",
+   "title": "Safety and Efficacy of Teclistamab in Patients with Relapsed/Refractory Multiple Myeloma: A Real-World Experience",
+   "year": 2023,
+   "cited_by": 84
+  },
+  {
+   "id": "https://openalex.org/W4384925575",
+   "title": "Chimeric Antigen Receptor T-Cell and Bispecific Antibody Therapy in Multiple Myeloma: Moving Into the Future",
+   "year": 2023,
+   "cited_by": 83
+  },
+  {
+   "id": "https://openalex.org/W4402824750",
+   "title": "Impact of soluble BCMA and non–T-cell factors on refractoriness to BCMA-targeting T-cell engagers in multiple myeloma",
+   "year": 2024,
+   "cited_by": 79
+  },
+  {
+   "id": "https://openalex.org/W4417156840",
+   "title": "Teclistamab plus Daratumumab in Relapsed or Refractory Multiple Myeloma",
+   "year": 2025,
+   "cited_by": 77
+  },
+  {
+   "id": "https://openalex.org/W4396515091",
+   "title": "T-Cell Characteristics Impact Response and Resistance to T-Cell–Redirecting Bispecific Antibodies in Multiple Myeloma",
+   "year": 2024,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4392360934",
+   "title": "Characteristics and incidence of infections in patients with multiple myeloma treated by bispecific antibodies: a national retrospective study",
+   "year": 2024,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4390706597",
+   "title": "BCMA- or GPRC5D-targeting bispecific antibodies in multiple myeloma: efficacy, safety, and resistance mechanisms",
+   "year": 2024,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4361277948",
+   "title": "Detailed overview of incidence and management of cytokine release syndrome observed with teclistamab in the MajesTEC‐1 study of patients with relapsed/refractory multiple myeloma",
+   "year": 2023,
+   "cited_by": 69
+  },
+  {
+   "id": "https://openalex.org/W4379281518",
+   "title": "Long-term follow-up from MajesTEC-1 of teclistamab, a B-cell maturation antigen (BCMA) x CD3 bispecific antibody, in patients with relapsed/refractory multiple myeloma (RRMM).",
+   "year": 2023,
+   "cited_by": 68
+  },
+  {
+   "id": "https://openalex.org/W4400982166",
+   "title": "Long‐term survival and safety of elranatamab in patients with relapsed or refractory multiple myeloma: Update from the MagnetisMM‐3 study",
+   "year": 2024,
+   "cited_by": 67
+  },
+  {
+   "id": "https://openalex.org/W4310119597",
+   "title": "Teclistamab in Combination with Subcutaneous Daratumumab and Lenalidomide in Patients with Multiple Myeloma: Results from One Cohort of MajesTEC-2, a Phase1b, Multicohort Study",
+   "year": 2022,
+   "cited_by": 62
+  },
+  {
+   "id": "https://openalex.org/W4401749349",
+   "title": "Efficacy and safety of teclistamab in patients with relapsed/refractory multiple myeloma after BCMA-targeting therapies",
+   "year": 2024,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W4392652999",
+   "title": "A pivotal decade for bispecific antibodies?",
+   "year": 2024,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W4389975461",
+   "title": "Prophylactic tocilizumab to prevent cytokine release syndrome (CRS) with teclistamab: A single-center experience",
+   "year": 2023,
+   "cited_by": 61
+  },
+  {
+   "id": "https://openalex.org/W4395068649",
+   "title": "Correlation of immune fitness with response to teclistamab in relapsed/refractory multiple myeloma in the MajesTEC-1 study",
+   "year": 2024,
+   "cited_by": 60
+  },
+  {
+   "id": "https://openalex.org/W3094996259",
+   "title": "Updated Phase 1 Results of Teclistamab, a B-Cell Maturation Antigen (BCMA) x CD3 Bispecific Antibody, in Relapsed and/or Refractory Multiple Myeloma (RRMM)",
+   "year": 2020,
+   "cited_by": 60
+  },
+  {
+   "id": "https://openalex.org/W4396789596",
+   "title": "Antigen escape as a shared mechanism of resistance to BCMA-directed therapies in multiple myeloma",
+   "year": 2024,
+   "cited_by": 54
+  },
+  {
+   "id": "https://openalex.org/W4310641549",
+   "title": "The emerging therapeutic landscape of relapsed/refractory multiple myeloma",
+   "year": 2022,
+   "cited_by": 53
+  },
+  {
+   "id": "https://openalex.org/W4293092869",
+   "title": "Effects of teclistamab and talquetamab on soluble BCMA levels in patients with relapsed/refractory multiple myeloma",
+   "year": 2022,
+   "cited_by": 53
+  },
+  {
+   "id": "https://openalex.org/W4389766330",
+   "title": "Teclistamab in relapsed or refractory AL amyloidosis: a multinational retrospective case series",
+   "year": 2023,
+   "cited_by": 52
+  },
+  {
+   "id": "https://openalex.org/W4387934161",
+   "title": "CD8 effector T cells enhance teclistamab response in BCMA-exposed and -naïve multiple myeloma",
+   "year": 2023,
+   "cited_by": 52
+  },
+  {
+   "id": "https://openalex.org/W4310120352",
+   "title": "Teclistamab, a B-Cell Maturation Antigen (BCMA) x CD3 Bispecific Antibody, in Patients with Relapsed/Refractory Multiple Myeloma (RRMM): Correlative Analyses from MajesTEC-1",
+   "year": 2022,
+   "cited_by": 48
+  },
+  {
+   "id": "https://openalex.org/W4386757223",
+   "title": "Population Pharmacokinetics and Exposure–Response with Teclistamab in Patients With Relapsed/Refractory Multiple Myeloma: Results From MajesTEC-1",
+   "year": 2023,
+   "cited_by": 47
+  },
+  {
+   "id": "https://openalex.org/W4388049752",
+   "title": "Chimeric Antigen Receptor T Cell Therapy for Myeloma: Where Are We Now and What Is Needed to Move Chimeric Antigen Receptor T Cells Forward to Earlier Lines of Therapy? Expert Panel Opinion from the American Society for Transplantation and Cellular Therapy",
+   "year": 2023,
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W4327700049",
+   "title": "Bispecific Antibodies in Multiple Myeloma: Opportunities to Enhance Efficacy and Improve Safety",
+   "year": 2023,
+   "cited_by": 43
+  },
+  {
+   "id": "https://openalex.org/W4405045433",
+   "title": "Phase 2 Study of Teclistamab-Based Induction Regimens in Patients with Transplant-Eligible (TE) Newly Diagnosed Multiple Myeloma (NDMM): Results from the GMMG-HD10/DSMM-XX (MajesTEC-5) Trial",
+   "year": 2024,
+   "cited_by": 42
+  }
+ ]
+}

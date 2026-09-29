@@ -1,0 +1,530 @@
+{
+ "direction": "rlt",
+ "name": "Радиофармпрепараты (RLT)",
+ "promise_2018": "ниша; Lutathera — первый",
+ "expected": "🔶",
+ "signal_terms": "\"radioligand therapy\" OR \"Lu-177\" OR \"lutetium-177\" AND therapy",
+ "anchors": {
+  "Lutathera": {
+   "fda_year": 2018,
+   "counts": {
+    "2011": 1,
+    "2014": 1,
+    "2015": 2,
+    "2016": 13,
+    "2017": 7,
+    "2018": 23,
+    "2019": 30,
+    "2020": 31,
+    "2021": 29,
+    "2022": 27,
+    "2023": 41,
+    "2024": 29,
+    "2025": 57,
+    "2026": 39
+   }
+  },
+  "Pluvicto": {
+   "fda_year": 2022,
+   "counts": {
+    "2021": 1,
+    "2022": 21,
+    "2023": 24,
+    "2024": 41,
+    "2025": 75,
+    "2026": 77
+   }
+  }
+ },
+ "anchor_counts_by_year": {
+  "2011": 1,
+  "2014": 1,
+  "2015": 2,
+  "2016": 13,
+  "2017": 7,
+  "2018": 23,
+  "2019": 30,
+  "2020": 31,
+  "2021": 30,
+  "2022": 48,
+  "2023": 65,
+  "2024": 70,
+  "2025": 132,
+  "2026": 116
+ },
+ "signal_counts_by_year": {
+  "2000": 1,
+  "2001": 2,
+  "2003": 3,
+  "2004": 5,
+  "2005": 2,
+  "2006": 8,
+  "2007": 7,
+  "2008": 1,
+  "2009": 5,
+  "2010": 11,
+  "2011": 9,
+  "2012": 14,
+  "2013": 11,
+  "2014": 21,
+  "2015": 33,
+  "2016": 23,
+  "2017": 31,
+  "2018": 48,
+  "2019": 67,
+  "2020": 74,
+  "2021": 93,
+  "2022": 95,
+  "2023": 149,
+  "2024": 132,
+  "2025": 199,
+  "2026": 207
+ },
+ "corpus_size": 74,
+ "works": [
+  {
+   "id": "https://openalex.org/W2965362447",
+   "title": "Lutathera®: The First FDA- and EMA-Approved Radiopharmaceutical for Peptide Receptor Radionuclide Therapy",
+   "year": 2019,
+   "cited_by": 425
+  },
+  {
+   "id": "https://openalex.org/W2663808291",
+   "title": "ENETS Consensus Guidelines for the Standards of Care in Neuroendocrine Neoplasms: Peptide Receptor Radionuclide Therapy with Radiolabelled Somatostatin Analogues",
+   "year": 2017,
+   "cited_by": 340
+  },
+  {
+   "id": "https://openalex.org/W3040054525",
+   "title": "Phase I study of the 177Lu-DOTA0-Tyr3-Octreotate (lutathera) in combination with nivolumab in patients with neuroendocrine tumors of the lung",
+   "year": 2020,
+   "cited_by": 92
+  },
+  {
+   "id": "https://openalex.org/W2947088950",
+   "title": "Radiation precautions for inpatient and outpatient 177Lu-DOTATATE peptide receptor radionuclide therapy of neuroendocrine tumours",
+   "year": 2019,
+   "cited_by": 64
+  },
+  {
+   "id": "https://openalex.org/W2529342088",
+   "title": "NETTER-1 phase III: Progression-free survival, radiographic response, and preliminary overall survival results in patients with midgut neuroendocrine tumors treated with 177-Lu-Dotatate.",
+   "year": 2016,
+   "cited_by": 62
+  },
+  {
+   "id": "https://openalex.org/W3039639673",
+   "title": "Comparison of commercial dosimetric software platforms in patients treated with 177 Lu‐DOTATATE for peptide receptor radionuclide therapy",
+   "year": 2020,
+   "cited_by": 58
+  },
+  {
+   "id": "https://openalex.org/W4213417844",
+   "title": "Radiolabeled Somatostatin Analogs—A Continuously Evolving Class of Radiopharmaceuticals",
+   "year": 2022,
+   "cited_by": 57
+  },
+  {
+   "id": "https://openalex.org/W4362466864",
+   "title": "Lutathera® Orphans: State of the Art and Future Application of Radioligand Therapy with 177Lu-DOTATATE",
+   "year": 2023,
+   "cited_by": 55
+  },
+  {
+   "id": "https://openalex.org/W4220910186",
+   "title": "Neuroendocrine tumor theranostics",
+   "year": 2022,
+   "cited_by": 45
+  },
+  {
+   "id": "https://openalex.org/W2126306182",
+   "title": "Alcohol in Canada: reducing the toll through focused interventions and public health policies",
+   "year": 2011,
+   "cited_by": 43
+  },
+  {
+   "id": "https://openalex.org/W4365515654",
+   "title": "Safety and Therapeutic Optimization of Lutetium-177 Based Radiopharmaceuticals",
+   "year": 2023,
+   "cited_by": 40
+  },
+  {
+   "id": "https://openalex.org/W2329087448",
+   "title": "The role of baseline Ga-68 DOTATATE positron emission tomography/computed tomography in the prediction of response to fixed-dose peptide receptor radionuclide therapy with Lu-177 DOTATATE*",
+   "year": 2016,
+   "cited_by": 34
+  },
+  {
+   "id": "https://openalex.org/W4386840025",
+   "title": "A radiomic‐ and dosiomic‐based machine learning regression model for pretreatment planning in 177Lu‐DOTATATE therapy",
+   "year": 2023,
+   "cited_by": 32
+  },
+  {
+   "id": "https://openalex.org/W4318998005",
+   "title": "Commercial and business aspects of alpha radioligand therapeutics",
+   "year": 2023,
+   "cited_by": 32
+  },
+  {
+   "id": "https://openalex.org/W4412355336",
+   "title": "Peptide‐Drug Conjugates: A New Hope for Cancer",
+   "year": 2025,
+   "cited_by": 29
+  },
+  {
+   "id": "https://openalex.org/W2891044561",
+   "title": "Everolimus, lutetium-177 DOTATATE and sunitinib for advanced, unresectable or metastatic neuroendocrine tumours with disease progression: a systematic review and cost-effectiveness analysis",
+   "year": 2018,
+   "cited_by": 26
+  },
+  {
+   "id": "https://openalex.org/W3140594106",
+   "title": "Tissue dose estimation after extravasation of 177Lu-DOTATATE",
+   "year": 2021,
+   "cited_by": 24
+  },
+  {
+   "id": "https://openalex.org/W4400901523",
+   "title": "Targeted Radionuclide Therapy in Glioblastoma",
+   "year": 2024,
+   "cited_by": 23
+  },
+  {
+   "id": "https://openalex.org/W2530198020",
+   "title": "NETTER-1 Phase III in Patients With Midgut Neuroendocrine Tumors Treated With 177Lu-DOTATATE: Efficacy and Safety Results.",
+   "year": 2016,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4312190447",
+   "title": "A prospective, randomized, phase II study to assess the schemas of retreatment with Lutathera® in patients with new progression of an intestinal, well-differentiated neuroendocrine tumor (ReLUTH)",
+   "year": 2022,
+   "cited_by": 21
+  },
+  {
+   "id": "https://openalex.org/W4415489671",
+   "title": "Radioligand Therapy in Cancer Management: A Global Perspective",
+   "year": 2025,
+   "cited_by": 20
+  },
+  {
+   "id": "https://openalex.org/W3118723149",
+   "title": "Efficacy of 177Lu-Dotatate Therapy in the Treatment of Recurrent Meningioma",
+   "year": 2021,
+   "cited_by": 19
+  },
+  {
+   "id": "https://openalex.org/W4297982593",
+   "title": "Therapy Resistant Gastroenteropancreatic Neuroendocrine Tumors",
+   "year": 2022,
+   "cited_by": 18
+  },
+  {
+   "id": "https://openalex.org/W3091655830",
+   "title": "Radiopharmaceuticals for Neuroendocrine Tumors",
+   "year": 2020,
+   "cited_by": 18
+  },
+  {
+   "id": "https://openalex.org/W4321186608",
+   "title": "A Systematic Investigation into the Influence of Net Charge on the Biological Distribution of Radiometalated Peptides Using [68Ga]Ga-DOTA-TATE Derivatives",
+   "year": 2023,
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W3041814420",
+   "title": "Ultrasonic-Assisted Solid-Phase Peptide Synthesis of DOTA-TATE and DOTA-linker-TATE Derivatives as a Simple and Low-Cost Method for the Facile Synthesis of Chelator–Peptide Conjugates",
+   "year": 2020,
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W2981700125",
+   "title": "Radiation Safety Observations Associated with 177Lu Dotatate Patients",
+   "year": 2019,
+   "cited_by": 17
+  },
+  {
+   "id": "https://openalex.org/W4402829566",
+   "title": "The production and separation of 161Tb with high specific activity at the University of Utah",
+   "year": 2024,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W4313857556",
+   "title": "Dealing with dry waste disposal issues associated with 177mLu impurities: a long-term challenge for nuclear medicine departments",
+   "year": 2023,
+   "cited_by": 15
+  },
+  {
+   "id": "https://openalex.org/W3014361720",
+   "title": "[18F]FET-βAG-TOCA: The Design, Evaluation and Clinical Translation of a Fluorinated Octreotide",
+   "year": 2020,
+   "cited_by": 15
+  },
+  {
+   "id": "https://openalex.org/W4234688819",
+   "title": "Lutetium Lu 177 Dotatate Approved by FDA",
+   "year": 2018,
+   "cited_by": 15
+  },
+  {
+   "id": "https://openalex.org/W4409535113",
+   "title": "Global Challenges in the Provision of Theranostic Services the International Atomic Energy Agency (IAEA) Perspective",
+   "year": 2025,
+   "cited_by": 14
+  },
+  {
+   "id": "https://openalex.org/W4210380021",
+   "title": "Comparison of Two Types of Amino Acid Solutions on 177Lu-Dotatate Pharmacokinetics and Pharmacodynamics in Patients with Metastatic Gastroenteropancreatic Neuroendocrine Tumors",
+   "year": 2022,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W3178159249",
+   "title": "Personalized dosimetry of 177 Lu-DOTATATE: a comparison of organ- and voxel-level approaches using open-access images",
+   "year": 2021,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W3167172414",
+   "title": "Patient external dose rate after 177 Lu-DOTATATE therapy: factors affecting its decrease and predictive value",
+   "year": 2021,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W3108900278",
+   "title": "Lutetium Lu-177 Dotatate Flare Reaction",
+   "year": 2020,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W2970857501",
+   "title": "Economics of New Molecular Targeted Personalized Radiopharmaceuticals",
+   "year": 2019,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4231563751",
+   "title": "FDA approves lutetium Lu 177 dotatate for treatment of GEP-NETS",
+   "year": 2018,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W2467245824",
+   "title": "A Patient With Metastatic Sarcoma was Successfully Treated With Radiolabeled Somatostatin Analogs",
+   "year": 2016,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W2883918448",
+   "title": "Large cell neuroendocrine carcinoma of the lung with atypical evolution and a remarkable response to lutetium Lu 177 dotatate",
+   "year": 2018,
+   "cited_by": 12
+  },
+  {
+   "id": "https://openalex.org/W4310701490",
+   "title": "FDA Approval Summary: Lutetium Lu 177 Vipivotide Tetraxetan for Patients with Metastatic Castration-Resistant Prostate Cancer",
+   "year": 2022,
+   "cited_by": 241
+  },
+  {
+   "id": "https://openalex.org/W4280567748",
+   "title": "Lutetium Lu 177 Vipivotide Tetraxetan: First Approval",
+   "year": 2022,
+   "cited_by": 102
+  },
+  {
+   "id": "https://openalex.org/W4321326005",
+   "title": "PSMA-Targeted Radiopharmaceuticals in Prostate Cancer: Current Data and New Trials",
+   "year": 2023,
+   "cited_by": 72
+  },
+  {
+   "id": "https://openalex.org/W4399127067",
+   "title": "PSMA-targeted radiotheranostics in modern nuclear medicine: then, now, and what of the future?",
+   "year": 2024,
+   "cited_by": 56
+  },
+  {
+   "id": "https://openalex.org/W4299879806",
+   "title": "Cross-reactivity to glutamate carboxypeptidase III causes undesired salivary gland and kidney uptake of PSMA-targeted small-molecule radionuclide therapeutics",
+   "year": 2022,
+   "cited_by": 44
+  },
+  {
+   "id": "https://openalex.org/W4225256013",
+   "title": "FDA Approves Pluvicto/Locametz for Metastatic Castration-Resistant Prostate Cancer.",
+   "year": 2022,
+   "cited_by": 38
+  },
+  {
+   "id": "https://openalex.org/W4315643595",
+   "title": "Cost-Effectiveness Analysis of 177Lu-PSMA-617 Radioligand Therapy in Metastatic Castration-Resistant Prostate Cancer",
+   "year": 2023,
+   "cited_by": 37
+  },
+  {
+   "id": "https://openalex.org/W4200433802",
+   "title": "The VISION Forward: Recognition and Implication of PSMA−/18F-FDG+ mCRPC",
+   "year": 2021,
+   "cited_by": 32
+  },
+  {
+   "id": "https://openalex.org/W4294276210",
+   "title": "Combined Targeted Radiopharmaceutical Therapy and Immune Checkpoint Blockade: From Preclinical Advances to the Clinic",
+   "year": 2022,
+   "cited_by": 29
+  },
+  {
+   "id": "https://openalex.org/W4281941389",
+   "title": "How Many Theranostics Centers Will We Need in the United States?",
+   "year": 2022,
+   "cited_by": 22
+  },
+  {
+   "id": "https://openalex.org/W4295788270",
+   "title": "New PSMA-Targeting Ligands: Transformation from Diagnosis (Ga-68) to Radionuclide Therapy (Lu-177)",
+   "year": 2022,
+   "cited_by": 21
+  },
+  {
+   "id": "https://openalex.org/W4307492874",
+   "title": "Lutetium Lu 177 vipivotide tetraxetan for metastatic castration-resistant prostate cancer",
+   "year": 2022,
+   "cited_by": 16
+  },
+  {
+   "id": "https://openalex.org/W4386466789",
+   "title": "Lu-177-Labeled Hetero-Bivalent Agents Targeting PSMA and Bone Metastases for Radionuclide Therapy",
+   "year": 2023,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4317905346",
+   "title": "Lutetium Lu 177 vipivotide tetraxetan for prostate cancer",
+   "year": 2023,
+   "cited_by": 13
+  },
+  {
+   "id": "https://openalex.org/W4406253526",
+   "title": "Advances in prostate-specific membrane antigen-targeted theranostics: from radionuclides to near-infrared fluorescence technology",
+   "year": 2025,
+   "cited_by": 12
+  },
+  {
+   "id": "https://openalex.org/W4402555935",
+   "title": "Lu-177 PSMA vs Comparator Treatments and Survival in Metastatic Castration-Resistant Prostate Cancer",
+   "year": 2024,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4392133475",
+   "title": "Improved purification of cyclotron [68Ga]GaCl3 for the production of 68Ga radiopharmaceuticals",
+   "year": 2024,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4386897481",
+   "title": "Threshold for defining PSMA-positivity prior to 177Lu-PSMA therapy: a comparison of [68Ga]Ga-PSMA-11 and [18F]F-DCFPyL in metastatic prostate cancer",
+   "year": 2023,
+   "cited_by": 11
+  },
+  {
+   "id": "https://openalex.org/W4405528936",
+   "title": "A comparison of routine [68Ga]Ga-PSMA-11 preparation using Locametz and Illuccix kits",
+   "year": 2024,
+   "cited_by": 10
+  },
+  {
+   "id": "https://openalex.org/W4410813155",
+   "title": "Lutetium-177-PSMA-617 in oligo-metastatic hormone sensitive prostate cancer (BULLSEYE trial).",
+   "year": 2025,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4409211509",
+   "title": "Pre- or post-chemotherapy: effect on PSMA uptake",
+   "year": 2025,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4396724950",
+   "title": "Discovery of Glutamate Carboxypeptidase III Ligands to Compete the Uptake of [ 177 Lu]Lu-PSMA-617 in Healthy Organs",
+   "year": 2024,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4321748228",
+   "title": "Inductively Coupled Plasma Mass Spectrometry─A Valid Method for the Characterization of Metal Conjugates in View of the Development of Radiopharmaceuticals",
+   "year": 2023,
+   "cited_by": 9
+  },
+  {
+   "id": "https://openalex.org/W4415452940",
+   "title": "Baited SELEX: Drug-Directed Selection of Aptamers to PSMA for In Vivo Targeting of Prostate Cancer Xenografts in Mice",
+   "year": 2025,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4408132280",
+   "title": "PSMA-Targeted Small Molecule–Drug Conjugates Based on a Postprolyl Peptidase–Cleavable Linker for the Treatment of Prostate Cancer",
+   "year": 2025,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4294130652",
+   "title": "A Treatment Paradigm Shift: Targeted Radionuclide Therapies for Metastatic Castrate Resistant Prostate Cancer",
+   "year": 2022,
+   "cited_by": 8
+  },
+  {
+   "id": "https://openalex.org/W4413780525",
+   "title": "Randomized Phase 2 Trial of an Extended and Flexible Dosing Schedule of 177Lu-PSMA Molecular Radiotherapy in Patients with Metastatic Castration-Resistant Prostate Cancer (FLEX-MRT): Study Protocol",
+   "year": 2025,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4323035199",
+   "title": "The177Lu-PSMA-617 (Pluvicto) Supply Problem Will Be Solved by Competition",
+   "year": 2023,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W4286698827",
+   "title": "Relugolix in the management of prostate cancer",
+   "year": 2022,
+   "cited_by": 7
+  },
+  {
+   "id": "https://openalex.org/W7122755935",
+   "title": "PSMA-Based Radiopharmaceuticals in Prostate Cancer Theranostics: Imaging, Clinical Advances, and Future Directions",
+   "year": 2026,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4408404213",
+   "title": "Determining PSMA-617 Mass and Molar Activity in Pluvicto Doses",
+   "year": 2025,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4404427292",
+   "title": "Repurposing of PSMA-targeted diagnostic and therapeutic agents for the detection and treatment of giant cell tumors of bone",
+   "year": 2024,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4393434171",
+   "title": "Targeted interleukin-2 enhances the in vivo anti-cancer activity of Pluvicto™",
+   "year": 2024,
+   "cited_by": 6
+  },
+  {
+   "id": "https://openalex.org/W4388014523",
+   "title": "Nearly double the patients and dramatic changes over 14 years of UK MRT: Internal Dosimetry Users Group survey results from 2007 to 2021",
+   "year": 2023,
+   "cited_by": 6
+  }
+ ]
+}

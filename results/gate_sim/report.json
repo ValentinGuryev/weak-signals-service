@@ -1,0 +1,1595 @@
+{
+ "window": 2025,
+ "top": 50,
+ "cases": {
+  "q1_ru_canonical": {
+   "query": "Выдай темы по защите ИИ в 2026 году",
+   "n_cand": 742,
+   "n_scored": 742,
+   "qtokens": [
+    "ии",
+    "valid",
+    "reliable",
+    "safe",
+    "ai",
+    "systems",
+    "risk",
+    "management",
+    "secure",
+    "resilient",
+    "infrastructure",
+    "cybersecurity",
+    "accountable",
+    "transparent",
+    "governance",
+    "explainable",
+    "interpretable",
+    "privacy",
+    "enhanced",
+    "processing",
+    "fairness",
+    "harmful",
+    "bias",
+    "prompt",
+    "injection",
+    "attacks",
+    "against",
+    "llm",
+    "applications",
+    "sensitive",
+    "information",
+    "disclosure",
+    "language",
+    "supply",
+    "chain",
+    "vulnerabilities",
+    "components",
+    "poisoning",
+    "machine",
+    "learning",
+    "improper",
+    "output",
+    "handling",
+    "integrations",
+    "excessive",
+    "agency",
+    "enabled",
+    "autonomous",
+    "system",
+    "leakage",
+    "vector",
+    "embedding",
+    "weaknesses",
+    "rag",
+    "misinformation",
+    "hallucination",
+    "generated",
+    "unbounded",
+    "consumption",
+    "denial",
+    "service",
+    "services",
+    "classification",
+    "prohibited",
+    "high",
+    "limited",
+    "transparency",
+    "obligations",
+    "marking",
+    "labelling",
+    "content",
+    "deepfakes",
+    "conformity",
+    "assessment",
+    "ce",
+    "general",
+    "purpose",
+    "systemic",
+    "adversarial",
+    "testing",
+    "red",
+    "teaming",
+    "generative"
+   ],
+   "variants": {
+    "base": {
+     "covered": 2,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 13,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T14161 Health and Education Studies",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T13273 Knowledge Management in Higher Education",
+      "T14248 Social impacts of COVID-19",
+      "T13032 COVID-19 Prevention and Impact",
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T13626 Educational and Organizational Development",
+      "T14027 21st Century Education and Governance"
+     ]
+    },
+    "gate": {
+     "covered": 2,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 13,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T13273 Knowledge Management in Higher Education",
+      "T14248 Social impacts of COVID-19",
+      "T13032 COVID-19 Prevention and Impact",
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T13626 Educational and Organizational Development",
+      "T14027 21st Century Education and Governance",
+      "T11101 Online Learning Methods and Innovations"
+     ]
+    },
+    "win100": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T11101 Online Learning Methods and Innovations",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T14246 E-Learning and Knowledge Management",
+      "T13081 Digital Education and Society",
+      "T13830 Educational Curriculum and Learning Methods"
+     ]
+    },
+    "win250": {
+     "covered": 6,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T13273 Knowledge Management in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T13626 Educational and Organizational Development",
+      "T11101 Online Learning Methods and Innovations",
+      "T14453 Sustainability and Innovation in Business",
+      "T14216 Multimedia Learning Systems",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T13411 Labor Market and Education"
+     ]
+    },
+    "win400": {
+     "covered": 4,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 11,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T13273 Knowledge Management in Higher Education",
+      "T14248 Social impacts of COVID-19",
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T13626 Educational and Organizational Development",
+      "T11101 Online Learning Methods and Innovations",
+      "T14453 Sustainability and Innovation in Business",
+      "T14216 Multimedia Learning Systems",
+      "T13529 Education Systems and Policies"
+     ]
+    },
+    "fusion": {
+     "covered": 4,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13567 AI and Multimedia in Education",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T13273 Knowledge Management in Higher Education",
+      "T13676 Educational and Technological Research",
+      "T11835 Sustainability in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T13626 Educational and Organizational Development",
+      "T14453 Sustainability and Innovation in Business"
+     ]
+    },
+    "gate+fusion": {
+     "covered": 4,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13567 AI and Multimedia in Education",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T13273 Knowledge Management in Higher Education",
+      "T13676 Educational and Technological Research",
+      "T11835 Sustainability in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T13626 Educational and Organizational Development",
+      "T14453 Sustainability and Innovation in Business"
+     ]
+    },
+    "win50fusion": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14240 E-Learning and COVID-19",
+      "T11101 Online Learning Methods and Innovations",
+      "T12488 Mental Health via Writing",
+      "T13830 Educational Curriculum and Learning Methods",
+      "T10021 EFL/ESL Teaching and Learning",
+      "T14335 Educational Robotics and Engineering",
+      "T12931 Educational Methods and Outcomes"
+     ]
+    },
+    "win50fusion_mlex": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14240 E-Learning and COVID-19",
+      "T11101 Online Learning Methods and Innovations",
+      "T12488 Mental Health via Writing",
+      "T13830 Educational Curriculum and Learning Methods",
+      "T10021 EFL/ESL Teaching and Learning",
+      "T14335 Educational Robotics and Engineering",
+      "T12931 Educational Methods and Outcomes"
+     ]
+    },
+    "win100fusion": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T11835 Sustainability in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T11101 Online Learning Methods and Innovations",
+      "T13529 Education Systems and Policies",
+      "T14246 E-Learning and Knowledge Management",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T13081 Digital Education and Society",
+      "T11122 Online Learning and Analytics",
+      "T12488 Mental Health via Writing"
+     ]
+    },
+    "win100fusion_mlex": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T11835 Sustainability in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T13529 Education Systems and Policies",
+      "T11101 Online Learning Methods and Innovations",
+      "T14246 E-Learning and Knowledge Management",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T13081 Digital Education and Society",
+      "T11122 Online Learning and Analytics"
+     ]
+    },
+    "win100qgf": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T11101 Online Learning Methods and Innovations",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T14246 E-Learning and Knowledge Management",
+      "T13081 Digital Education and Society",
+      "T13830 Educational Curriculum and Learning Methods"
+     ]
+    },
+    "win250qgf": {
+     "covered": 6,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T13273 Knowledge Management in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T11835 Sustainability in Higher Education",
+      "T13626 Educational and Organizational Development",
+      "T11101 Online Learning Methods and Innovations",
+      "T14453 Sustainability and Innovation in Business",
+      "T14216 Multimedia Learning Systems",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T13411 Labor Market and Education"
+     ]
+    },
+    "win100gfd": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "win100gr50": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "win400fusion": {
+     "covered": 6,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T13273 Knowledge Management in Higher Education",
+      "T11835 Sustainability in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T13626 Educational and Organizational Development",
+      "T14453 Sustainability and Innovation in Business",
+      "T14248 Social impacts of COVID-19",
+      "T11101 Online Learning Methods and Innovations",
+      "T14216 Multimedia Learning Systems"
+     ]
+    },
+    "win400fusion_gr50": {
+     "covered": 6,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 1,
+     "garbage": [
+      "T13273 Knowledge Management in Higher Education"
+     ]
+    },
+    "childwin": {
+     "covered": 0,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "childall": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14443 COVID-19, Geopolitics, Technology, Migration",
+      "T13567 AI and Multimedia in Education",
+      "T14248 Social impacts of COVID-19",
+      "T13032 COVID-19 Prevention and Impact",
+      "T11101 Online Learning Methods and Innovations",
+      "T14240 E-Learning and COVID-19",
+      "T13626 Educational and Organizational Development"
+     ]
+    },
+    "childall_gr50": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 1,
+     "garbage": [
+      "T13567 AI and Multimedia in Education"
+     ]
+    }
+   }
+  },
+  "q2_ru_long": {
+   "query": "Безопасность искусственного интеллекта: защита языковых моделей от атак и инъекций промптов, приватность данных, регулирование и надёжность ИИ-систем",
+   "n_cand": 613,
+   "n_scored": 597,
+   "qtokens": [
+    "безопасность",
+    "искусственного",
+    "интеллекта",
+    "защита",
+    "языковых",
+    "моделей",
+    "атак",
+    "инъекций",
+    "промптов",
+    "приватность",
+    "данных",
+    "регулирование",
+    "надёжность",
+    "ии",
+    "систем",
+    "valid",
+    "reliable",
+    "safe",
+    "ai",
+    "systems",
+    "risk",
+    "management",
+    "secure",
+    "resilient",
+    "infrastructure",
+    "cybersecurity",
+    "accountable",
+    "transparent",
+    "governance",
+    "explainable",
+    "interpretable",
+    "privacy",
+    "enhanced",
+    "processing",
+    "fairness",
+    "harmful",
+    "bias",
+    "prompt",
+    "injection",
+    "attacks",
+    "against",
+    "llm",
+    "applications",
+    "sensitive",
+    "information",
+    "disclosure",
+    "language",
+    "supply",
+    "chain",
+    "vulnerabilities",
+    "components",
+    "poisoning",
+    "machine",
+    "learning",
+    "improper",
+    "output",
+    "handling",
+    "integrations",
+    "excessive",
+    "agency",
+    "enabled",
+    "autonomous",
+    "system",
+    "leakage",
+    "vector",
+    "embedding",
+    "weaknesses",
+    "rag",
+    "misinformation",
+    "hallucination",
+    "generated",
+    "unbounded",
+    "consumption",
+    "denial",
+    "service",
+    "services",
+    "classification",
+    "prohibited",
+    "high",
+    "limited",
+    "transparency",
+    "obligations",
+    "marking",
+    "labelling",
+    "content",
+    "deepfakes",
+    "conformity",
+    "assessment",
+    "ce",
+    "general",
+    "purpose",
+    "systemic",
+    "adversarial",
+    "testing",
+    "red",
+    "teaming",
+    "generative"
+   ],
+   "variants": {
+    "base": {
+     "covered": 2,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14085 Student Stress and Coping",
+      "T14161 Health and Education Studies",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13273 Knowledge Management in Higher Education",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "gate": {
+     "covered": 2,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14085 Student Stress and Coping",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13273 Knowledge Management in Higher Education",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "win100": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14240 E-Learning and COVID-19",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education",
+      "T14246 E-Learning and Knowledge Management"
+     ]
+    },
+    "win250": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13273 Knowledge Management in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T14216 Multimedia Learning Systems",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14462 Educational Methods and Impacts",
+      "T14071 Healthcare during COVID-19 Pandemic"
+     ]
+    },
+    "win400": {
+     "covered": 3,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14085 Student Stress and Coping",
+      "T14161 Health and Education Studies",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13273 Knowledge Management in Higher Education",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "fusion": {
+     "covered": 3,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13567 AI and Multimedia in Education",
+      "T13273 Knowledge Management in Higher Education",
+      "T13676 Educational and Technological Research",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "gate+fusion": {
+     "covered": 3,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13567 AI and Multimedia in Education",
+      "T13273 Knowledge Management in Higher Education",
+      "T13676 Educational and Technological Research",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "win50fusion": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 11,
+     "garbage": [
+      "T14240 E-Learning and COVID-19",
+      "T14485 Language Acquisition and Education",
+      "T12488 Mental Health via Writing",
+      "T13830 Educational Curriculum and Learning Methods",
+      "T11902 Intelligent Tutoring Systems and Adaptive Learning",
+      "T14182 Technology-Enhanced Education Studies",
+      "T13895 Educational Leadership and Innovation",
+      "T11519 Digital Mental Health Interventions",
+      "T14350 Innovation, Sustainability, Human-Machine Systems",
+      "T14335 Educational Robotics and Engineering",
+      "T12931 Educational Methods and Outcomes"
+     ]
+    },
+    "win50fusion_mlex": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 11,
+     "garbage": [
+      "T14240 E-Learning and COVID-19",
+      "T14485 Language Acquisition and Education",
+      "T12488 Mental Health via Writing",
+      "T13830 Educational Curriculum and Learning Methods",
+      "T11902 Intelligent Tutoring Systems and Adaptive Learning",
+      "T14182 Technology-Enhanced Education Studies",
+      "T13895 Educational Leadership and Innovation",
+      "T11519 Digital Mental Health Interventions",
+      "T14350 Innovation, Sustainability, Human-Machine Systems",
+      "T14335 Educational Robotics and Engineering",
+      "T12931 Educational Methods and Outcomes"
+     ]
+    },
+    "win100fusion": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14240 E-Learning and COVID-19",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14246 E-Learning and Knowledge Management",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education"
+     ]
+    },
+    "win100fusion_mlex": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14240 E-Learning and COVID-19",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14246 E-Learning and Knowledge Management",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education"
+     ]
+    },
+    "win100qgf": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14240 E-Learning and COVID-19",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education",
+      "T14246 E-Learning and Knowledge Management"
+     ]
+    },
+    "win250qgf": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13273 Knowledge Management in Higher Education",
+      "T14240 E-Learning and COVID-19",
+      "T14216 Multimedia Learning Systems",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14462 Educational Methods and Impacts",
+      "T14071 Healthcare during COVID-19 Pandemic"
+     ]
+    },
+    "win100gfd": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "win100gr50": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "win400fusion": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13273 Knowledge Management in Higher Education",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "win400fusion_gr50": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 1,
+     "garbage": [
+      "T13273 Knowledge Management in Higher Education"
+     ]
+    },
+    "childwin": {
+     "covered": 0,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "childall": {
+     "covered": 9,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 5,
+     "garbage": [
+      "T13880 Innovative Education Methods and Tools",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13567 AI and Multimedia in Education",
+      "T14516 English Language Learning and Teaching",
+      "T14240 E-Learning and COVID-19"
+     ]
+    },
+    "childall_gr50": {
+     "covered": 9,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    }
+   }
+  },
+  "q3_en": {
+   "query": "AI security and safety: protecting language models from attacks, prompt injection defense, privacy-preserving AI, AI governance and regulation, reliable trustworthy AI",
+   "n_cand": 621,
+   "n_scored": 614,
+   "qtokens": [
+    "ai",
+    "security",
+    "safety",
+    "protecting",
+    "language",
+    "attacks",
+    "prompt",
+    "injection",
+    "defense",
+    "privacy",
+    "preserving",
+    "governance",
+    "regulation",
+    "reliable",
+    "trustworthy",
+    "valid",
+    "safe",
+    "systems",
+    "risk",
+    "management",
+    "secure",
+    "resilient",
+    "infrastructure",
+    "cybersecurity",
+    "accountable",
+    "transparent",
+    "explainable",
+    "interpretable",
+    "enhanced",
+    "processing",
+    "fairness",
+    "harmful",
+    "bias",
+    "against",
+    "llm",
+    "applications",
+    "sensitive",
+    "information",
+    "disclosure",
+    "supply",
+    "chain",
+    "vulnerabilities",
+    "components",
+    "poisoning",
+    "machine",
+    "learning",
+    "improper",
+    "output",
+    "handling",
+    "integrations",
+    "excessive",
+    "agency",
+    "enabled",
+    "autonomous",
+    "system",
+    "leakage",
+    "vector",
+    "embedding",
+    "weaknesses",
+    "rag",
+    "misinformation",
+    "hallucination",
+    "generated",
+    "unbounded",
+    "consumption",
+    "denial",
+    "service",
+    "services",
+    "classification",
+    "prohibited",
+    "high",
+    "limited",
+    "transparency",
+    "obligations",
+    "marking",
+    "labelling",
+    "content",
+    "deepfakes",
+    "conformity",
+    "assessment",
+    "ce",
+    "general",
+    "purpose",
+    "systemic",
+    "adversarial",
+    "testing",
+    "red",
+    "teaming",
+    "generative"
+   ],
+   "variants": {
+    "base": {
+     "covered": 3,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14085 Student Stress and Coping",
+      "T14161 Health and Education Studies",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching"
+     ]
+    },
+    "gate": {
+     "covered": 3,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T14085 Student Stress and Coping",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching"
+     ]
+    },
+    "win100": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education",
+      "T14246 E-Learning and Knowledge Management",
+      "T13830 Educational Curriculum and Learning Methods"
+     ]
+    },
+    "win250": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14216 Multimedia Learning Systems",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14462 Educational Methods and Impacts",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12943 COVID-19 Digital Contact Tracing"
+     ]
+    },
+    "win400": {
+     "covered": 3,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#24 Конфиденциальный инференс в TEE",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14085 Student Stress and Coping",
+      "T14161 Health and Education Studies",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching",
+      "T14216 Multimedia Learning Systems",
+      "T14485 Language Acquisition and Education",
+      "T13873 Educational Methods and Technology"
+     ]
+    },
+    "fusion": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching"
+     ]
+    },
+    "gate+fusion": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 8,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14496 Educational Technology and E-Learning",
+      "T13567 AI and Multimedia in Education",
+      "T13676 Educational and Technological Research",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching"
+     ]
+    },
+    "win50fusion": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T14485 Language Acquisition and Education",
+      "T12488 Mental Health via Writing",
+      "T13830 Educational Curriculum and Learning Methods",
+      "T11902 Intelligent Tutoring Systems and Adaptive Learning",
+      "T13895 Educational Leadership and Innovation",
+      "T10265 Multilingual Education and Policy",
+      "T10021 EFL/ESL Teaching and Learning",
+      "T14335 Educational Robotics and Engineering",
+      "T13958 Education, Innovation and Language Studies",
+      "T12931 Educational Methods and Outcomes"
+     ]
+    },
+    "win50fusion_mlex": {
+     "covered": 5,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 10,
+     "garbage": [
+      "T14485 Language Acquisition and Education",
+      "T12488 Mental Health via Writing",
+      "T13830 Educational Curriculum and Learning Methods",
+      "T11902 Intelligent Tutoring Systems and Adaptive Learning",
+      "T13895 Educational Leadership and Innovation",
+      "T10265 Multilingual Education and Policy",
+      "T10021 EFL/ESL Teaching and Learning",
+      "T14335 Educational Robotics and Engineering",
+      "T13958 Education, Innovation and Language Studies",
+      "T12931 Educational Methods and Outcomes"
+     ]
+    },
+    "win100fusion": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14246 E-Learning and Knowledge Management",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education",
+      "T11122 Online Learning and Analytics"
+     ]
+    },
+    "win100fusion_mlex": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 6,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14246 E-Learning and Knowledge Management",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education"
+     ]
+    },
+    "win100qgf": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 7,
+     "garbage": [
+      "T14085 Student Stress and Coping",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12590 STEM Education",
+      "T14246 E-Learning and Knowledge Management",
+      "T13830 Educational Curriculum and Learning Methods"
+     ]
+    },
+    "win250qgf": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 9,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14216 Multimedia Learning Systems",
+      "T14485 Language Acquisition and Education",
+      "T13529 Education Systems and Policies",
+      "T14462 Educational Methods and Impacts",
+      "T14071 Healthcare during COVID-19 Pandemic",
+      "T12943 COVID-19 Digital Contact Tracing"
+     ]
+    },
+    "win100gfd": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "win100gr50": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#25 Водяные знаки для текста LLM",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "win400fusion": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 5,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T14516 English Language Learning and Teaching"
+     ]
+    },
+    "win400fusion_gr50": {
+     "covered": 7,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "childwin": {
+     "covered": 0,
+     "total": 12,
+     "missing": [
+      "#2 IAM для ИИ-агентов (agent identity, scoped permissions)",
+      "#3 Автоматизированный red-teaming ИИ-моделей",
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#21 Защита от prompt injection для агентных систем",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#23 Дифф. приватные синтетические данные",
+      "#24 Конфиденциальный инференс в TEE",
+      "#25 Водяные знаки для текста LLM",
+      "#49 Интерпретируемость как защитный контроль (XAI)",
+      "#50 Крипто-верификация трафика агентов",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 0,
+     "garbage": []
+    },
+    "childall": {
+     "covered": 9,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 6,
+     "garbage": [
+      "T13616 Governance, Compliance, and Sustainability",
+      "T13880 Innovative Education Methods and Tools",
+      "T14085 Student Stress and Coping",
+      "T13913 Blockchain Technology in Education and Learning",
+      "T13567 AI and Multimedia in Education",
+      "T14516 English Language Learning and Teaching"
+     ]
+    },
+    "childall_gr50": {
+     "covered": 8,
+     "total": 12,
+     "missing": [
+      "#20 LLM-файрволы (AI runtime gateway)",
+      "#22 AI-governance / EU AI Act (AI-GRC)",
+      "#51 Подпись моделей / AI-SBOM (провенанс)",
+      "#77 Сканирование бэкдоров open-weight LLM"
+     ],
+     "garbage_n": 1,
+     "garbage": [
+      "T13567 AI and Multimedia in Education"
+     ]
+    }
+   }
+  }
+ }
+}
